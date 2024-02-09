@@ -1,0 +1,18 @@
+:root {
+  --color-1: #ffffcc; Very pale yellow.
+  --color-2: #ffcc99; Very light orange.
+
+  --color-3: #ffcccc; Very pale red [Pink tone].
+  --color-4: #ff99cc; Very light pink.
+
+  --color-5: #ffccff; Very pale magenta.
+  --color-6: #cc99ff; Very light violet.
+
+  --color-7: #ccccff; Very pale blue.
+  --color-8: #99ccff; Very light blue.
+  --color-9: #ccffff; Very pale cyan.
+
+  --color-10: #99ffcc; Very light cyan - lime green.
+  --color-11: #ccffcc; Very pale lime green.
+  --color-12: #ccff99; Very light green.
+}

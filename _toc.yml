@@ -1,0 +1,115 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: 
+    chapters:
+    - file: Chapitre0/lecon0 # Notions de bases en mathématique
+      sections:
+      - file: Chapitre0/0-0-puissance
+      - file: Chapitre0/0-1-equations
+      - file: Chapitre0/0-2-vecteurs
+      - file: Chapitre0/0-3-incertitudes
+  - caption: Physique 1M
+    numbered: 2
+    chapters:
+    - file: Chapitre1/lecon1 # Notation scientifique & Unités de mesures
+      sections:
+      - file: Chapitre1/1-1-notation-scientifique
+      - file: Chapitre1/1-2-chiffre-significatif
+      - file: Chapitre1/1-3-unite-mesure
+      - file: Chapitre1/1-4-precision
+      - file: Chapitre1/1-questions
+      - file: Chapitre1/1-exercices
+      - file: Chapitre1/1-glossaire
+  - caption:
+    numbered: True
+    chapters:
+    - file: Chapitre2/lecon2 # Vecteurs et scalaires
+      sections:
+      - file: Chapitre2/2-1-vecteurs
+      - file: Chapitre2/2-2-coordonees
+      - file: Chapitre2/2-questions
+  - caption:
+    numbered: 2
+    chapters:
+    - file: Chapitre3/lecon3 # Déplacement et Vitesse
+      sections:
+      - file: Chapitre3/3-1-position
+      - file: Chapitre3/3-2-vitesse
+      - file: Chapitre3/3-questions
+      - file: Chapitre3/3-exercices
+  - caption:
+    numbered: 2
+    chapters:
+    - file: Chapitre4/lecon4 # Accélération
+      sections:
+      - file: Chapitre4/4-1-acceleration
+      - file: Chapitre4/4-questions
+      - file: Chapitre4/4-exercices
+  - caption:
+    numbered: 2
+    chapters:
+    - file: Chapitre5/lecon5 # Graphiques x(t) & v(t)
+      sections:
+      - file: Chapitre5/5-1-GraphX
+      - file: Chapitre5/5-2-GraphV
+      - file: Chapitre5/5-questions
+      - file: Chapitre5/5-exercices
+  - caption:
+    numbered: 2
+    chapters:
+    - file: Chapitre6/lecon6 # M.R.U.A
+      sections:
+      - file: Chapitre6/6-1-MRUA
+      - file: Chapitre6/6-2-equations
+      - file: Chapitre6/6-3-demoequations
+      - file: Chapitre6/6-4-resolution
+      - file: Chapitre6/6-questions
+      - file: Chapitre6/6-exercices
+  - caption:
+    numbered: 2
+    chapters:
+    - file: Chapitre7/lecon7 # Chute Libre
+      sections:
+      - file: Chapitre7/7-1-chutelibre
+      - file: Chapitre7/7-questions
+      - file: Chapitre7/7-exercices
+  - caption:
+    numbered: 2
+    chapters:
+    - file: Chapitre8/lecon8 # Mouvement à 2 Dimensions
+      sections:
+      - file: Chapitre8/8-1-mvt2D
+      - file: Chapitre8/8-questions
+  - caption:
+    numbered: 2
+    chapters:
+    - file: Chapitre9/lecon9 # Les 3 loi de Newton 10-1-StrategieRes
+      sections:
+      - file: Chapitre9/9-1-LoiNewton1
+      - file: Chapitre9/9-1-questions
+      - file: Chapitre9/9-2-LoiNewton2
+      - file: Chapitre9/9-2-questions
+      - file: Chapitre9/9-3-LoiNewton3
+      - file: Chapitre9/9-3-questions
+      - file: Chapitre9/9-4-AutreForces
+      - file: Chapitre9/9-4-questions
+      - file: Chapitre9/9-resume
+  - caption: 
+    numbered: 2
+    chapters:
+    - file: Chapitre10/lecon10 # Strategie de Résolution 
+      sections:
+      - file: Chapitre10/10-1-StrategieRes
+      - file: Chapitre10/10-2-Applications
+      - file: Chapitre10/10-resume
+  - caption: Annexes
+    numbered: 2
+    chapters:
+    - file: Annexes/annexe # Annexes 
+      sections:
+      - file: Annexes/MyST_Cheat # MySt Cheat Sheet
+      
