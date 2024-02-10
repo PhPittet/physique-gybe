@@ -61,6 +61,7 @@ L'incertitude absolue, lorsqu'elle est considérée seule, n'indique rien sur la
 :::
 Comme pour l'erreur relative, l'incertitude relative est un nombre pur (sans unité), que l'on exprime en $\%$.
 
+(sect:incertitude)=
 ## Calcul d'incertitudes 
 Les mesures effectuées en physique sont le plus souvent indirectes, c'est-à-dire que le résultat final d'une expérience ne consiste pas en la mesure (répétée ou non) d'un seul paramètre, mais de plusieurs grandeurs qui, liées par une loi physique, conduisent au résultat cherché. Chacune de ces grandeurs a une certaine incertitude; le résultat de l'expérience en comportera aussi une qui dépend de toutes les incertitudes individuelles. C'est le principe de la `propagation des incertitudes`. Il est alors intéressant de savoir de quelle manière les incertitudes des mesures se répercutent sur les incertitudes des résultats.
 
@@ -77,7 +78,7 @@ Dans ce cas l'incertitude sur le résultat est :
 :::
 Il en est de même pour : $R=A-B$
 
-::::{admonition}
+::::{admonition} A retenir !
 :class: formule
 **L'incertitude absolue sur une somme ou une différence est la somme des incertitudes absolues de chaque terme.**
 :::{math}
@@ -108,7 +109,7 @@ Dans ce cas l'incertitude relative sur le résultat est :
 \dfrac{\Delta R}{R}=\dfrac{\Delta A}{A}+\dfrac{\Delta B}{B}+\dfrac{\Delta C}{C}
 :::
 
-::::{admonition}
+::::{admonition} A retenir !
 :class: formule
 **L'incertitude relative sur un produit ou un quotient est la somme des incertitude relatives de chaque terme.**
 :::{math}
@@ -127,7 +128,7 @@ Dans ce cas l'incertitude relative sur le résultat est :
 \dfrac{\Delta R}{R}=\lvert\alpha\rvert\cdot\dfrac{\Delta A}{A}+\lvert\beta\rvert\cdot\dfrac{\Delta B}{B}+\lvert\gamma\rvert\cdot\dfrac{\Delta C}{C}
 :::
 
-::::{admonition}
+::::{admonition} A retenir !
 :class: formule
 **L'incertitude relative sur un produit ou un quotient de puissance est la somme des incertitude relatives de chaque terme multipliée par la valeur absolue de leur puissance.**
 :::{math}

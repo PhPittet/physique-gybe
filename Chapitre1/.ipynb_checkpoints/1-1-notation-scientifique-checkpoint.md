@@ -15,45 +15,46 @@ On définit deux notations particulières avec les puissances de $10$ :
 1. La `Notation Scientifique` et
 2. La `Notation d'Ingénieur`
 
-:::{admonition} Notation scientifique
+::::{admonition} Notation scientifique
 :class: formule
 Écrire un nombre en ***notation scientifique***, c'est exprimer une valeur numérique sous la forme :
-
-$$x\cdot 10^{n}$$
-
-avec : $1\leq x< 10$ et $n$ un nombre entier
+:::{math}
+a\cdot 10^{n}
 :::
+avec : $1\leq a< 10$ et $n$ un nombre entier ($n\in\mathbb{Z}$)
+::::
 
-:::{admonition} Notation d'Ingénieur
+::::{admonition} Notation d'Ingénieur
 :class: formule
 Écrire un nombre en ***notation d'ingénieur***, c'est exprimer une valeur numérique sous la forme :
-
-$$x\cdot 10^{3n}$$
-
-avec : $1\leq x< 1000$ et $n$ un nombre entier
+:::{math}
+a\cdot 10^{3n}
 :::
+
+avec : $1\leq a< 1000$ et $n$ un nombre entier ($n\in\mathbb{Z}$)
+::::
 
 :::{admonition} Exemples de notations
 :class: exores
 1.  Pour écrire $47'800'000.0$ en notation scientifique, il faut mettre la virgule après le premier chiffre du nombre et donc la déplacer, vers la gauche, de 7 positions.\
-    En notation scientifique il devient $4.78\cdot 10^{7}$
+    En notation scientifique : $47'800'000.0=4.78\cdot 10^{7}$
 
 3.  Pour écrire $47'800'000.0$ en notation d'ingénieur, il faut déplacer la virgule de trois en trois, vers la gauche, jusqu'à obtenir un nombre enter 1 et 1000, donc la déplacer de 6 positions.\
-    En notation d'ingénieur il devient $47.8\cdot 10^{6}$
+    En notation d'ingénieur : $47'800'000.0=47.8\cdot 10^{6}$
 
 5.  Pour écrire $0.000 032 050$ en notation scientifique, il faut mettre la virgule après le premier chiffre du nombre et donc la déplacer, vers la droite de 5 positions.\
-    En notation scientifique il devient $3.205\cdot 10^{-5}$
+    En notation scientifique : $0.000 032 050=3.205\cdot 10^{-5}$
 
 7.  Pour écrire $0.000 032 050$ en notation d'ingénieur, il faut déplacer la virgule de trois en trois, vers la droite, jusqu'à obtenir un nombre enter 1 et 1000, donc la déplacer de 6 positions.\
-    En notation d'ingénieur il devient $32.05\cdot 10^{-6}$
+    En notation d'ingénieur : $0.000 032 050=32.05\cdot 10^{-6}$
 
-9.  $7.34\cdot 10^{4}$ est en notation scientifique mais pas en notation d'ingénieur.
+9.  Le nombre $7.34\cdot 10^{4}$ est en notation scientifique mais pas en notation d'ingénieur.
 
-10.  $73.4\cdot 10^{3}$ n'est pas en notation scientifique, mais en notation d'ingénieur.
+10.  Le nombre $73.4\cdot 10^{3}$ n'est pas en notation scientifique, mais en notation d'ingénieur.
 
-11.  $0.734\cdot 10^{5}$ n'est ni en notation scientifique, ni en notation d'ingénieur.
+11.  Le nombre $0.734\cdot 10^{5}$ n'est ni en notation scientifique, ni en notation d'ingénieur.
 
-12.  $3.205\cdot 10^{6}$ est en notation scientifique et en notation d'ingénieur.
+12.  Le nombre $3.205\cdot 10^{6}$ est en notation scientifique et en notation d'ingénieur.
 :::
 
 La notation d'ingénieur est largement utilisée par les scientifiques, en raison de l'utilisation du multiple de $3$ pour l'exposant, ce qui facilite les mesures et les changements d'unités dans le système métrique international. On représente ainsi les nombres en utilisant l'unité de base et ses sous-multiples de puissance de $3$. Si l'unité de base est le mètre, un ingénieur représentera le résultat de sa mesure selon les règles de la notation :
@@ -92,12 +93,22 @@ Le terme ordre de grandeur fait référence à la puissance de $10$ lorsque les 
 
 :::{admonition} Ordre de Grandeur
 :class: formule
-L'*ordre de grandeur* d'un nombre en écriture scientifique $x\cdot 10^{n}$ vaut :
+L'*ordre de grandeur* d'un nombre en écriture scientifique $a\cdot 10^{n}$ vaut :
 
 $$\begin{array}{ccl}
-10^{n} & \text{si} & 1\leq x<5 \\
-10^{n+1} & \text{si} & 5\leq x<10
+10^{n} & \text{si} & 1\leq a<5 \\
+10^{n+1} & \text{si} & 5\leq a<10
  \end{array}$$
+:::
+
+:::{admonition} Astuce
+:class: astuce
+Pour trouver *facilement* l'ordre de grandeur d'un nombre $a\cdot 10^n$, il faut se demander si ce nombre est plus proche de $1\cdot 10^n$ ou de $1\cdot 10^{n+1}$ ?
+
+Application :
+1. $4'000=4\cdot 10^3$ est plus proche de $1'000=1\cdot 10^3$ que de $10'000=1\cdot 10^4$. Son ordre de grandeur est donc $10^3$
+2. $6'000=6\cdot 10^3$ est plus proche de $10'000=1\cdot 10^4$ que de $1'000=1\cdot 10^3$. Son ordre de grandeur est donc $10^4$
+
 :::
 
 :::{admonition} Exemples d'ordre de grandeur

@@ -61,6 +61,7 @@ L'incertitude absolue, lorsqu'elle est considérée seule, n'indique rien sur la
 :::
 Comme pour l'erreur relative, l'incertitude relative est un nombre pur (sans unité), que l'on exprime en $\%$.
 
+(sect:incertitude)=
 ## Calcul d'incertitudes 
 Les mesures effectuées en physique sont le plus souvent indirectes, c'est-à-dire que le résultat final d'une expérience ne consiste pas en la mesure (répétée ou non) d'un seul paramètre, mais de plusieurs grandeurs qui, liées par une loi physique, conduisent au résultat cherché. Chacune de ces grandeurs a une certaine incertitude; le résultat de l'expérience en comportera aussi une qui dépend de toutes les incertitudes individuelles. C'est le principe de la `propagation des incertitudes`. Il est alors intéressant de savoir de quelle manière les incertitudes des mesures se répercutent sur les incertitudes des résultats.
 
