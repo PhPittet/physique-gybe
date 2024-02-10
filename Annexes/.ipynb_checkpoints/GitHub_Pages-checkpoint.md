@@ -28,14 +28,18 @@ To update your online book, make changes to your book’s content on the main br
    ```
 #### Commit & Push
 7. Mettre ensuite les mise-à-jour sur le repo GitHub en ligne. Pour cela ouvrez **GitHuB Desktop**, choisissez le bon `Current repository` (*en haut à gauche*) et vérifier que la branche et bien réglée sur `main`.
-   - Cliquer sur `Commit to main` (il faut ajouter un message qui explique brièvement les modifications)
-   - Cliquer sur `Push`
+   - Cliquer sur `Commit to main` *(il faut ajouter un message qui explique brièvement les modifications)*
+   - Cliquer sur `Push origin` *(en haut, au milieu)*
 
 8. On doit pouvoir aussi faire ça depuis JupyterLab (**TO DO**)
 
 #### Online Update
-10. Utiliser `gh-import` pour générer la page web :
+10. Utiliser `ghp-import` pour générer la page web :
     - Ouvrez un terminal (anaconda promt, par exemple)
+    - Change d'environnement si besoin:
+      ```none
+      conda activate jupyterlab4
+      ```
     - Aller dans le dossier racine du projet `...\GitHub\physique-gybe` (celui qui contient le `dossier _build/html`
     - Entrer la commande suivante :
       ```
