@@ -12,45 +12,29 @@ C'est également le nombre de chiffres connus *avec certitude* plus le premier c
 
 :::{admonition} Exemples de résultats d'arrondi
 :class: exores
-*  $73.5$ a $3$ chiffres significatifs: le $7$, et le $3$ sont certains et le $5$
-    est incertain (arrondi).
-
-*  $0.013$ a 2 chiffres significatifs: les zéros ne comptent pas, le $1$
-    est certain et le $3$ est incertain.
-
-*  $120.3$ a 4 chiffres significatifs (le zéro compte).
-
-*  $0.00206$ a 3 chiffres significatifs.
-
-*  $0.002060$ a 4 chiffres significatifs.
-
-*  $7.36\cdot 10^{4}$ a 3 chiffres significatifs.
-
-*  Pour arrondir$10.234$ à 4 chiffres significatifs, on garde les 3
-    premiers et on arrondit le $4^{e}$, ce qui donne: $10.23$
-
-*  Pour arrondir $0.09268$ à 3 chiffres significatifs, on garde les 2
-    premiers et on arrondit le $3^{e}$, ce qui donne: $0.0927$
-
-*  En notation scientifique, le nombre $74'983$ s'écrit:
-
+1.  Le nombre $73.5$ a $3$ chiffres significatifs : le $7$, et le $3$ sont certains et le $5$ est incertain (arrondi).
+2.  Le nombre $0.013$ a 2 chiffres significatifs : les zéros ne comptent pas, le $1$ est certain et le $3$ est incertain.
+3.  Le nombre $120.3$ a 4 chiffres significatifs (le zéro compte).
+4.  Le nombre $0.00206$ a 3 chiffres significatifs.
+5.  Le nombre $0.002060$ a 4 chiffres significatifs.
+6.  Le nombre $7.36\cdot 10^{4}$ a 3 chiffres significatifs.
+7.  Pour arrondir$10.234$ à 4 chiffres significatifs, on garde les 3 premiers et on arrondit le $4^{e}$, ce qui donne : $10.23$
+8.  Pour arrondir $0.09268$ à 3 chiffres significatifs, on garde les 2 premiers et on arrondit le $3^{e}$, ce qui donne : $0.0927$
+9.  En notation scientifique, le nombre $74'983$ s'écrit :
     -   Avec 5 chiffres significatifs: $7.4983\cdot 10^{4}$
-
     -   Avec 4 chiffres significatifs: $7.498\cdot 10^{4}$
-
     -   Avec 3 chiffres significatifs: $7.50\cdot 10^{4}$
-
     -   Avec 2 chiffres significatifs: $7.5\cdot 10^{4}$
-
     -   Avec 1 chiffres significatifs: $7\cdot 10^{4}$
 
     L'ordre de grandeur de ce nombre est : $10^{5}$\
-    $74'983$ est plus proche de $100'000=10^{5}$ que de $10'000=10^{4}$
+    $74'983$ est en effet plus proche de $100'000=10^{5}$ que de $10'000=10^{4}$
 :::
 
 ::::{admonition} Attention
 :class: danger
-En règle générale, le résultat d'un calcul ne peut pas avoir une précision plus grande que celle de la donnée de départ. Il convient donc d'arrondir le résultat final du calcul pour avoir la même précision que la donnée. **On garde en revanche toute la précision pour les résultats intermédiaires**.
+En règle générale, le résultat d'un calcul ne peut pas avoir une précision plus grande que celle de la donnée de départ. Il convient donc d'arrondir le résultat final du calcul pour avoir la même précision que la donnée.\
+**On garde en revanche toute la précision pour les résultats intermédiaires**.
 
 :::{dropdown} *Exemples*
 1.  $24.32\div 0.01234=197.082658$ (sur la calculatrice) mais on donnera $197.1$ comme réponse
@@ -63,10 +47,13 @@ En règle générale, le résultat d'un calcul ne peut pas avoir une précision 
 :::
 ::::
 
-:::{admonition} Sur la calculatrice
+:::{admonition} Sur la calculatrice Ti-30
 :class: surcalculatrice
-La touche `STO` de la calculatrice suivie de `1`, `2` ou `3` permet de stocker une valeur en mémoire.\
-On récupère cette valeur avec la touche `RCL` suivie de `1`, `2` ou `3`.
+La calculatrice Ti-30 possède $3$ emplacement de mémoire.\
+La touche `STO` de la calculatrice, suivie de `1`, `2` ou `3` permet de stocker une valeur dans une des mémoires.\
+On récupère cette valeur avec la touche `RCL` suivie de `1`, `2` ou `3`.\
+La touche `CE/C` permet de remettre à zéro *sans effacer la mémoire.*\
+La touche `ON/AC` permet de remettre à zéro en *effaçant toute la mémoire.*
 :::
 
 :::{admonition} YouTube

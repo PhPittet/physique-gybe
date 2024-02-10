@@ -485,10 +485,10 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#petit-guide-pour-mettre-son-fichier-jupyter-notebook-en-ligne-sur-github-pages">Petit guide pour mettre son fichier Jupyter Notebook en ligne sur GitHub Pages</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creation-du-site">Création du site</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-a-jour-du-notebook">Mise à jour du notebook</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Mise à jour du Notebook</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-a-jour-du-notebook-et-de-l-url">Mise à jour du notebook et de l’url</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#modifier-le-notebook">Modifier le notebook</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#commit-push">Commit &amp; Push</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#online-update">Online Update</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#update-url">Update url</a></li>
 </ul>
 </li>
 </ul>
@@ -513,16 +513,16 @@ document.write(`
 <p>TO Do….</p>
 <p>Cloner le repo GitHub localement sur l’ordi avec GitHub Desktop</p>
 </section>
-<section id="mise-a-jour-du-notebook">
-<h3>Mise à jour du notebook<a class="headerlink" href="#mise-a-jour-du-notebook" title="Permalink to this heading">#</a></h3>
+<section id="mise-a-jour-du-notebook-et-de-l-url">
+<h3>Mise à jour du notebook et de l’url<a class="headerlink" href="#mise-a-jour-du-notebook-et-de-l-url" title="Permalink to this heading">#</a></h3>
 <blockquote>
 <div><p><em>Pour l’explication suivante, on supposera que le notebook se trouve dans le dossier <code class="docutils literal notranslate"><span class="pre">...\GitHub\physique-gybe</span></code> qui est le dossier cloner de GitHub.<br />
 La racine du terminal de jupyterlab doit être <code class="docutils literal notranslate"><span class="pre">...\GitHub&gt;</span></code></em></p>
 </div></blockquote>
 <p><em><a class="reference external" href="https://jupyterbook.org/en/stable/start/publish.html">Instructions originales</a> :<br />
 To update your online book, make changes to your book’s content on the main branch of your repository, re-build your book with jupyter-book build mybookname/ and then use ghp-import -n -p -f mylocalbook/_build/html as before to push the newly built HTML to the gh-pages branch.</em></p>
-<section id="id1">
-<h4>Mise à jour du Notebook<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h4>
+<section id="modifier-le-notebook">
+<h4>Modifier le notebook<a class="headerlink" href="#modifier-le-notebook" title="Permalink to this heading">#</a></h4>
 <ol class="arabic">
 <li><p>Pour modifier le notebook, ouvrez JupyterLab et aller dans le dossier (repo cloner) GitHub de votre notebook.</p></li>
 <li><p>Dans jupyterlab, vérifier que vous êtes bien dans la branche <code class="docutils literal notranslate"><span class="pre">main</span></code>. Pour cela cliquer sur l’icone <code class="docutils literal notranslate"><span class="pre">Git</span></code> dans la barre laterale à gauche, vérifier le <code class="docutils literal notranslate"><span class="pre">Current</span> <span class="pre">Repository</span></code> dans lequel se trouve votre projet et le <code class="docutils literal notranslate"><span class="pre">Current</span> <span class="pre">Branch</span></code>. Effectuer les modifications si besoin (naviguer simplement dans le bon dossier, puis choisir la branche <code class="docutils literal notranslate"><span class="pre">main</span></code> depuis <code class="docutils literal notranslate"><span class="pre">Git</span></code>)</p></li>
@@ -537,30 +537,38 @@ To update your online book, make changes to your book’s content on the main br
 </section>
 <section id="commit-push">
 <h4>Commit &amp; Push<a class="headerlink" href="#commit-push" title="Permalink to this heading">#</a></h4>
-<ol class="arabic simple" start="7">
+<ol class="arabic simple" start="5">
 <li><p>Mettre ensuite les mise-à-jour sur le repo GitHub en ligne. Pour cela ouvrez <strong>GitHuB Desktop</strong>, choisissez le bon <code class="docutils literal notranslate"><span class="pre">Current</span> <span class="pre">repository</span></code> (<em>en haut à gauche</em>) et vérifier que la branche et bien réglée sur <code class="docutils literal notranslate"><span class="pre">main</span></code>.</p>
 <ul class="simple">
-<li><p>Cliquer sur <code class="docutils literal notranslate"><span class="pre">Commit</span> <span class="pre">to</span> <span class="pre">main</span></code> (il faut ajouter un message qui explique brièvement les modifications)</p></li>
-<li><p>Cliquer sur <code class="docutils literal notranslate"><span class="pre">Push</span></code></p></li>
+<li><p>Cliquer sur <code class="docutils literal notranslate"><span class="pre">Commit</span> <span class="pre">to</span> <span class="pre">main</span></code> <em>(il faut ajouter un message qui explique brièvement les modifications)</em></p></li>
+<li><p>Cliquer sur <code class="docutils literal notranslate"><span class="pre">Push</span> <span class="pre">origin</span></code> <em>(en haut, au milieu)</em></p></li>
 </ul>
 </li>
 <li><p>On doit pouvoir aussi faire ça depuis JupyterLab (<strong>TO DO</strong>)</p></li>
 </ol>
 </section>
-<section id="online-update">
-<h4>Online Update<a class="headerlink" href="#online-update" title="Permalink to this heading">#</a></h4>
-<ol class="arabic" start="10">
-<li><p>Utiliser <code class="docutils literal notranslate"><span class="pre">gh-import</span></code> pour générer la page web :</p>
-<ul>
+<section id="update-url">
+<h4>Update url<a class="headerlink" href="#update-url" title="Permalink to this heading">#</a></h4>
+<p>Utiliser <code class="docutils literal notranslate"><span class="pre">ghp-import</span></code> pour mettre à jour la page web :</p>
+<ol class="arabic" start="7">
 <li><p>Ouvrez un terminal (anaconda promt, par exemple)</p></li>
-<li><p>Aller dans le dossier racine du projet <code class="docutils literal notranslate"><span class="pre">...\GitHub\physique-gybe</span></code> (celui qui contient le <code class="docutils literal notranslate"><span class="pre">dossier</span> <span class="pre">_build/html</span></code></p></li>
+<li><p>Si le package <code class="docutils literal notranslate"><span class="pre">ghp-pages</span></code> est installé sur un autre environnement que <em>base (root)</em>, changer d’environnement :<br />
+<em>(ici, l’environnement choisit s’appelle jupyterlab4)</em></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda activate jupyterlab4
+</pre></div>
+</div>
+</li>
+<li><p>Aller dans le dossier racine du projet <code class="docutils literal notranslate"><span class="pre">...\GitHub\physique-gybe</span></code> (celui qui contient le <code class="docutils literal notranslate"><span class="pre">dossier</span> <span class="pre">_build/html</span></code></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>cd OneDrive - Education Vaud\GitHub\physique-gybe
+</pre></div>
+</div>
+</li>
 <li><p>Entrer la commande suivante :</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ghp</span><span class="o">-</span><span class="kn">import</span> <span class="o">-</span><span class="n">n</span> <span class="o">-</span><span class="n">p</span> <span class="o">-</span><span class="n">f</span> <span class="n">_build</span><span class="o">/</span><span class="n">html</span>
 </pre></div>
 </div>
 </li>
-</ul>
-</li>
+<li><p>Croisez les doigts pour que ça marche</p></li>
 </ol>
 </section>
 </section>
@@ -624,10 +632,10 @@ To update your online book, make changes to your book’s content on the main br
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#petit-guide-pour-mettre-son-fichier-jupyter-notebook-en-ligne-sur-github-pages">Petit guide pour mettre son fichier Jupyter Notebook en ligne sur GitHub Pages</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creation-du-site">Création du site</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-a-jour-du-notebook">Mise à jour du notebook</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Mise à jour du Notebook</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-a-jour-du-notebook-et-de-l-url">Mise à jour du notebook et de l’url</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#modifier-le-notebook">Modifier le notebook</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#commit-push">Commit &amp; Push</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#online-update">Online Update</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#update-url">Update url</a></li>
 </ul>
 </li>
 </ul>

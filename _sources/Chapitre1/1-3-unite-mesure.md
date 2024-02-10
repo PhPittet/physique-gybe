@@ -1,15 +1,19 @@
 (chap:unites)=
 # Unités de mesure
 
-Les physiciens, comme d'autres scientifiques, font des observations et posent des questions fondamentales. Par exemple, quelle est la taille d'un objet ? Quelle masse possède-t-il ? Quelle distance a-t-il parcourue ? Pour répondre à ces questions, ils effectuent des mesures avec divers instruments (par exemple, mètre ruban, balance, chronomètre, etc.). La physique est une *science quantitative*. 
-Les mesures es quantités physique correspondent à différentes grandeurs, comme une longueur, un temps, une température,... Afin de les identifier, nous devons associer, à chaque mesure, `une unité`. Par exemple, $33$ ne suffit pas pour exprimer la vitesse d'une voiture, il faut également son unité :
+Les physiciens, comme d'autres scientifiques, font des observations et posent des questions fondamentales.\
+Par exemple, quelle est la taille d'un objet ? Quelle masse possède-t-il ? Quelle distance a-t-il parcourue ?\
+Pour répondre à ces questions, ils effectuent des mesures avec divers instruments (par exemple, mètre ruban, balance, chronomètre, etc.).
+
+La physique est une *science quantitative*. Les mesures es quantités physique correspondent à différentes grandeurs, comme une longueur, un temps, une température,... Afin de les identifier, nous devons associer, à chaque mesure, `une unité`.\
+Par exemple, $33$ ne suffit pas pour exprimer la vitesse d'une voiture, il faut également son unité :
 - $33\,km/h$ correspond à la vitesse d'une voiture en ville.
 - $33\,m/s$ correspond à la vitesse d'une voiture sur autoroute.
 
 Sans unités, il serait extrêmement difficile pour les scientifiques d'exprimer et de comparer des valeurs mesurées de manière significative.
 
 ## Système International d'unités
-Pour mesurer le monde qui nous entoure, nous avons besoin que de `sept unités` ({numref}`unitebase`). Ces sept unités de base du [Système International d'unités](https://fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s) (SI) sont les `unités fondamentales` à partir desquelles sont obtenues, par combinaison, toutes les autres unités en sciences (unités dérivées). Ces sept unités sont supposées indépendantes car elles permettent de mesurer des grandeurs physiques indépendantes.
+Pour mesurer le monde qui nous entoure, nous avons besoin que de `sept unités` ({numref}`unitebase`). Ces unités de base du [Système International d'unités](https://fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s) (SI) sont les `sept unités fondamentales` à partir desquelles sont obtenues, par combinaison, toutes les autres unités en sciences (unités dérivées). Ces sept unités sont supposées indépendantes car elles permettent de mesurer des grandeurs physiques indépendantes.
 
 :::{list-table} Les 7 unités fondamentales du Système International (SI)
 :name: unitebase
@@ -60,26 +64,26 @@ La {numref}`unite1M` ci-dessous présente toutes les grandeurs physiques qui ser
      - Unité de base
      - Symbole
      - Autres unités
-*    - Distance
+*    - **Distance**
      - $x$, $\Delta$$x$, $d$
-     - mètre
-     - $[m]$
+     - **mètre**
+     - $\boldsymbol{[m]}$
      - $[km]$, $[cm]$, $[mm]$, $[\mu m]$
+*    - **Temps**
+     - $t$, $\Delta$$t$
+     - **seconde**
+     - $\boldsymbol{[s]}$
+     - $[min]$; $[h]$
+*    - **Masse**
+     - $m$, $M$
+     - **kilogramme**
+     - $\boldsymbol{[kg]}$
+     - $[g]$; $[mg]$; $[\mu g]$
 *    - Surface
      - $S$, $A$
      - mètre carré
      - $[m^{2}]$
      - $[cm^{2}]$; $[mm^{2}]$
-*    - Temps
-     - $t$, $\Delta$$t$
-     - seconde
-     - $[s]$
-     - $[min]$; $[h]$
-*    - Masse
-     - $m$, $M$
-     - kilogramme
-     - $[kg]$
-     - $[g]$; $[mg]$; $[\mu g]$
 *    - Vitesse
      - $v$
      - mètre par seconde
@@ -121,19 +125,28 @@ Par exemple : $1$ litre d'eau $\equiv 1\,kg$.
 ## Définition des unités de temps, de longueur et de masse
 
 ### La seconde
-L'unité SI pour le temps, *la seconde* (abrégé $s$), a une longue histoire. Pendant de nombreuses années, elle a été définie comme
-$1/86'400$ d'un jour solaire moyen. Plus récemment, une nouvelle norme a été adoptée pour gagner en précision et définir la seconde en termes de phénomène physique constant (car la journée solaire s'allonge en raison du ralentissement très progressif de la rotation de la Terre). Les atomes de césium peuvent être amenés à vibrer d'une manière très régulière, et ces vibrations peuvent être facilement observées et comptées. En 1967, la seconde a été redéfinie comme le temps requis pour $9'192'631'770$ de ces vibrations. La précision des unités fondamentales est essentielle, car toutes les mesures sont finalement exprimées en termes d'unités fondamentales et ne peuvent être plus précises que les unités fondamentales elles-mêmes.
+L'unité SI pour le temps, `la seconde` (abrégé $s$), a une longue histoire.\
+Pendant de nombreuses années, elle a été définie comme $1/86'400$ d'un jour solaire moyen. Plus récemment, une nouvelle norme a été adoptée pour gagner en précision et définir la seconde en termes de phénomène physique constant (car la journée solaire s'allonge en raison du ralentissement très progressif de la rotation de la Terre).
+
+Les atomes de césium peuvent être amenés à vibrer d'une manière très régulière, et ces vibrations peuvent être facilement observées et comptées. En 1967, la seconde a été redéfinie comme le temps requis pour $9'192'631'770$ de ces vibrations.
+
+La précision des unités fondamentales est essentielle, car toutes les mesures sont finalement exprimées en termes d'unités fondamentales et ne peuvent être plus précises que les unités fondamentales elles-mêmes.
 
 ### Le mètre
 
-L'unité SI pour la longueur est *le mètre* (abrégé $m$); sa définition a également changé au fil du temps pour devenir de plus en plus précise. Le mètre a été défini pour la première fois en 1791 comme $1/10'000'000$ de la distance entre l'équateur et le pôle Nord. Cette mesure a été améliorée en 1889 en redéfinissant le mètre pour être la distance entre deux lignes gravées sur une barre de platine-iridium maintenant conservée près de Paris. En 1960, il était devenu possible de définir le mètre avec encore plus de précision en termes de longueur d'onde de la lumière, il a donc été redéfini à $1'650'763.73$ longueurs d'onde de lumière orange émise par les atomes de krypton. En 1983, le compteur a reçu sa définition actuelle (en partie pour une plus grande précision) car la distance parcourue par la lumière dans le vide en $1/299'792'458$ de seconde. Ce changement définit la vitesse de la lumière à exactement $299'792'458$ mètres par seconde. La longueur du mètre changera si la vitesse de la lumière est un jour mesurée avec une plus grande
-précision.
+L'unité SI pour la longueur est `le mètre` (abrégé $m$).\
+Sa définition a également changé au fil du temps pour devenir de plus en plus précise. Le mètre a été défini pour la première fois en 1791 comme $1/10'000'000$ de la distance entre l'équateur et le pôle Nord. Cette mesure a été améliorée en 1889 en redéfinissant le mètre pour être la distance entre deux lignes gravées sur une barre de platine-iridium maintenant conservée près de Paris. En 1960, il était devenu possible de définir le mètre avec encore plus de précision en termes de longueur d'onde de la lumière, il a donc été redéfini à $1'650'763.73$ longueurs d'onde de lumière orange émise par les atomes de krypton.
+
+En 1983, le mètre a reçu sa définition actuelle (en partie pour une plus grande précision) par la distance parcourue par la lumière dans le vide en $1/299'792'458$ de seconde. Ce changement définit la vitesse de la lumière à exactement $299'792'458$ mètres par seconde. La longueur du mètre changera si la vitesse de la lumière est un jour mesurée avec une plus grande précision.
 
 ### Le kilogramme
 
-L'unité SI pour la masse est *le kilogramme* (abrégé $kg$); il était précédemment défini comme étant la masse d'un cylindre en platine-iridium conservé avec l'ancien étalon du compteur au Bureau international des poids et mesures près de Paris. Des répliques exactes du kilogramme précédemment définie sont également conservées au bureau international des poids et mesures ([BIPM](https://www.bipm.org/fr/home)) à Paris, et à d'autres endroits dans le monde. La détermination de toutes les autres masses pourrait être finalement attribuée à une comparaison avec la masse standard. Même si le cylindre en platine-iridium était résistant à la corrosion, les contaminants en suspension dans l'air ont pu adhérer à sa surface, modifiant légèrement sa masse au fil du temps. En mai 2019, la communauté scientifique a adopté une définition plus stable du kilogramme. Le kilogramme est maintenant défini en fonction de la seconde, du mètre et de $h$, la constante de Planck (une valeur de la mécanique quantique qui relie l'énergie d'un photon à sa fréquence).
+L'unité SI pour la masse est `le kilogramme` (abrégé $kg$).\
+Il était précédemment défini comme étant la masse d'un cylindre en platine-iridium conservé avec l'ancien étalon du compteur au Bureau international des poids et mesures près de Paris. Des répliques exactes du kilogramme précédemment définie sont également conservées au bureau international des poids et mesures ([BIPM](https://www.bipm.org/fr/home)) à Paris, et à d'autres endroits dans le monde. La détermination de toutes les autres masses pourrait être finalement attribuée à une comparaison avec la masse standard. Même si le cylindre en platine-iridium était résistant à la corrosion, les contaminants en suspension dans l'air ont pu adhérer à sa surface, modifiant légèrement sa masse au fil du temps.
 
-Les autres unités fondamentales, pour le courant électrique (l'ampère) ou la température (le kelvin), seront présentées l'année prochaine. Les premiers chapitres de ce cours portent sur la mécanique. Pour ce sujet, toutes les grandeurs physiques mesurées peuvent être exprimées en termes d'unités fondamentales de longueur, de masse et de temps.
+En mai 2019, la communauté scientifique a adopté une définition plus stable du kilogramme. Le kilogramme est maintenant défini en fonction de la seconde, du mètre et de $h$, la [constante de Planck](https://fr.wikipedia.org/wiki/Constante_de_Planck) (une valeur de la mécanique quantique qui relie l'énergie d'un photon à sa fréquence).
+
+Les autres unités fondamentales, pour le courant électrique (l'ampère) ou la température (le kelvin), seront présentées l'année prochaine. Les premiers chapitres de ce cours portent sur la mécanique. Pour ce sujet, toutes les grandeurs physiques mesurées peuvent être exprimées en termes d'unités fondamentales de *longueur*, de *masse* et de *temps*.
 
 :::{admonition} Pour plus d'informations
 :class: dropdown weblink
@@ -142,30 +155,45 @@ Le site du réseau national de métrologie fournit une définition précise des 
 :::
 
 ## Sous-unités (multiples et sous-multiples)
-Pour chaque unité de mesure, on dispose de sous-unités afin d'exprimer des grandeurs plus grandes ou plus petites. On écrira ces sous-unités à l'aide de préfixe placé devant l'unité.
+Pour chaque unité de mesure, on dispose de sous-unités afin d'exprimer des grandeurs plus grandes ou plus petites. On écrira ces sous-unités à l'aide d'un préfixe placé devant l'unité.
 
 ```{figure} figures/Prefixe.jpg
 :name: prefixe
 :align: center
 :width: 85%
-Les préfixes et puissance de $10$ des sous-unités
+Les préfixes et leur puissance de $10$ pour les sous-unités. Les **préfixes en gras** sont à connaître pour ce cours.
 ```
+::::{admonition} Astuce
+:class: astuce
+Rappelez-vous que chaque préfixe correspond à une puissance de $10$. Vous pouvez donc remplacer le préfixe par sa puissance de $10$, et inversement, si besoin.
 
-:::{admonition} Exemples
+Par exemple :
+1. Pour le préfixe $kilo$ : $k =\times 10^{3}$, donc :
+   :::{math}
+   8.2\,km=8.2\,(k)m=8.2\,(\times 10^{3})m=8.2\cdot 10^{3}\,m
+   :::
+2. Pour le préfixe $micro$ : $\mu =\times 10{-6}$, donc :
+   :::{math}
+   25.3\,\mu m=25.3\,(\mu )m=25.3(\times 10^{-6})m=25.3\cdot 10^{-6}\,m$$
+   :::
+::::
+
+
+:::{admonition} Exemples d'écritures
 :class: exores
-1.  En écriture scientifique:\
+1.  Avec des puissances de $10$ :\
     $0.032\, m = 0.32\cdot 10^{-1}\, m = 3.2\cdot 10^{-2}\, m = 32\cdot 10^{-3}\, m$\
-    Avec les sous-unités:\
+    Avec les sous-unités :\
     $0.032\, m = 0.32\, dm = 3.2\, cm = 32\, mm$
 
-2.  En écriture scientifique:\
+2.  Avec des puissances de $10$ :\
     $3'000'000’000\, W = 3'000'000\cdot 10^{3}\, W = 3’000\cdot 10^{6}\, W = 3\cdot 10^{9}\, W$\
-    Avec les sous-unités:\
+    Avec les sous-unités :\
     $3'000'000’000\, W = 3'000'000\, kW = 3’000\, MW = 3\, GW$
 
-3.  En écriture scientifique:\
+3.  Avec des puissances de $10$ :\
     $0.000 000 002\, g = 0.000 002\cdot 10^{-3}\, g = 0.002\cdot 10^{-6}\, g = 2\cdot 10^{-9}g$\
-    Avec les sous-unités:\
+    Avec les sous-unités :\
     $0.000 000 002\, g = 0.000 002\, mg = 0.002\, \mu g = 2\, ng$
 :::
 
@@ -198,7 +226,7 @@ Ce qui nous donne :
      :::{math}
      250\cdot 10^{8}\,\mu m=250\cdot 10^{8}\cdot 10^{-6}\,m=250\cdot 10^{2}\,m
      :::
-   - Puis on fait apparaître le préfixe $kilo\equiv\cdot 10^{3}$ recherché :
+   - Puis on fait apparaître le préfixe $kilo =k =\cdot 10^{3}$ recherché :
     :::{math}
     \begin{align*}
     250\cdot 10^{2}\,m       &=250\cdot 10^{2}\cdot 10^{-3}\cdot 10^{3}\,m\\
@@ -224,6 +252,16 @@ Pour passer d'une vitesse exprimée en $km/h$ vers les $m/s$ (ou inversement) :
 > Apprenez le facteur $3.6$ et retenez que les kilomètres et les heures sont plus grand que les mètres et les secondes. On multiplie pour passer à quelque chose de plus grand (et inversement, on divise pour passer à quelque chose de plus petit).
 
 :::
+
+::::{admonition} Transformer les heures en minutes et secondes
+:class: astuce
+**Rappel :**\
+La conversion de $heures$ ($h$) en $minutes$ ($min$) et $secondes$ ($s$) est un peu différente, puisque :
+:::{math}
+1\,min=60\,s\\
+1 \,h=60\,min=3600\,s
+:::
+::::
 
 :::{admonition} YouTube
 :class: dropdown admonition-youtube

@@ -233,7 +233,7 @@ Here is an admonition!
 *Légende*
 :::
 
-Avec la référence : {numref}`TestPNG` (attention donne Fig. en HTML) ou avec un nom personalisé {numref}`Image %s <TestPNG>` ou un titre personalisé {ref}`Image des carré <TestPNG>`
+Avec la référence : {numref}`TestPNG` (attention donne Fig. en HTML) ou avec un nom personnalisé {numref}`Image %s <TestPNG>`, ou {numref}`Image %sa <TestPNG>` s'il y a plusieurs sous-image. On peut aussi mettre un titre totalement personnalisé {ref}`magnifique image des carré <TestPNG>`
 
 (chap:MySTtables)=
 ## Tables
