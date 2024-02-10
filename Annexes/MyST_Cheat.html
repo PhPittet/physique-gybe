@@ -507,13 +507,10 @@ document.write(`
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#avec-strategie">Avec stratégie</a></li>
 </ul>
 </li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#choix-en-ligne">Choix en  ligne</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes-de-base">Notes de base</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dropdown">Dropdown</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#note-avec-dropdown-et-2e-note-incluse">Note avec dropdown et 2e note incluse</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes-de-base">Notes de base</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#figures">Figures</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tables">Tables</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#listes-particulieres">Listes particulières</a></li>
@@ -531,15 +528,6 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="myst-cheat-sheet">
 <h1><span class="section-number">11.1. </span>MyST Cheat sheet<a class="headerlink" href="#myst-cheat-sheet" title="Permalink to this heading">#</a></h1>
-<ol class="arabic simple">
-<li><p><a class="reference internal" href="#chap-mystnotesperso"><span class="std std-ref">Notes Personalisées</span></a></p></li>
-<li><p><a class="reference internal" href="#chap-mystexo"><span class="std std-ref">Exercices &amp; Questions</span></a></p></li>
-<li><p><a class="reference internal" href="#chap-mystnotes"><span class="std std-ref">Notes de base</span></a></p></li>
-<li><p><a class="reference internal" href="#chap-mystfigures"><span class="std std-ref">Figures</span></a></p></li>
-<li><p><a class="reference internal" href="#chap-mystlistes"><span class="std std-ref">Listes</span></a></p></li>
-<li><p><a class="reference internal" href="#chap-mysttables"><span class="std std-ref">Table</span></a></p></li>
-<li><p><a class="reference internal" href="#chap-mystreference"><span class="std std-ref">Références</span></a></p></li>
-</ol>
 <section id="notes-personalisees-admonitions">
 <span id="chap-mystnotesperso"></span><h2>Notes Personalisées (Admonitions)<a class="headerlink" href="#notes-personalisees-admonitions" title="Permalink to this heading">#</a></h2>
 <section id="pour-le-corps-de-texte">
@@ -550,6 +538,12 @@ document.write(`
 <p class="admonition-title">Titre_Formule</p>
 <p>Formule</p>
 </div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>::::{admonition} Titre_Formule
+:class: formule
+Formule
+::::
+</pre></div>
+</div>
 </section>
 <section id="sur-la-calculatrice">
 <h4>Sur la calculatrice<a class="headerlink" href="#sur-la-calculatrice" title="Permalink to this heading">#</a></h4>
@@ -557,12 +551,24 @@ document.write(`
 <p class="admonition-title">Sur la calculatrice</p>
 <p>Info sur les calculatrices (class: surcalculatrice)</p>
 </div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>:::{admonition} Sur la calculatrice
+:class: surcalculatrice
+Info sur les calculatrices (class: surcalculatrice)
+:::
+</pre></div>
+</div>
 </section>
 <section id="astuce">
 <h4>Astuce<a class="headerlink" href="#astuce" title="Permalink to this heading">#</a></h4>
 <div class="astuce admonition">
 <p class="admonition-title">Astuce</p>
 <p>et_trucs</p>
+</div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>:::{admonition} Astuce
+:class: astuce
+et_trucs
+:::
+</pre></div>
 </div>
 </section>
 <section id="objectif-pedagogique">
@@ -575,6 +581,15 @@ document.write(`
 <li></li>
 </ol>
 </div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>:::{admonition} Objectifs d&#39;apprentissage
+:class: objped
+À la fin de cette section, vous pourrez :
+
+1. Objectif_1
+2. 
+:::
+</pre></div>
+</div>
 </section>
 <section id="plus-d-infos">
 <h4>Plus d’infos<a class="headerlink" href="#plus-d-infos" title="Permalink to this heading">#</a></h4>
@@ -585,6 +600,14 @@ document.write(`
 <li><p><a class="reference external" href="https://www.alloprof.qc.ca/fr/eleves/bv/physique/physique-l-incertitude-et-les-calculs-d-incertitude-p1049">NomDuLiens</a></p></li>
 <li></li>
 </ul>
+</div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>:::{admonition} Pour plus d&#39;informations
+:class: dropdown weblink
+Quelques liens utiles sur le même sujet :
+- [NomDuLiens](https://www.alloprof.qc.ca/fr/eleves/bv/physique/physique-l-incertitude-et-les-calculs-d-incertitude-p1049)
+- 
+:::
+</pre></div>
 </div>
 </section>
 <section id="youtube">
@@ -603,6 +626,20 @@ document.write(`
 <li><p><strong>Et_une_autre</strong></p></li>
 </ol>
 </div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>:::{admonition} YouTube
+:class: dropdown admonition-youtube
+Quelques liens de vidéo utiles sur le même sujet :
+1. **Titre_de_la_vidéo**
+%%HTML [--isolated]
+&lt;div align=&quot;center&quot;&gt;
+ &lt;iframe width=&quot;600&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/1zAPfrZaAiA&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+2. **Autre_vidéo**
+3. **Et_une_autre**
+:::
+</pre></div>
+</div>
 </section>
 <section id="simulation-phet">
 <h4>Simulation PhET<a class="headerlink" href="#simulation-phet" title="Permalink to this heading">#</a></h4>
@@ -612,6 +649,16 @@ document.write(`
 <div align="center">
 <iframe src="address_of_PhET_simulation_to_be_linked" width="600" height="450" scrolling="no" allowfullscreen></iframe>
 </div>
+</div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>:::{admonition} P*h*ET simulation
+:class: dropdown simulation
+**Titre_de_la_simulation**
+%%HTML [--isolated]
+&lt;div align=&quot;center&quot;&gt;
+&lt;iframe src=&quot;address_of_PhET_simulation_to_be_linked&quot; width=&quot;600&quot; height=&quot;450&quot; scrolling=&quot;no&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+:::
+</pre></div>
 </div>
 </section>
 </section>
@@ -627,6 +674,16 @@ document.write(`
 <p>Solution</p>
 </div>
 </div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>::::{admonition} Exercice N
+:class: exohome
+Exercice
+:::{admonition} *solution*
+:class: dropdown exohomesol
+Solution
+:::
+::::
+</pre></div>
+</div>
 </section>
 <section id="questions-conceptuelles">
 <h4>Questions conceptuelles<a class="headerlink" href="#questions-conceptuelles" title="Permalink to this heading">#</a></h4>
@@ -637,6 +694,16 @@ document.write(`
 <p class="admonition-title"><em>réponse</em></p>
 <p>Réponse</p>
 </div>
+</div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>::::{admonition} Questions N
+:class: question
+Question
+:::{admonition} *réponse*
+:class: dropdown questionsol
+Réponse
+:::
+::::
+</pre></div>
 </div>
 </section>
 </section>
@@ -651,6 +718,16 @@ document.write(`
 <p class="admonition-title"><em>solution</em></p>
 <p>Solution</p>
 </div>
+</div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>::::{admonition} Exemple N
+:class: exores
+Exercice
+:::{admonition} *solution*
+:class: dropdown solution
+Solution
+:::
+::::
+</pre></div>
 </div>
 </section>
 <section id="avec-strategie">
@@ -671,95 +748,139 @@ document.write(`
 <p>Discussion</p>
 </div>
 </div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>:::::{admonition} Exemple_résolution
+:class: exores
+Exercice
+::::{admonition} *stratégie*
+:class: dropdown strategie
+Stratégie
+::::
+::::{admonition} *solution*
+:class: dropdown solution
+Solution
+::::
+::::{admonition} *discussion*
+:class: dropdown discussion
+Discussion
+::::
+:::::
+</pre></div>
+</div>
 </section>
+</section>
+<section id="choix-en-ligne">
+<h3>Choix en  ligne<a class="headerlink" href="#choix-en-ligne" title="Permalink to this heading">#</a></h3>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0">
+Truc N°1</label><div class="sd-tab-content docutils">
+<p>blabla pour le truc 1</p>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1">
+Truc N°2</label><div class="sd-tab-content docutils">
+<p>bloblo pour le truc 2</p>
+</div>
+</div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>:::::{tab-set}
+::::{tab-item} Truc N°1
+blabla pour le truc 1
+::::
+
+::::{tab-item} Truc N°2
+bloblo pour le truc 2
+::::
+:::::
+</pre></div>
+</div>
 </section>
 </section>
 <section id="notes-de-base">
 <span id="chap-mystnotes"></span><h2>Notes de base<a class="headerlink" href="#notes-de-base" title="Permalink to this heading">#</a></h2>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-0">
+<input checked="checked" id="sd-tab-item-2" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-2">
 Note</label><div class="sd-tab-content docutils">
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Note</p>
 </div>
 </div>
-<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-1">
+<input id="sd-tab-item-3" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-3">
 Important</label><div class="sd-tab-content docutils">
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>Important</p>
 </div>
 </div>
-<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-2">
+<input id="sd-tab-item-4" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-4">
 Hint</label><div class="sd-tab-content docutils">
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
 <p>Hint</p>
 </div>
 </div>
-<input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-3">
+<input id="sd-tab-item-5" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-5">
 See Also</label><div class="sd-tab-content docutils">
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
 <p>See Also</p>
 </div>
 </div>
-<input id="sd-tab-item-4" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-4">
+<input id="sd-tab-item-6" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-6">
 Tip</label><div class="sd-tab-content docutils">
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Tip</p>
 </div>
 </div>
-<input id="sd-tab-item-5" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-5">
+<input id="sd-tab-item-7" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-7">
 Attention</label><div class="sd-tab-content docutils">
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
 <p>Attention</p>
 </div>
 </div>
-<input id="sd-tab-item-6" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-6">
+<input id="sd-tab-item-8" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-8">
 Caution</label><div class="sd-tab-content docutils">
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
 <p>Caution</p>
 </div>
 </div>
-<input id="sd-tab-item-7" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-7">
+<input id="sd-tab-item-9" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-9">
 Warning</label><div class="sd-tab-content docutils">
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Warning</p>
 </div>
 </div>
-<input id="sd-tab-item-8" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-8">
+<input id="sd-tab-item-10" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-10">
 Danger</label><div class="sd-tab-content docutils">
 <div class="admonition danger">
 <p class="admonition-title">Danger</p>
 <p>Danger</p>
 </div>
 </div>
-<input id="sd-tab-item-9" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-9">
+<input id="sd-tab-item-11" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-11">
 Error</label><div class="sd-tab-content docutils">
 <div class="admonition error">
 <p class="admonition-title">Error</p>
 <p>Error</p>
 </div>
 </div>
-</div>
-<section id="dropdown">
-<h3>Dropdown<a class="headerlink" href="#dropdown" title="Permalink to this heading">#</a></h3>
+<input id="sd-tab-item-12" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-12">
+Dropdown</label><div class="sd-tab-content docutils">
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3" open="open">
 <summary class="sd-summary-title sd-card-header">
 Dropdown Title<div class="sd-summary-down docutils">
@@ -769,23 +890,8 @@ Dropdown Title<div class="sd-summary-down docutils">
 </summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text">Dropdown content</p>
 </div>
-</details></section>
-<section id="note-avec-dropdown-et-2e-note-incluse">
-<h3>Note avec dropdown et 2e note incluse<a class="headerlink" href="#note-avec-dropdown-et-2e-note-incluse" title="Permalink to this heading">#</a></h3>
-<div class="dropdown admonition hint">
-<p class="admonition-title">Hint</p>
-<p>Click Me!
-👋 This could be a solution to a problem or contain other detailed explanatios</p>
-<blockquote>
-<div><p>Avec un titre</p>
-</div></blockquote>
-<p>Mon <strong>titre</strong> en gras</p>
-<div class="admonition danger">
-<p class="admonition-title">Danger</p>
-<p>Here is an admonition!</p>
+</details></div>
 </div>
-</div>
-</section>
 </section>
 <section id="figures">
 <span id="chap-mystfigures"></span><h2>Figures<a class="headerlink" href="#figures" title="Permalink to this heading">#</a></h2>
@@ -795,7 +901,45 @@ Dropdown Title<div class="sd-summary-down docutils">
 <p><span class="caption-number">Fig. 11.1 </span><span class="caption-text"><em>Légende</em></span><a class="headerlink" href="#testpng" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Avec la référence : <a class="reference internal" href="#testpng"><span class="std std-numref">Fig. 11.1</span></a> (attention donne Fig. en HTML) ou avec un nom personnalisé <a class="reference internal" href="#testpng"><span class="std std-numref">Image 11.1</span></a>, ou <a class="reference internal" href="#testpng"><span class="std std-numref">Image 11.1a</span></a> s’il y a plusieurs sous-image. On peut aussi mettre un titre totalement personnalisé <a class="reference internal" href="#testpng"><span class="std std-ref">magnifique image des carré</span></a></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>:::{figure} figures/TestPNG.png
+:name: TestPNG
+:align: center
+:width: 50%
+*Légende*
+:::
+</pre></div>
+</div>
+<p>Avec la référence : <a class="reference internal" href="#testpng"><span class="std std-numref">Fig. 11.1</span></a> (attention donne Fig. en HTML) ou avec un nom personnalisé <a class="reference internal" href="#testpng"><span class="std std-numref">Image 11.1</span></a> , ou <a class="reference internal" href="#testpng"><span class="std std-numref">Image 11.1a</span></a>s’il y a plusieurs sous-image. On peut aussi mettre un titre totalement personnalisé <a class="reference internal" href="#testpng"><span class="std std-ref">magnifique image des carré</span></a></p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-13" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-13">
+Référence 1</label><div class="sd-tab-content docutils">
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>{numref}`TestPNG`
+</pre></div>
+</div>
+</div>
+<input id="sd-tab-item-14" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-14">
+Référence 2</label><div class="sd-tab-content docutils">
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>{numref}`Image %s &lt;TestPNG&gt;
+</pre></div>
+</div>
+</div>
+<input id="sd-tab-item-15" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-15">
+Référence 3</label><div class="sd-tab-content docutils">
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>{numref}`Image %sa &lt;TestPNG&gt;`
+</pre></div>
+</div>
+</div>
+<input id="sd-tab-item-16" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-16">
+Référence 4</label><div class="sd-tab-content docutils">
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>{ref}`magnifique image des carré &lt;TestPNG&gt;`
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 <section id="tables">
 <span id="chap-mysttables"></span><h2>Tables<a class="headerlink" href="#tables" title="Permalink to this heading">#</a></h2>
@@ -846,7 +990,30 @@ Dropdown Title<div class="sd-summary-down docutils">
 </tr>
 </tbody>
 </table>
-<p>avec la référence : <a class="reference internal" href="#unitebasetest"><span class="std std-numref">Table 11.1</span></a> ou avec un nom pérsonalisé <a class="reference internal" href="#unitebasetest"><span class="std std-numref">Tableau 11.1</span></a> voir un titre personalisé <a class="reference internal" href="#unitebasetest"><span class="std std-ref">Tableau des 7 unités SI</span></a></p>
+<p>avec la référence : <a class="reference internal" href="#unitebasetest"><span class="std std-numref">Table 11.1</span></a> ou avec un nom pérsonalisé <a class="reference internal" href="#unitebasetest"><span class="std std-numref">Tableau 11.1</span></a> voir un titre personnalisé <a class="reference internal" href="#unitebasetest"><span class="std std-ref">Tableau des 7 unités SI</span></a></p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-17" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-17">
+Référence 1</label><div class="sd-tab-content docutils">
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>{numref}`nom_tableau`
+</pre></div>
+</div>
+</div>
+<input id="sd-tab-item-18" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-18">
+Référence 2</label><div class="sd-tab-content docutils">
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>{numref}`Tableau %s &lt;nom_tableau&gt;
+</pre></div>
+</div>
+</div>
+<input id="sd-tab-item-19" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-19">
+Référence 3</label><div class="sd-tab-content docutils">
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>{ref}`Tableau des 7 unités SI &lt;nom_tableau&gt;`
+</pre></div>
+</div>
+</div>
+</div>
 <p>ou encore sans légende:</p>
 <table class="table">
 <thead>
@@ -936,11 +1103,13 @@ Dropdown Title<div class="sd-summary-down docutils">
 <dd><p>Definition 2b</p>
 </dd>
 <dt>Term 3</dt><dd><div class="highlight-none notranslate"><div class="highlight"><pre><span></span>A code block
+on two line
 </pre></div>
 </div>
 </dd>
 <dd><blockquote>
-<div><p>A quote</p>
+<div><p>A quote<br />
+on two line too</p>
 </div></blockquote>
 </dd>
 <dd><p>A final definition, that can even include images:</p>
@@ -949,11 +1118,28 @@ Dropdown Title<div class="sd-summary-down docutils">
 </section>
 <section id="reference-a-un-chapitre">
 <span id="chap-mystreference"></span><h2>Référence à un chapitre<a class="headerlink" href="#reference-a-un-chapitre" title="Permalink to this heading">#</a></h2>
-<p>Voilà comment référencer cette partie :</p>
+<p>mettre <code class="docutils literal notranslate"><span class="pre">(chap:MySTreference)=</span></code> juste au dessus du titredu chapitre.</p>
+<p>Et voilà comment référencer ce chapitre :</p>
 <ul class="simple">
 <li><p>Avec un nom : <a class="reference internal" href="#chap-mystreference"><span class="std std-ref">Cette partie</span></a> ou</p></li>
 <li><p>Directement avec le titre du chapitre <a class="reference internal" href="#chap-mystreference"><span class="std std-ref">Référence à un chapitre</span></a></p></li>
 </ul>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-20" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-20">
+Référence 1</label><div class="sd-tab-content docutils">
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>[Cette partie](chap:MySTreference)
+</pre></div>
+</div>
+</div>
+<input id="sd-tab-item-21" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-21">
+Référence 2</label><div class="sd-tab-content docutils">
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>{ref}`chap:MySTreference`
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 </section>
 
@@ -1042,13 +1228,10 @@ Dropdown Title<div class="sd-summary-down docutils">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#avec-strategie">Avec stratégie</a></li>
 </ul>
 </li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#choix-en-ligne">Choix en  ligne</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes-de-base">Notes de base</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dropdown">Dropdown</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#note-avec-dropdown-et-2e-note-incluse">Note avec dropdown et 2e note incluse</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes-de-base">Notes de base</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#figures">Figures</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tables">Tables</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#listes-particulieres">Listes particulières</a></li>
