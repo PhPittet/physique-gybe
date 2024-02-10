@@ -486,9 +486,9 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#petit-guide-pour-mettre-son-fichier-jupyter-notebook-en-ligne-sur-github-pages">Petit guide pour mettre son fichier Jupyter Notebook en ligne sur GitHub Pages</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creation-du-site">Création du site</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-a-jour-du-notebook-et-de-l-url">Mise à jour du notebook et de l’url</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#modifier-le-notebook">Modifier le notebook</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#commit-push">Commit &amp; Push</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#update-url">Update url</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#etape-1-modifier-le-notebook">Etape 1 : Modifier le notebook</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#etape-2-commit-push">Etape 2 : Commit &amp; Push</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#etape-3-update-url">Etape 3 : Update url</a></li>
 </ul>
 </li>
 </ul>
@@ -521,8 +521,8 @@ La racine du terminal de jupyterlab doit être <code class="docutils literal not
 </div></blockquote>
 <p><em><a class="reference external" href="https://jupyterbook.org/en/stable/start/publish.html">Instructions originales</a> :<br />
 To update your online book, make changes to your book’s content on the main branch of your repository, re-build your book with jupyter-book build mybookname/ and then use ghp-import -n -p -f mylocalbook/_build/html as before to push the newly built HTML to the gh-pages branch.</em></p>
-<section id="modifier-le-notebook">
-<h4>Modifier le notebook<a class="headerlink" href="#modifier-le-notebook" title="Permalink to this heading">#</a></h4>
+<section id="etape-1-modifier-le-notebook">
+<h4>Etape 1 : Modifier le notebook<a class="headerlink" href="#etape-1-modifier-le-notebook" title="Permalink to this heading">#</a></h4>
 <ol class="arabic">
 <li><p>Pour modifier le notebook, ouvrez JupyterLab et aller dans le dossier (repo cloner) GitHub de votre notebook.</p></li>
 <li><p>Dans jupyterlab, vérifier que vous êtes bien dans la branche <code class="docutils literal notranslate"><span class="pre">main</span></code>. Pour cela cliquer sur l’icone <code class="docutils literal notranslate"><span class="pre">Git</span></code> dans la barre laterale à gauche, vérifier le <code class="docutils literal notranslate"><span class="pre">Current</span> <span class="pre">Repository</span></code> dans lequel se trouve votre projet et le <code class="docutils literal notranslate"><span class="pre">Current</span> <span class="pre">Branch</span></code>. Effectuer les modifications si besoin (naviguer simplement dans le bon dossier, puis choisir la branche <code class="docutils literal notranslate"><span class="pre">main</span></code> depuis <code class="docutils literal notranslate"><span class="pre">Git</span></code>)</p></li>
@@ -535,8 +535,8 @@ To update your online book, make changes to your book’s content on the main br
 </li>
 </ol>
 </section>
-<section id="commit-push">
-<h4>Commit &amp; Push<a class="headerlink" href="#commit-push" title="Permalink to this heading">#</a></h4>
+<section id="etape-2-commit-push">
+<h4>Etape 2 : Commit &amp; Push<a class="headerlink" href="#etape-2-commit-push" title="Permalink to this heading">#</a></h4>
 <ol class="arabic simple" start="5">
 <li><p>Mettre ensuite les mise-à-jour sur le repo GitHub en ligne. Pour cela ouvrez <strong>GitHuB Desktop</strong>, choisissez le bon <code class="docutils literal notranslate"><span class="pre">Current</span> <span class="pre">repository</span></code> (<em>en haut à gauche</em>) et vérifier que la branche et bien réglée sur <code class="docutils literal notranslate"><span class="pre">main</span></code>.</p>
 <ul class="simple">
@@ -547,8 +547,8 @@ To update your online book, make changes to your book’s content on the main br
 <li><p>On doit pouvoir aussi faire ça depuis JupyterLab (<strong>TO DO</strong>)</p></li>
 </ol>
 </section>
-<section id="update-url">
-<h4>Update url<a class="headerlink" href="#update-url" title="Permalink to this heading">#</a></h4>
+<section id="etape-3-update-url">
+<h4>Etape 3 : Update url<a class="headerlink" href="#etape-3-update-url" title="Permalink to this heading">#</a></h4>
 <p>Utiliser <code class="docutils literal notranslate"><span class="pre">ghp-import</span></code> pour mettre à jour la page web :</p>
 <ol class="arabic" start="7">
 <li><p>Ouvrez un terminal (anaconda promt, par exemple)</p></li>
@@ -633,9 +633,9 @@ To update your online book, make changes to your book’s content on the main br
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#petit-guide-pour-mettre-son-fichier-jupyter-notebook-en-ligne-sur-github-pages">Petit guide pour mettre son fichier Jupyter Notebook en ligne sur GitHub Pages</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creation-du-site">Création du site</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-a-jour-du-notebook-et-de-l-url">Mise à jour du notebook et de l’url</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#modifier-le-notebook">Modifier le notebook</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#commit-push">Commit &amp; Push</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#update-url">Update url</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#etape-1-modifier-le-notebook">Etape 1 : Modifier le notebook</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#etape-2-commit-push">Etape 2 : Commit &amp; Push</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#etape-3-update-url">Etape 3 : Update url</a></li>
 </ul>
 </li>
 </ul>
