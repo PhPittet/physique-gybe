@@ -137,10 +137,10 @@ Combien de battements a-t-elle :
 3. En $2.000\,ans$ ?
 :::{admonition} *solution*
 :class: dropdown exohomesol
-En $2$ ans, il y a $2\cdot 365\cdot 24\cdot 60=1.0512\cdot 10^{6}\,min$. ce qui donne : $70\cdot 1.1.0512\cdot 10^{6}=7.3584\cdt 10^{7}$ battements. En tenant compte des chiffres significatifs on trouve alors :
-1. $7.4\cdt 10^{7}$ battements en $2.0$ ans
-2. $7.36\cdt 10^{7}$ battements en $2.00$ ans
-3. $7.358\cdt 10^{7}$ battements en $2.000$ ans
+En $2$ ans, il y a $2\cdot 365\cdot 24\cdot 60=1.0512\cdot 10^{6}\,min$. ce qui donne : $70\cdot 1.1.0512\cdot 10^{6}=7.3584\cdot 10^{7}$ battements. En tenant compte des chiffres significatifs on trouve alors :
+1. $7.4\cdot 10^{7}$ battements en $2.0$ ans
+2. $7.36\cdot 10^{7}$ battements en $2.00$ ans
+3. $7.358\cdot 10^{7}$ battements en $2.000$ ans
 :::
 ::::
 
@@ -212,11 +212,11 @@ Une personne mesure son rythme cardiaque en comptant le nombre de battements en 
 L'incertitude sur le nombre de battement est de $\dfrac{1}{40}=2.5\,\%$.\
 L'incertitude sur le temps est de $\dfrac{0.5}{30}=1.66\,\%$.
 
-Comme on cherche un nombre de battement divisé par un temps (*battements par minute*), on utilise l'addition des incertitudes reltives pour calculer l'incertitude relative sur la réponse. On a donc :\
+Comme on cherche un nombre de battement divisé par un temps (*battements par minute*), on utilise l'addition des incertitudes relatives pour calculer l'incertitude relative sur la réponse. On a donc :\
 $\Delta_{\,\%}=2.5\,\% + 1.67\,\%=4.16\,\%$\
 Une incertitude $4.2\,\%$ sur $80$ battements ($2\times 40$ battements en $30\,s$) donne $3,3$.
 
-Doncau final on trouve $80\pm 3$ battements par minute.
+Donc au final on trouve $80\pm 3$ battements par minute.
 
 :::
 ::::
