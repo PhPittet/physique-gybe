@@ -96,7 +96,7 @@ Un cycliste effectue la montée d'un col de $16.0\,km$.
 2. $t=\dfrac{16\,km}{32\,km/h}=0.50\,h=30\,min$
 3. $32\,km$
 4. $76\,min$
-5. $v_moy=\dfrac{32\,km}{76\,min}=\dfract{32\,km}{1.27\,h}=25.3\,m/s$
+5. $v_{moy}=\dfrac{32\,km}{76\,min}=\dfrac{32\,km}{1.27\,h}=25.3\,m/s$
 
 *On remarquera que la vitesse moyenne n'est pas égale à la moyenne des vitesses ! Ceci provient du fait que le temps à la montée est beaucoup plus long qu'à la descente. La vitesse de montée a donc plus d'importance dans le calcul de la vitesse moyenne*
 :::
@@ -185,14 +185,15 @@ Une pale d'hélicoptère tourne à exactement $100$ tours par minute. Son extré
 2. Quelle est sa vitesse moyenne sur une révolution?
 :::{admonition} *réponse*
 :class: dropdown exohomesol
-1. $v_{scal\,moy}=\dfrac{\text{distance}}{\text{temps}}=\dfrac{100\cdot\text{tour}}{\text{temps}}=\dfrac{100\cdot 2\pi{}R}{1\,min}=\dfrac{100\cdot 2\pi{}\cdot 5.00\,m}{60\,s}=52.4\,m/s$.
-2. $v_{moy}=\dfrac{\Delta x}{t}=\dfrac{0.0\,m}{1\,min}=0.0\,m/s$.
+1. $v_{scal_{moy}}=\dfrac{\text{distance}}{\text{temps}}=\dfrac{100\cdot\text{tour}}{\text{temps}}=\dfrac{100\cdot 2\pi{}R}{1\,min}=\dfrac{100\cdot 2\pi{}\cdot 5.00\,m}{60\,s}=52.4\,m/s$
+2. $v_{moy}=\dfrac{\Delta x}{t}=\dfrac{0.0\,m}{1\,min}=0.0\,m/s$
 :::
 ::::
 
 ::::{admonition} Exercice 13
 :class: exohome
-Les continents nord-américain et européen s'écartent à un rythme d'environ $3\,cm/an$. À ce rythme, combien de temps leur faudra-t-il pour s'éloigner de $500\,km$ les uns des autres ?
+Les continents nord-américain et européen s'écartent à un rythme d'environ $3\,cm/an$.\
+À ce rythme, combien de temps leur faudra-t-il pour s'éloigner de $500\,km$ les uns des autres ?
 :::{admonition} *réponse*
 :class: dropdown exohomesol
 $t=\dfrac{\Delta x}{v}=\dfrac{500\,km}{3\,cm/an}=\dfrac{5\cdot 10^{7}\,cm}{3\,cm/an}=16.7\cdot 10^{6}\,an=16.7$ million d'années.
@@ -201,7 +202,9 @@ $t=\dfrac{\Delta x}{v}=\dfrac{500\,km}{3\,cm/an}=\dfrac{5\cdot 10^{7}\,cm}{3\,cm
 
 ::::{admonition} Exercice 14
 :class: exohome
-La terre à l'ouest de la faille de San Andreas dans le sud de la Californie se déplace à une vitesse moyenne d'environ $6\,cm/an$ au nord-ouest par rapport à la terre à l'est de la faille. Los Angeles est à l'ouest de la faille et pourrait donc être un jour à la même latitude que San Francisco, qui est à l'est de la faille. Dans combien de temps cela se produira-t-il si le déplacement à effectuer est de $590\,km$ au nord-ouest, en supposant que le mouvement reste constant ?
+La terre à l'ouest de la faille de San Andreas dans le sud de la Californie se déplace à une vitesse moyenne d'environ $6\,cm/an$ au nord-ouest par rapport à la terre à l'est de la faille.\
+Los Angeles est à l'ouest de la faille et pourrait donc être un jour à la même latitude que San Francisco, qui est à l'est de la faille.\
+Dans combien de temps cela se produira-t-il si le déplacement à effectuer est de $590\,km$ au nord-ouest, en supposant que le mouvement reste constant ?
 :::{admonition} *réponse*
 :class: dropdown exohomesol
 $t=\dfrac{\Delta x}{v}=\dfrac{590\,km}{6\,cm/an}=\dfrac{5.9\cdot 10^{7}\,cm}{6\,cm/an}=9.8\cdot 10^{6}\,an=9.8$ million d'années.
@@ -210,10 +213,12 @@ $t=\dfrac{\Delta x}{v}=\dfrac{590\,km}{6\,cm/an}=\dfrac{5.9\cdot 10^{7}\,cm}{6\,
 
 ::::{admonition} Exercice 15
 :class: exohome
-Le 26 mai 1934, un train diesel en acier inoxydable profilé appelé Zephyr a établi le record mondial de vitesse sur de longues distances sans escale pour les trains. Son trajet de Denver à Chicago a duré 13 heures, 4 minutes et 58 secondes, et a été observé par plus d'un million de personnes le long de la route. La distance totale parcourue a été de $1633.8\,km$. Quelle était sa vitesse moyenne en $km/h$ et$ m/s$ ?
+Le 26 mai 1934, un train diesel en acier inoxydable profilé appelé Zephyr a établi le record mondial de vitesse sur de longues distances sans escale pour les trains.\
+Son trajet de Denver à Chicago a duré 13 heures, 4 minutes et 58 secondes, et a été observé par plus d'un million de personnes le long de la route. La distance totale parcourue a été de $1633.8\,km$.\
+Quelle était sa vitesse moyenne en $km/h$ et $m/s$ ?
 :::{admonition} *réponse*
 :class: dropdown exohomesol
-$t=\text{13 heures, 4 minutes et 58 secondes}=(13\cdot 3600\,s)+(4\cdot 60\,s)+58\,s=47'098\,s$
+$t=13\,h\,4\,min$ et $58\,sec=(13\cdot 3600\,s)+(4\cdot 60\,s)+58\,s=47'098\,s$
 
 $v_{moy}=\dfrac{1633.8\,km}{47'098\,s}=\dfrac{1633800\,m}{47'098\,s}=34.689\,m/s$
 
@@ -223,7 +228,8 @@ $34.689\,m/s\cdot 3.6=124.88\,km/h$.
 
 ::::{admonition} Exercice 16
 :class: exohome
-Le frottement des marées ralentit la rotation de la Terre. En conséquence, l'orbite de la Lune augmente de rayon à un rythme d'environ $4\,cm/an$. En supposant qu'il s'agit d'un taux constant, combien d'années s'écouleront avant que le rayon de l'orbite de la Lune augmente de $3.84\cdot 10^{6}\,m$ (1$\%$) ?
+Le frottement des marées ralentit la rotation de la Terre. En conséquence, l'orbite de la Lune augmente de rayon à un rythme d'environ $4\,cm/an$.\
+En supposant qu'il s'agit d'un taux constant, combien d'années s'écouleront avant que le rayon de l'orbite de la Lune augmente de $3.84\cdot 10^{6}\,m$ ($1\,\%$) ?
 :::{admonition} *réponse*
 :class: dropdown exohomesol
 $t=\dfrac{\Delta x}{v}=\dfrac{3.84\cdot 10^{6}\,m}{4\,cm/an}\dfrac{3.84\cdot 10^{6}\,m}{4\cdot 10^{-2}\,m/an}=96.0\cdot 10^{6}\,an=96\,$ million d'années.
@@ -238,15 +244,19 @@ Une étudiante s'est rendue à l'université depuis son domicile et a noté que 
 3. Si elle rentrait chez elle par le même chemin $7h30$ après son départ, quelles étaient sa vitesse moyenne et sa vitesse scalaire moyenne pour tout le trajet ?
 :::{admonition} *réponse*
 :class: dropdown exohomesol
-1. $v_{s\,moy}=\dfrac{12000\,m}{1080\,s}=11.1\,m/s$.
-2. $v_{moy}=\dfrac{10300\,m}{1080\,s}=9.54\,m/s$.
-3. $v_{s\,moy}=\dfrac{12000\,m}{27000\,s}=0.444\,m/s$ et $v_{moy}=\dfrac{0\,m}{27000\,s}=0.0\,m/s$.
+$d=12\,km=1200\,m$ et $t=18.0\,min=1080\,s$
+
+1. $v_{scal_{moy}}=\frac{12000\,m}{1080\,s}=11.1\,m/s$
+3. $v_{moy}=\frac{10300\,m}{1080\,s}=9.54\,m/s$.
+4. $v_{scal_{moy}}=\frac{12000\,m+12000\,m}{27000\,s}=0.444\,m/s$ et\
+   $v_{moy}=\frac{0\,m}{27000\,s}=0.0\,m/s$.
 :::
 ::::
 
 ::::{admonition} Exercice 18
 :class: exohome
-La vitesse de propagation du potentiel d'action (un signal électrique) dans une cellule nerveuse dépend (inversement) du diamètre de l'axone (fibre nerveuse). Si la cellule nerveuse reliant la moelle épinière à vos pieds mesure $1.1\,m$ de long et que la vitesse de l'influx nerveux est de $18\,m/s$, combien de temps faut-il au signal nerveux pour parcourir cette distance ?
+La vitesse de propagation du potentiel d'action (un signal électrique) dans une cellule nerveuse dépend (inversement) du diamètre de l'axone (fibre nerveuse).\
+Si la cellule nerveuse reliant la moelle épinière à vos pieds mesure $1.1\,m$ de long et que la vitesse de l'influx nerveux est de $18\,m/s$, combien de temps faut-il au signal nerveux pour parcourir cette distance ?
 :::{admonition} *réponse*
 :class: dropdown exohomesol
 $t=\dfrac{\Delta x}{v}=\dfrac{1.1\,m}{18\,m/s}=0.061\,s=61\,ms$.
@@ -255,10 +265,13 @@ $t=\dfrac{\Delta x}{v}=\dfrac{1.1\,m}{18\,m/s}=0.061\,s=61\,ms$.
 
 ::::{admonition} Exercice 19
 :class: exohome
-Les conversations avec des astronautes sur la surface lunaire ont été caractérisées par une sorte d'écho dans lequel la voix de la personne terrestre était si forte dans le casque spatial de l'astronaute qu'elle a été captée par le microphone de l'astronaute et transmise à la Terre. Il est raisonnable de supposer que le temps d'écho est égal au temps nécessaire pour que l'onde radio se déplace de la Terre à la Lune et retour (c'est-à-dire en négligeant les retards dans l'équipement électronique). Calculez la distance entre la Terre et la Lune étant donné que le temps d'écho était de $2.56\,s$ et que les ondes radio se déplacent à la vitesse de la lumière ($3\cdot 10^{8}\,m/s$).
+Les conversations avec des astronautes sur la surface lunaire ont été caractérisées par une sorte d'écho dans lequel la voix de la personne terrestre était si forte dans le casque spatial de l'astronaute qu'elle a été captée par le microphone de l'astronaute et transmise à la Terre.\
+Il est raisonnable de supposer que le temps d'écho est égal au temps nécessaire pour que l'onde radio se déplace de la Terre à la Lune et retour (c'est-à-dire en négligeant les retards dans l'équipement électronique).\
+Calculez la distance entre la Terre et la Lune étant donné que le temps d'écho était de $2.56\,s$ et que les ondes radio se déplacent à la vitesse de la lumière ($3\cdot 10^{8}\,m/s$).
 :::{admonition} *réponse*
 :class: dropdown exohomesol
-$\Delta x=v\cdot t=3\cdot 10^{8}\,m/s\cdot 2.56\,s=768\cdot 10^{6}\,m$. $\Delta x$ est la distance pour l'aller-retour, donc $d=\frac{1}{2}\Delta x=384\cdot 10^{6}\,m=384'000\,km$.
+$\Delta x=v\cdot t=3\cdot 10^{8}\,m/s\cdot 2.56\,s=768\cdot 10^{6}\,m=768\cdot 10^{3}\,km$\
+$\Delta x$ est la distance pour l'aller-retour, donc $d=\frac{1}{2}\Delta x=384\cdot 10^{3}\,km=384'000\,km$.
 :::
 ::::
 
@@ -269,8 +282,12 @@ Un joueur de rugby court $15.0\,m$ sur le terrain de jeu en $2.50\,s$. Il est en
 2. pour l'ensemble du mouvement.
 :::{admonition} *réponse*
 :class: dropdown exohomesol
-1. $v_{moy\,1}=\dfrac{15.0\,m}{2.50\,s}=6.00\,m/s$; $v_{moy\,2}=\dfrac{-3.00\,m}{1.75\,s}=-1.71\,m/s$; $v_{moy\,3}=\dfrac{21.0\,m}{5.20\,s}=4.04\,m/s$.
-2. $v_{moy\,tot}=\dfrac{15.0\,m-3.00\,m+21.0\,m}{2.50\,s+1.75\,s+5.20\,s}=\dfrac{33\,m}{9.45\,s}=3.49\,m/s$.
+1. $v_{moy\,1}=\frac{15.0\,m}{2.50\,s}=6.00\,m/s$\
+   $v_{moy\,2}=\frac{-3.00\,m}{1.75\,s}=-1.71\,m/s$\
+   $v_{moy\,3}=\frac{21.0\,m}{5.20\,s}=4.04\,m/s$
+3. $v_{moy\,tot}=\frac{15.0\,m-3.00\,m+21.0\,m}{2.50\,s+1.75\,s+5.20\,s}=\frac{33\,m}{9.45\,s}=3.49\,m/s$.
+
+*Remarque : Comme les intervalles de temps $t_1$, $t_2$ et $t_3$ ne sont pas les mêmes, la vitesse moyenne totale n'est pas égale à la moyenne des vitesses*
 :::
 ::::
 
@@ -281,8 +298,8 @@ Le modèle planétaire de l'atome représente des électrons en orbite autour du
 2. Quelle est la vitesse moyenne de l'électron ?
 :::{admonition} *réponse*
 :class: dropdown exohomesol
-1. Un tour $=2\pi{}\left(\dfrac{\text{diamètre}}{2}\right)=2\pi{}\left(\dfrac{1.06\cdot 10^{-10}\,m}{2}\right)=3.33\cdot 10^{-10}\,m$.\
-   La distance de $2.2\cdot 10^{6}\,m$ (en $1\,s$) correspond à $\dfrac{2.2\cdot 10^{6}\,m}{3.33\cdot 10^{-10}\,m}=6.6\cdot 10^{15}\,\text{tours}$.\
+1. Un tour $=2\pi(\text{rayon})=2\pi{}\left(\frac{\text{diamètre}}{2}\right)=2\pi{}\left(\frac{1.06\cdot 10^{-10}\,m}{2}\right)=3.33\cdot 10^{-10}\,m$.\
+   La distance de $2.2\cdot 10^{6}\,m$ (en $1\,s$) correspond à $\frac{2.2\cdot 10^{6}\,m}{3.33\cdot 10^{-10}\,m}=6.6\cdot 10^{15}\,\text{tours}$.\
    La vitesse est donc de $6.6\cdot 10^{15}\,\text{tours}/s$.
 
 2. Le déplacement étant nul sur une révolution, la vitesse moyenne est nulle.

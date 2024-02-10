@@ -112,4 +112,4 @@ parts:
     - file: Annexes/annexe # Annexes 
       sections:
       - file: Annexes/MyST_Cheat # MySt Cheat Sheet
-      
+      - file: Annexes/GitHub_Pages
