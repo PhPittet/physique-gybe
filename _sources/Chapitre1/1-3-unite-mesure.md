@@ -24,15 +24,15 @@ Pour mesurer le monde qui nous entoure, nous avons besoin que de `sept unités` 
      - Symbole
 *    - Distance
      - $x$, $\Delta$$x$, $d$, $h$, $l$
-     - **mètre**
+     - mètre
      - $[m]$
 *    - Temps
      - $t$, $\Delta$$t$
-     - **seconde**
+     - seconde
      - $[s]$
 *    - Masse
      - $m$, $M$
-     - **kilogramme**
+     - kilogramme
      - $[kg]$
 *    - Courant électrique
      - $i$, $I$
@@ -52,7 +52,7 @@ Pour mesurer le monde qui nous entoure, nous avons besoin que de `sept unités` 
      - $[cd]$
 :::
 
-Lors d'une prise de mesure, ou pour communiquer un résultat, on peut utiliser l'unité que l'on souhaite, celle qui nous semble la plus adéquate. Par contre, **chaque fois qu'une grandeur est utilisée dans une formule physique, il faut impérativement utiliser l'unité de base de cette grandeur physique** Cette unité est reconnue internationalement par le système international d'unité (SI).
+Lors d'une prise de mesure, ou pour communiquer un résultat, on peut utiliser l'unité que l'on souhaite, celle qui nous semble la plus adéquate. Par contre, **chaque fois qu'une grandeur est utilisée dans une formule physique, il faut impérativement utiliser l'unité de base de cette grandeur physique**. Cette unité est reconnue internationalement par le système international d'unité (SI).
 
 La {numref}`unite1M` ci-dessous présente toutes les grandeurs physiques qui seront utilisées dans le cours de cette année ainsi que leur unité de référence.
 
@@ -124,7 +124,7 @@ Par exemple : $1$ litre d'eau $\equiv 1\,kg$.
 
 ## Définition des unités de temps, de longueur et de masse
 
-### La seconde
+### Unité de temps
 L'unité SI pour le temps, `la seconde` (abrégé $s$), a une longue histoire.\
 Pendant de nombreuses années, elle a été définie comme $1/86'400$ d'un jour solaire moyen. Plus récemment, une nouvelle norme a été adoptée pour gagner en précision et définir la seconde en termes de phénomène physique constant (car la journée solaire s'allonge en raison du ralentissement très progressif de la rotation de la Terre).
 
@@ -132,15 +132,13 @@ Les atomes de césium peuvent être amenés à vibrer d'une manière très régu
 
 La précision des unités fondamentales est essentielle, car toutes les mesures sont finalement exprimées en termes d'unités fondamentales et ne peuvent être plus précises que les unités fondamentales elles-mêmes.
 
-### Le mètre
-
+### Unité de longueur
 L'unité SI pour la longueur est `le mètre` (abrégé $m$).\
 Sa définition a également changé au fil du temps pour devenir de plus en plus précise. Le mètre a été défini pour la première fois en 1791 comme $1/10'000'000$ de la distance entre l'équateur et le pôle Nord. Cette mesure a été améliorée en 1889 en redéfinissant le mètre pour être la distance entre deux lignes gravées sur une barre de platine-iridium maintenant conservée près de Paris. En 1960, il était devenu possible de définir le mètre avec encore plus de précision en termes de longueur d'onde de la lumière, il a donc été redéfini à $1'650'763.73$ longueurs d'onde de lumière orange émise par les atomes de krypton.
 
 En 1983, le mètre a reçu sa définition actuelle (en partie pour une plus grande précision) par la distance parcourue par la lumière dans le vide en $1/299'792'458$ de seconde. Ce changement définit la vitesse de la lumière à exactement $299'792'458$ mètres par seconde. La longueur du mètre changera si la vitesse de la lumière est un jour mesurée avec une plus grande précision.
 
-### Le kilogramme
-
+### Unité de masse
 L'unité SI pour la masse est `le kilogramme` (abrégé $kg$).\
 Il était précédemment défini comme étant la masse d'un cylindre en platine-iridium conservé avec l'ancien étalon du compteur au Bureau international des poids et mesures près de Paris. Des répliques exactes du kilogramme précédemment définie sont également conservées au bureau international des poids et mesures ([BIPM](https://www.bipm.org/fr/home)) à Paris, et à d'autres endroits dans le monde. La détermination de toutes les autres masses pourrait être finalement attribuée à une comparaison avec la masse standard. Même si le cylindre en platine-iridium était résistant à la corrosion, les contaminants en suspension dans l'air ont pu adhérer à sa surface, modifiant légèrement sa masse au fil du temps.
 
@@ -256,7 +254,7 @@ Pour passer d'une vitesse exprimée en $km/h$ vers les $m/s$ (ou inversement) :
 ::::{admonition} Transformer les heures en minutes et secondes
 :class: astuce
 **Rappel :**\
-La conversion de $heures$ ($h$) en $minutes$ ($min$) et $secondes$ ($s$) est un peu différente, puisque :
+La conversion des $heures$ ($h$) en $minutes$ ($min$) et $secondes$ ($s$) est un peu différente, puisque :
 :::{math}
 1\,min=60\,s\\
 1 \,h=60\,min=3600\,s

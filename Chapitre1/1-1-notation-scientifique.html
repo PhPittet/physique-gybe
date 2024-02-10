@@ -531,6 +531,11 @@ document.write(`
 \[a\cdot 10^{3n}\]</div>
 <p>avec : <span class="math notranslate nohighlight">\(1\leq a&lt; 1000\)</span> et <span class="math notranslate nohighlight">\(n\)</span> un nombre entier (<span class="math notranslate nohighlight">\(n\in\mathbb{Z}\)</span>)</p>
 </div>
+<p>La notation d’ingénieur est largement utilisée par les scientifiques, en raison de l’utilisation du multiple de <span class="math notranslate nohighlight">\(3\)</span> pour l’exposant, ce qui facilite les mesures et les changements d’unités dans le système métrique international. On représente ainsi les nombres en utilisant l’unité de base et ses sous-multiples de puissance de <span class="math notranslate nohighlight">\(3\)</span>. Si l’unité de base est le mètre, un ingénieur représentera le résultat de sa mesure selon les règles de la notation :</p>
+<ul class="simple">
+<li><p>soit en <em>mètres</em></p></li>
+<li><p>soit, si la valeur est petite ou très petite, en utilisant soit <span class="math notranslate nohighlight">\(\cdot 10^{-3}\)</span> pour les <em>millimètres</em>, soit <span class="math notranslate nohighlight">\(\cdot 10^{-6}\)</span> pour les <em>micromètres</em> ou encore, si la valeur est grande, <span class="math notranslate nohighlight">\(\cdot 10^{3}\)</span> pour les <em>kilomètres</em>.</p></li>
+</ul>
 <div class="exores admonition">
 <p class="admonition-title">Exemples de notations</p>
 <ol class="arabic simple">
@@ -548,14 +553,23 @@ En notation d’ingénieur : <span class="math notranslate nohighlight">\(0.000 
 <li><p>Le nombre <span class="math notranslate nohighlight">\(3.205\cdot 10^{6}\)</span> est en notation scientifique et en notation d’ingénieur.</p></li>
 </ol>
 </div>
-<p>La notation d’ingénieur est largement utilisée par les scientifiques, en raison de l’utilisation du multiple de <span class="math notranslate nohighlight">\(3\)</span> pour l’exposant, ce qui facilite les mesures et les changements d’unités dans le système métrique international. On représente ainsi les nombres en utilisant l’unité de base et ses sous-multiples de puissance de <span class="math notranslate nohighlight">\(3\)</span>. Si l’unité de base est le mètre, un ingénieur représentera le résultat de sa mesure selon les règles de la notation :</p>
-<ul class="simple">
-<li><p>soit en <em>mètres</em></p></li>
-<li><p>soit, si la valeur est petite ou très petite, en utilisant soit <span class="math notranslate nohighlight">\(\cdot 10^{-3}\)</span> pour les <em>millimètres</em>, soit <span class="math notranslate nohighlight">\(\cdot 10^{-6}\)</span> pour les <em>micromètres</em> ou encore, si la valeur est grande, <span class="math notranslate nohighlight">\(\cdot 10^{3}\)</span> pour les <em>kilomètres</em>.</p></li>
-</ul>
-<div class="exores dropdown admonition">
+<div class="exores admonition">
 <p class="admonition-title">Exemple de calcul</p>
-<p><span class="math notranslate nohighlight">\(\dfrac{0,00072\cdot 8500}{0,012\cdot 300000}=\dfrac{7,2\cdot 10^{-4}\cdot 8,5\cdot 10^{3}}{1,2\cdot 10^{-2}\cdot 3,0\cdot 10^{5}}=\dfrac{7,2\cdot 8,5}{1,2\cdot 3,0}\cdot \dfrac{10^{-4}\cdot 10^{3}}{10^{-2}\cdot 10^{5}}=17\cdot 10^{-4}=1,7\cdot 10^{-3}\)</span></p>
+<p>Donner la réponse à ce calcul en notation scientifique :</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{0,00072\cdot 8500}{0,012\cdot 300000}\]</div>
+<div class="dropdown solution admonition">
+<p class="admonition-title"><em>solution</em></p>
+<p>En notation scientifique, on obtient :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{align*}
+\dfrac{0,00072\cdot 8500}{0,012\cdot 300000} =\dfrac{7,2\cdot 10^{-4}\cdot 8,5\cdot 10^{3}}{1,2\cdot 10^{-2}\cdot 3,0\cdot 10^{5}} &amp; =\dfrac{7,2\cdot 8,5}{1,2\cdot 3,0}\cdot \dfrac{10^{-4}\cdot 10^{3}}{10^{-2}\cdot 10^{5}}\\
+ &amp; =\dfrac{61.2}{3.6}\cdot\dfrac{10^{-4+3}}{10^{-2+5}}\\
+ &amp; =17\cdot 10^{(-1)-3}\\
+ &amp; =17\cdot 10^{-4}\\
+ &amp; =1.7\cdot 10^{-3}
+\end{align*}\end{split}\]</div>
+</div>
 </div>
 <div class="surcalculatrice admonition">
 <p class="admonition-title">Sur la calculatrice</p>
@@ -594,7 +608,7 @@ La fonction <code class="docutils literal notranslate"><span class="pre">FLO</sp
 <li><p><span class="math notranslate nohighlight">\(6'000=6\cdot 10^3\)</span> est plus proche de <span class="math notranslate nohighlight">\(10'000=1\cdot 10^4\)</span> que de <span class="math notranslate nohighlight">\(1'000=1\cdot 10^3\)</span>. Son ordre de grandeur est donc <span class="math notranslate nohighlight">\(10^4\)</span></p></li>
 </ol>
 </div>
-<div class="dropdown exores admonition">
+<div class="exores admonition">
 <p class="admonition-title">Exemples d’ordre de grandeur</p>
 <ol class="arabic simple">
 <li><p>L’ordre de grandeur de <span class="math notranslate nohighlight">\(4.96\cdot 10^{6}\)</span> est <span class="math notranslate nohighlight">\(10^{6}\)</span></p></li>
