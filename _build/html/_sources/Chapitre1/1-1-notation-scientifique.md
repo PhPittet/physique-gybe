@@ -34,6 +34,12 @@ a\cdot 10^{3n}
 avec : $1\leq a< 1000$ et $n$ un nombre entier ($n\in\mathbb{Z}$)
 ::::
 
+La notation d'ingénieur est largement utilisée par les scientifiques, en raison de l'utilisation du multiple de $3$ pour l'exposant, ce qui facilite les mesures et les changements d'unités dans le système métrique international. On représente ainsi les nombres en utilisant l'unité de base et ses sous-multiples de puissance de $3$. Si l'unité de base est le mètre, un ingénieur représentera le résultat de sa mesure selon les règles de la notation :
+
+- soit en *mètres*
+
+- soit, si la valeur est petite ou très petite, en utilisant soit $\cdot 10^{-3}$ pour les *millimètres*, soit $\cdot 10^{-6}$ pour les *micromètres* ou encore, si la valeur est grande, $\cdot 10^{3}$ pour les *kilomètres*.
+
 :::{admonition} Exemples de notations
 :class: exores
 1.  Pour écrire $47'800'000.0$ en notation scientifique, il faut mettre la virgule après le premier chiffre du nombre et donc la déplacer, vers la gauche, de 7 positions.\
@@ -57,16 +63,26 @@ avec : $1\leq a< 1000$ et $n$ un nombre entier ($n\in\mathbb{Z}$)
 12.  Le nombre $3.205\cdot 10^{6}$ est en notation scientifique et en notation d'ingénieur.
 :::
 
-La notation d'ingénieur est largement utilisée par les scientifiques, en raison de l'utilisation du multiple de $3$ pour l'exposant, ce qui facilite les mesures et les changements d'unités dans le système métrique international. On représente ainsi les nombres en utilisant l'unité de base et ses sous-multiples de puissance de $3$. Si l'unité de base est le mètre, un ingénieur représentera le résultat de sa mesure selon les règles de la notation :
-
-- soit en *mètres*
-
-- soit, si la valeur est petite ou très petite, en utilisant soit $\cdot 10^{-3}$ pour les *millimètres*, soit $\cdot 10^{-6}$ pour les *micromètres* ou encore, si la valeur est grande, $\cdot 10^{3}$ pour les *kilomètres*.
-
-:::{admonition} Exemple de calcul
-:class: exores dropdown
-$\dfrac{0,00072\cdot 8500}{0,012\cdot 300000}=\dfrac{7,2\cdot 10^{-4}\cdot 8,5\cdot 10^{3}}{1,2\cdot 10^{-2}\cdot 3,0\cdot 10^{5}}=\dfrac{7,2\cdot 8,5}{1,2\cdot 3,0}\cdot \dfrac{10^{-4}\cdot 10^{3}}{10^{-2}\cdot 10^{5}}=17\cdot 10^{-4}=1,7\cdot 10^{-3}$
+:::::{admonition} Exemple de calcul
+:class: exores
+Donner la réponse à ce calcul en notation scientifique :
+:::{math}
+\dfrac{0,00072\cdot 8500}{0,012\cdot 300000}
 :::
+::::{admonition} *solution*
+:class: dropdown solution
+En notation scientifique, on obtient :
+:::{math}
+\begin{align*}
+\dfrac{0,00072\cdot 8500}{0,012\cdot 300000} =\dfrac{7,2\cdot 10^{-4}\cdot 8,5\cdot 10^{3}}{1,2\cdot 10^{-2}\cdot 3,0\cdot 10^{5}} & =\dfrac{7,2\cdot 8,5}{1,2\cdot 3,0}\cdot \dfrac{10^{-4}\cdot 10^{3}}{10^{-2}\cdot 10^{5}}\\
+ & =\dfrac{61.2}{3.6}\cdot\dfrac{10^{-4+3}}{10^{-2+5}}\\
+ & =17\cdot 10^{(-1)-3}\\
+ & =17\cdot 10^{-4}\\
+ & =1.7\cdot 10^{-3}
+\end{align*}
+:::
+::::
+:::::
 
 :::{admonition} Sur la calculatrice
 :class: surcalculatrice
@@ -112,7 +128,7 @@ Application :
 :::
 
 :::{admonition} Exemples d'ordre de grandeur
-:class: dropdown exores
+:class: exores
 1.  L'ordre de grandeur de $4.96\cdot 10^{6}$ est $10^{6}$
 
 2.  L'ordre de grandeur de $7.34\cdot 10^{4}$ est $10^{5}$
