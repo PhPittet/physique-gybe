@@ -14,8 +14,8 @@
   --exores-border-color: rgba(119,165,246,1);
   --qcm-title-color: rgba(255,91,148,.1);
   --qcm-border-color: rgba(255,91,148,1);
-  --qcmreponse-title-color: rgba(255,91,148,.04);
-  --qcmreponse-border-color: rgba(255,91,148,.4);
+  --qcmreponse-title-color: rgba(255,91,148,.06);
+  --qcmreponse-border-color: rgba(255,91,148,.6);
   --qcmdiscussion-title-color: rgba(255,142,238,.1);
   --qcmdiscussion-border-color: rgba(255,142,238,1);
 }

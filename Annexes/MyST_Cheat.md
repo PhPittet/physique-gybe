@@ -4,7 +4,6 @@
 ## Notes Personalisées (Admonitions)
 ### Pour le corps de texte
 #### Formule
-
 ::::{admonition} Titre_Formule
 :class: formule
 Formule
@@ -18,7 +17,6 @@ Formule
 ````
 
 #### Sur la calculatrice
-
 :::{admonition} Sur la calculatrice
 :class: surcalculatrice
 Info sur les calculatrices (class: surcalculatrice)
@@ -32,7 +30,6 @@ Info sur les calculatrices (class: surcalculatrice)
 ````
 
 #### Astuce
-
 :::{admonition} Astuce
 :class: astuce
 et_trucs
@@ -46,7 +43,6 @@ et_trucs
 ````
 
 #### Objectif pédagogique
-
 :::{admonition} Objectifs d'apprentissage
 :class: objped
 À la fin de cette section, vous pourrez :
@@ -66,7 +62,6 @@ et_trucs
 ````
 
 #### Plus d'infos
-
 :::{admonition} Pour plus d'informations
 :class: dropdown weblink
 Quelques liens utiles sur le même sujet :
@@ -84,7 +79,6 @@ Quelques liens utiles sur le même sujet :
 ````
 
 #### YouTube
-
 :::{admonition} YouTube
 :class: dropdown admonition-youtube
 Quelques liens de vidéo utiles sur le même sujet :
@@ -114,7 +108,6 @@ Quelques liens de vidéo utiles sur le même sujet :
 ````
 
 #### Simulation PhET
-
 :::{admonition} P*h*ET simulation
 :class: dropdown simulation
 **Titre_de_la_simulation**
@@ -138,7 +131,6 @@ Quelques liens de vidéo utiles sur le même sujet :
 (chap:MySTexo)=
 ### Pour les exercices & questions
 #### Exercices
-
 ::::{admonition} Exercice N
 :class: exohome
 Exercice
@@ -160,7 +152,6 @@ Solution
 ````
 
 #### Questions conceptuelles
-
 ::::{admonition} Questions N
 :class: question
 Question
@@ -181,9 +172,91 @@ Réponse
 ::::
 ````
 
+### QCM
+::::::::::{admonition} QCM 1
+:class: qcm
+Question
+1. Choix_1
+2. Choix_2
+3. Choix_3
+4. Choix_4
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
+
+
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+❌ Non !
+::::
+
+::::{tab-item} Réponse 2.
+❌ Non !
+::::
+
+::::{tab-item} Réponse 3.
+✅ Oui, c'est correct !
+::::
+
+::::{tab-item} Réponse 4.
+❌ Non !
+::::
+:::::
+:::::::::
+:::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+Discussion
+:::
+::::::::::
+
+```none
+::::::::::{admonition} QCM 
+:class: qcm
+Question
+1. Choix_1
+2. Choix_2
+3. Choix_3
+4. Choix_4
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
+
+
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+❌ Non !
+::::
+
+::::{tab-item} Réponse 2.
+❌ Non !
+::::
+
+::::{tab-item} Réponse 3.
+✅ Oui, c'est correct !
+::::
+
+::::{tab-item} Réponse 4.
+❌ Non !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+Discussion
+::::
+::::::::::
+```
+
+
+
 ### Exemple avec solution
 #### Simple Solution
-
 ::::{admonition} Exemple N
 :class: exores
 Exercice
@@ -205,7 +278,6 @@ Solution
 ````
 
 #### Avec stratégie
-
 :::::{admonition} Exemple_résolution
 :class: exores
 Exercice
@@ -243,7 +315,6 @@ Discussion
 ````
 
 ### Choix en  ligne
-
 :::::{tab-set}
 ::::{tab-item} Truc N°1
 blabla pour le truc 1
@@ -268,7 +339,6 @@ bloblo pour le truc 2
 
 (chap:MySTnotes)=
 ## Notes de base
-
 ::::::{tab-set}
 
 :::::{tab-item} Note
@@ -343,7 +413,6 @@ Dropdown content
 
 (chap:MySTfigures)=
 ## Figures
-
 :::{figure} figures/TestPNG.png
 :name: TestPNG
 :align: center
@@ -474,7 +543,6 @@ ou encore :
 
 (chap:MySTlistes)=
 ## Listes particulières
-
 Term *with Markdown*
 : Definition [with reference](https://myst-parser.readthedocs.io/en/latest/configuration.html)
 
