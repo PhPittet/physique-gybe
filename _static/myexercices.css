@@ -12,6 +12,12 @@
   --questionsol-border-color: rgba(255,160,142,.4);
   --exores-title-color: rgba(119,165,246,.1);
   --exores-border-color: rgba(119,165,246,1);
+  --qcm-title-color: rgba(255,91,148,.1);
+  --qcm-border-color: rgba(255,91,148,1);
+  --qcmreponse-title-color: rgba(255,91,148,.04);
+  --qcmreponse-border-color: rgba(255,91,148,.4);
+  --qcmdiscussion-title-color: rgba(255,142,238,.1);
+  --qcmdiscussion-border-color: rgba(255,142,238,1);
 }
 
 /*********************************************
@@ -67,6 +73,47 @@ div.admonition.questionsol > .admonition-title {
 div.admonition.questionsol > .admonition-title:after {
   color: var(--questionsol-border-color);
   content: "\f00c"; /* fa-solid check  */
+}
+
+
+/*********************************************
+* Questions a Choix Multiples *
+*********************************************/
+div.admonition.qcm {
+  border-color: var(--qcm-border-color);
+}
+div.admonition.qcm > .admonition-title {
+  background-color: var(--qcm-title-color);
+}
+div.admonition.qcm > .admonition-title:after {
+  color: var(--qcm-border-color);
+  content: "\f4ad"; /* fa-solid fa-comment-dots  */
+}
+/*********************************************
+* Réponse - QCM *
+*********************************************/
+div.admonition.qcmreponse {
+  border-color: var(--qcmreponse-border-color);
+}
+div.admonition.qcmreponse > .admonition-title {
+  background-color: var(--qcmreponse-title-color);
+}
+div.admonition.qcmreponse > .admonition-title:after {
+  color: var(--qcmreponse-border-color);
+  content: "\f00c"; /* fa-solid check  */
+}
+/*********************************************
+* Discussion - QCM *
+*********************************************/
+div.admonition.qcmdiscussion {
+  border-color: var(--qcmdiscussion-border-color);
+}
+div.admonition.qcmdiscussion > .admonition-title {
+  background-color: var(--qcmdiscussion-title-color);
+}
+div.admonition.qcmdiscussion > .admonition-title:after {
+  color: var(--qcmdiscussion-border-color);
+  content: "\f086"; /* fa-solid comment */
 }
 
 
