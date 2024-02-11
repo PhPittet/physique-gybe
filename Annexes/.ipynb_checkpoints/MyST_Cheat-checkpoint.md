@@ -190,19 +190,19 @@ Question
 
 ::::
 ::::{tab-item} Réponse 1.
-❌ Non !
+✅ Bonne réponse !
 ::::
 
 ::::{tab-item} Réponse 2.
-❌ Non !
+❌ Mauvaise réponse !
 ::::
 
 ::::{tab-item} Réponse 3.
-✅ Oui, c'est correct !
+❌ Mauvaise réponse !
 ::::
 
 ::::{tab-item} Réponse 4.
-❌ Non !
+❌ Mauvaise réponse !
 ::::
 :::::
 :::::::::
@@ -230,19 +230,19 @@ Question
 
 ::::
 ::::{tab-item} Réponse 1.
-❌ Non !
+✅ Bonne réponse !
 ::::
 
 ::::{tab-item} Réponse 2.
-❌ Non !
+❌ Mauvaise réponse !
 ::::
 
 ::::{tab-item} Réponse 3.
-✅ Oui, c'est correct !
+❌ Mauvaise réponse !
 ::::
 
 ::::{tab-item} Réponse 4.
-❌ Non !
+❌ Mauvaise réponse !
 ::::
 :::::
 :::::::::
