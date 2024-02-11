@@ -12,7 +12,7 @@ parts:
       - file: 1M/Rappel_Math/0-1-equations
       - file: 1M/Rappel_Math/0-2-vecteurs
       - file: 1M/Rappel_Math/0-3-incertitudes
-  - caption: Physique 1M
+  - caption: Physique 1M #-----------------------------------------------------------------------------------PHYSIQUE-1M------------
     numbered: 2
     chapters:
     - file: 1M/Notation_Sci/lecon1 # Notation scientifique & Unités de mesures
@@ -107,10 +107,23 @@ parts:
       - file: 1M/Strategie_Res/10-1-StrategieRes
       - file: 1M/Strategie_Res/10-2-Applications
       - file: 1M/Strategie_Res/10-resume
-  - caption: Annexes
+  - caption: Physique 2M #-----------------------------------------------------------------------------------PHYSIQUE-2M------------
+    numbered: 2
+    chapters:
+    - file: 2M/Magnetisme/lecon13 # Magnetisme
+      sections:
+      - file: 2M/Magnetisme/13-1-intro
+      - file: 2M/Magnetisme/13-2-aimants
+      - file: 2M/Magnetisme/13-3-electroaimants
+      - file: 2M/Magnetisme/13-4-champs_magn
+      - file: 2M/Magnetisme/13-5-Lorentz
+      - file: 2M/Magnetisme/13-6-Effet_Hall
+#      - file: 2M/Magnetisme/13-7-Laplace
+  - caption: Annexes #--------------------------------------------------------------------------------------ANNEXES---------------
     numbered: 2
     chapters:
     - file: Annexes/annexe # Annexes 
       sections:
       - file: Annexes/MyST_Cheat # MySt Cheat Sheet
       - file: Annexes/GitHub_Pages
+      
