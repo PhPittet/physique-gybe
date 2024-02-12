@@ -1,12 +1,12 @@
 # Questions conceptuelles
 
-### 22.1 Aimants
+## 22.1 Aimants
 
 1\.
 
 L'activité volcanique et d'autres activités de ce type sur la dorsale médio-atlantique extrudent de la matière pour combler l'espace entre les plaques tectoniques qui se séparent et qui sont associées à la dérive des continents. On constate que l'aimantation des roches s'inverse de manière coordonnée avec la distance de la dorsale. Qu'est-ce que cela implique sur le champ magnétique terrestre et comment la connaissance de la vitesse d'étalement pourrait-elle être utilisée pour donner son enregistrement historique ?
 
-### 22.3 Champs magnétiques et lignes de champ magnétique
+## 22.3 Champs magnétiques et lignes de champ magnétique
 
 2\.
 
@@ -24,13 +24,13 @@ En notant que les lignes de champ magnétique d'un barreau magnétique ressemble
 
 Le champ magnétique terrestre est-il parallèle au sol à tous les endroits ? Si ce n'est pas le cas, où est-il parallèle à la surface ? Sa force est-elle la même sur tous les sites ? Si ce n'est pas le cas, où est-il le plus grand ?
 
-### 22.4 Intensité du champ magnétique : force exercée sur une charge en mouvement dans un champ magnétique
+## 22.4 Intensité du champ magnétique : force exercée sur une charge en mouvement dans un champ magnétique
 
 6\.
 
 Si une particule chargée se déplace en ligne droite dans une région de l'espace, pouvez-vous dire que le champ magnétique dans cette région est nécessairement nul ?
 
-### 22.5 Force sur une charge en mouvement dans un champ magnétique : exemples et applications
+## 22.5 Force sur une charge en mouvement dans un champ magnétique : exemples et applications
 
 7\.
 
@@ -68,13 +68,13 @@ Laquelle des particules de la [Figure 22.44] a la plus grande masse, en supposan
 
 Pendant le fonctionnement, un écran de télévision de haute précision est placé sur le côté pendant la maintenance. L'image sur l'écran change de couleur et s'estompe légèrement. Discutez de la relation possible entre ces effets et le champ magnétique terrestre.
 
-### 22.6 L'effet Hall
+## 22.6 L'effet Hall
 
 14\.
 
 Discutez de la façon dont l'effet Hall pourrait être utilisé pour obtenir des informations sur la densité de charge libre dans un conducteur. (Astuce : Considérez comment la vitesse de dérive et le courant sont liés.)
 
-### 22.7 Force magnétique sur un conducteur porteur de courant
+## 22.7 Force magnétique sur un conducteur porteur de courant
 
 15\.
 
@@ -92,19 +92,19 @@ Pourquoi un entraînement magnétohydrodynamique fonctionnerait-il mieux dans l'
 
 Qu'est-ce qui est le plus susceptible d'interférer avec les lectures de la boussole, le courant alternatif dans votre réfrigérateur ou le courant continu lorsque vous démarrez votre voiture ? Expliquer.
 
-### 22.8 Couple sur une boucle de courant : moteurs et compteurs
+## 22.8 Couple sur une boucle de courant : moteurs et compteurs
 
 19\.
 
 Dessinez un diagramme et utilisez RHR-1 pour montrer que les forces exercées sur les segments supérieur et inférieur de la boucle de courant du moteur dans [Figure 22.33] sont verticales et ne produisent aucun couple autour de l'axe de rotation.
 
-### 22.9 Champs magnétiques produits par les courants : loi d'Ampère
+## 22.9 Champs magnétiques produits par les courants : loi d'Ampère
 
 20\.
 
 Faites un dessin et utilisez RHR-2 pour trouver la direction du champ magnétique d'une boucle de courant dans un moteur (comme dans [Figure 22.33]). Montrez ensuite que la direction du couple sur la boucle est la même que celle produite par des pôles similaires qui se repoussent et des pôles différents qui s'attirent.
 
-### 22.10 Force magnétique entre deux conducteurs parallèles
+## 22.10 Force magnétique entre deux conducteurs parallèles
 
 21\.
 
@@ -138,7 +138,7 @@ Si l'une des boucles de la [Figure 22.46] est légèrement inclinée par rapport
 
 Les lignes de champ électrique peuvent être protégées par l'effet cage de Faraday. Peut-on avoir un blindage magnétique ? Peut-on avoir un blindage gravitationnel ?
 
-### 22.11 Autres applications du magnétisme
+## 22.11 Autres applications du magnétisme
 
 27\.
 

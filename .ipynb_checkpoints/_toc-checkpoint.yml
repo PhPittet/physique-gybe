@@ -118,12 +118,18 @@ parts:
       - file: 2M/Magnetisme/13-4-champs_magn
       - file: 2M/Magnetisme/13-5-Lorentz
       - file: 2M/Magnetisme/13-6-Effet_Hall
-#      - file: 2M/Magnetisme/13-7-Laplace
-  - caption: Annexes #--------------------------------------------------------------------------------------ANNEXES---------------
-    numbered: 2
-    chapters:
-    - file: Annexes/annexe # Annexes 
-      sections:
-      - file: Annexes/MyST_Cheat # MySt Cheat Sheet
-      - file: Annexes/GitHub_Pages
+      - file: 2M/Magnetisme/13-7-Laplace
+#      - file: 2M/Magnetisme/13-8-ampere
+#      - file: 2M/Magnetisme/13-9-moteurs
+#      - file: 2M/Magnetisme/13-questions
+#      - file: 2M/Magnetisme/13-exercices
+      - file: 2M/Magnetisme/13-resume
+      - file: 2M/Magnetisme/13-glossaire
+#  - caption: Annexes #--------------------------------------------------------------------------------------ANNEXES---------------
+#    numbered: 2
+#    chapters:
+#    - file: Annexes/annexe # Annexes 
+#      sections:
+#      - file: Annexes/MyST_Cheat # MySt Cheat Sheet
+#      - file: Annexes/GitHub_Pages
       

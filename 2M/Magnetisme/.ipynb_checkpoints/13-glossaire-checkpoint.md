@@ -62,15 +62,15 @@ lignes de champ magnétique
 
 Intensité du champ magnétique (magnitude) produit par un long fil droit porteur de courant
 
-: $B = \frac{\mu_{0}I}{2\pi r}$, où $I$ est le courant, $r$ est la distance la plus courte au fil et $\mu_{0}$ est la perméabilité de l'espace libre
+: $B = \dfrac{\mu_{0}I}{2\pi r}$, où $I$ est le courant, $r$ est la distance la plus courte au fil et $\mu_{0}$ est la perméabilité de l'espace libre
 
 Intensité du champ magnétique au centre d'une boucle circulaire
 
-: $B = \frac{\mu_{0}I}{2R}$ où $R$ est le rayon de la boucle
+: $B = \dfrac{\mu_{0}I}{2R}$ où $R$ est le rayon de la boucle
 
 Intensité du champ magnétique à l'intérieur d'un solénoïde
 
-: $B = \mu_{0}nI$ où $n$ est le nombre de boucles par unité de longueur du solénoïde $(n = N/l$, $N$ étant le nombre de boucles et $l$ la longueur)
+: $B = \mu_{0}nI$ où $n$ est le nombre de boucles par unité de longueur du solénoïde $(n = N/L$, $N$ étant le nombre de boucles et $L$ la longueur)
 
 force magnétique
 

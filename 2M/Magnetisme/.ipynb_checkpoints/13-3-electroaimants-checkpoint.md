@@ -1,3 +1,4 @@
+(chap:electroaimants)=
 # Ferroaimants et électroaimants
 
 ## Ferromagnétisme

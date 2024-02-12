@@ -1,6 +1,6 @@
-## 22.8 Couple sur une boucle de courant : moteurs et compteurs
+# 22.8 Couple sur une boucle de courant : moteurs et compteurs
 
-### Objectifs d'apprentissage
+## Objectifs d'apprentissage
 
 À la fin de cette section, vous serez en mesure de :
 
@@ -37,17 +37,17 @@ $\tau = \text{NIAB}\ \text{sin}\ \theta.$
 
 Il s'agit du couple sur une boucle porteuse de courant dans un champ magnétique uniforme. On peut montrer que cette équation est valide pour une boucle de n'importe quelle forme. La boucle porte un courant $I$, a $N$ tours, chacun d'aire $A$, et la perpendiculaire à la boucle fait un angle $\theta$ avec le champ $B$. La force nette sur la boucle est nulle.
 
-### Exemple 22.5 {#example-22.5 . Titre3Gris}
+## Exemple 22.5 {#example-22.5 . Titre3Gris}
 
-#### Calcul du couple sur une boucle porteuse de courant dans un champ magnétique puissant {#calculating-couple-sur-une-boucle-porte-courant-dans-un-champ-magnétique-fort . Titre4Gris}
+### Calcul du couple sur une boucle porteuse de courant dans un champ magnétique puissant {#calculating-couple-sur-une-boucle-porte-courant-dans-un-champ-magnétique-fort . Titre4Gris}
 
 Trouvez le couple maximal sur une boucle carrée de 100 tours d'un fil de 10,0 cm sur un côté qui transporte 15,0 A de courant dans un champ de 2,00 T.
 
-#### Stratégie {#strategy . Titre4Gris}
+### Stratégie {#strategy . Titre4Gris}
 
 Le couple sur la boucle peut être trouvé en utilisant $\tau = \text{NIAB}\ \text{sin}\ \theta$. Le couple maximal se produit lorsque $\theta = \text{90º}$ et $\text{sin}\ \theta = 1$.
 
-#### Solution {#solution . Titre4Gris}
+### Solution {#solution . Titre4Gris}
 
 Pour $\text{sin}\ \theta = 1$, le couple maximal est
 
@@ -61,7 +61,7 @@ La saisie de valeurs connues donne des résultats
 
 22.23
 
-#### Discussion {#discussion . Titre4Gris}
+### Discussion {#discussion . Titre4Gris}
 
 Ce couple est suffisamment important pour être utile dans un moteur.
 

@@ -76,7 +76,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = '2M/Magnetisme/13-6-Effet_Hall';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="12. Annexes" href="../../Annexes/annexe.html" />
+    <link rel="next" title="11.7. Force magnétique sur un conducteur porteur de courant" href="13-7-Laplace.html" />
     <link rel="prev" title="11.5. Force sur une charge en mouvement dans un champ magnétique" href="13-5-Lorentz.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -296,14 +296,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="13-4-champs_magn.html">11.4. Champs magnétiques et lignes de champ magnétique</a></li>
 <li class="toctree-l2"><a class="reference internal" href="13-5-Lorentz.html">11.5. Force sur une charge en mouvement dans un champ magnétique</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">11.6. L’effet Hall</a></li>
-</ul>
-</li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Annexes</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../Annexes/annexe.html">12. Annexes</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-13"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Annexes/MyST_Cheat.html">12.1. MyST Cheat sheet</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Annexes/GitHub_Pages.html">12.2. GitHub Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13-7-Laplace.html">11.7. Force magnétique sur un conducteur porteur de courant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13-resume.html">11.8. Résumé de la section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13-glossaire.html">11.9. Glossaire</a></li>
 </ul>
 </li>
 </ul>
@@ -504,42 +499,42 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="l-effet-hall">
-<h1><span class="section-number">11.6. </span>L’effet Hall<a class="headerlink" href="#l-effet-hall" title="Permalink to this heading">#</a></h1>
+<span id="chap-effet-hall"></span><h1><span class="section-number">11.6. </span>L’effet Hall<a class="headerlink" href="#l-effet-hall" title="Permalink to this heading">#</a></h1>
 <p>Nous avons vu les effets d’un champ magnétique sur les charges en mouvement libre. Le champ magnétique affecte également les charges se déplaçant dans un conducteur. L’un des résultats est l’effet Hall, qui a des implications et des applications importantes.</p>
-<p>La figure 22.26 montre ce qu’il advient des charges se déplaçant à travers un conducteur dans un champ magnétique. Le champ est perpendiculaire à la vitesse de dérive de l’électron et à la largeur du conducteur. Notez que le courant conventionnel est à droite dans les deux parties de la figure. Dans la partie (a), les électrons transportent le courant et se déplacent vers la gauche. Dans la partie (b), les charges positives transportent le courant et se déplacent vers la droite. Les électrons en mouvement ressentent une force magnétique vers un côté du conducteur, laissant une charge positive nette de l’autre côté. Cette séparation de charge <em>crée une tension</em>, <span class="math notranslate nohighlight">\(\epsilon\)</span> connue sous le nom de <code class="docutils literal notranslate"><span class="pre">force</span> <span class="pre">électromotrice</span> <span class="pre">de</span> <span class="pre">Hall</span></code>, aux bornes du conducteur. La création d’une tension aux bornes d’un  conducteur porteur de courant par un champ magnétique est connue sous le nom d’effet Hall, d’après <a class="reference external" href="https://fr.wikipedia.org/wiki/Edwin_Herbert_Hall">Edwin Hall</a>, le physicien américain qui l’a découvert en 1879.</p>
+<p>La figure 22.26 montre ce qu’il advient des charges se déplaçant à travers un conducteur dans un champ magnétique. Le champ est perpendiculaire à la vitesse de dérive de l’électron et à la largeur du conducteur. Notez que le courant conventionnel est à droite dans les deux parties de la figure. Dans la partie (a), les électrons transportent le courant et se déplacent vers la gauche. Dans la partie (b), les charges positives transportent le courant et se déplacent vers la droite. Les électrons en mouvement ressentent une force magnétique vers un côté du conducteur, laissant une charge positive nette de l’autre côté. Cette séparation de charge <em>crée une tension</em>, <span class="math notranslate nohighlight">\(\varepsilon\)</span> connue sous le nom de <code class="docutils literal notranslate"><span class="pre">force</span> <span class="pre">électromotrice</span> <span class="pre">de</span> <span class="pre">Hall</span></code>, aux bornes du conducteur. La création d’une tension aux bornes d’un  conducteur porteur de courant par un champ magnétique est connue sous le nom d’effet Hall, d’après <a class="reference external" href="https://fr.wikipedia.org/wiki/Edwin_Herbert_Hall">Edwin Hall</a>, le physicien américain qui l’a découvert en 1879.</p>
 <p><strong>Figure 22.26 L’effet Hall. (a) Les électrons se déplacent vers la gauche dans ce conducteur plat (courant conventionnel vers la droite). Le champ magnétique est directement à l’extérieur de la page, représenté par des points encerclés ; il exerce une force sur les charges en mouvement, provoquant une tension, la force électromotrice de Hall, à travers le conducteur. (b) Les charges positives se déplaçant vers la droite (courant conventionnel également vers la droite) sont déplacées sur le côté, produisant une force électromotrice de Hall de signe opposé, . Ainsi, si la direction du champ et le courant sont connus, le signe des porteurs de charge peut être déterminé à partir de l’effet Hall.</strong></p>
 <p>Une utilisation très importante de l’effet Hall est de déterminer si des charges positives ou négatives transportent le courant. Notez que dans  la Figure 22.26 (b), où les charges positives transportent le courant, la force électromotrice de Hall a le signe opposé à celui des charges négatives qui transportent le courant. Historiquement, l’effet Hall a été utilisé pour montrer que les électrons transportent le courant dans les métaux et il montre également que les charges positives transportent le courant dans certains semi-conducteurs. L’effet Hall est aujourd’hui utilisé comme outil de recherche pour sonder le mouvement des charges, leurs vitesses de dérive et leurs densités, etc., dans les matériaux. En 1980, il a été découvert que l’effet Hall est quantifié, un exemple de comportement quantique dans un objet macroscopique.</p>
 <p>L’effet Hall a d’autres utilisations qui vont de la détermination du débit sanguin à la mesure précise de l’intensité du champ magnétique. Pour les examiner quantitativement, nous avons besoin d’une expression pour la force électromotrice de Hall, , aux bornes d’un conducteur. Considérons l’équilibre des forces sur une charge en mouvement dans une situation où <span class="math notranslate nohighlight">\(B\)</span>, <span class="math notranslate nohighlight">\(v\)</span> et <span class="math notranslate nohighlight">\(l\)</span> sont mutuellement perpendiculaires, comme le montre la Figure 22.27. Bien que la force magnétique déplace les charges négatives d’un côté, elles ne peuvent pas s’accumuler sans limite. Le champ électrique causé par leur séparation s’oppose à la force magnétique, <span class="math notranslate nohighlight">\(F=qvB\)</span>, et la force électrique, <span class="math notranslate nohighlight">\(F_{e}=qE\)</span>, finit par croître pour s’égaler. Ce qui donne :</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}qE=qvB\\
-E=VB\end{split}\]</div>
-<p>Notez que le champ électrique <span class="math notranslate nohighlight">\(E\)</span> est uniforme à travers le conducteur car le champ magnétique est uniforme, tout comme le conducteur. Pour un champ électrique uniforme, la relation entre le champ électrique et la tension est <span class="math notranslate nohighlight">\(E=\frac{\epsilon}{l}\)</span>, où <span class="math notranslate nohighlight">\(l\)</span> est la largeur du conducteur et <span class="math notranslate nohighlight">\(\epsilon\)</span> est la force électromotrice de Hall. En entrant ceci dans la dernière expression, on obtient :</p>
+E=vB\end{split}\]</div>
+<p>Notez que le champ électrique <span class="math notranslate nohighlight">\(E\)</span> est uniforme à travers le conducteur car le champ magnétique est uniforme, tout comme le conducteur. Pour un champ électrique uniforme, la relation entre le champ électrique et la tension est <span class="math notranslate nohighlight">\(U=E\cdot d\)</span>. On écrit donc <span class="math notranslate nohighlight">\(E=\frac{\varepsilon}{l}\)</span>, où <span class="math notranslate nohighlight">\(l\)</span> est la largeur du conducteur et <span class="math notranslate nohighlight">\(\varepsilon\)</span> est la force électromotrice de Hall. En entrant ceci dans la dernière expression, on obtient :</p>
 <div class="math notranslate nohighlight">
-\[\dfrac{\epsilon}{l}=vB\]</div>
+\[\dfrac{\varepsilon}{l}=vB\]</div>
 <p>La résolution de ce problème pour la force électromotrice de Hall donne :</p>
 <div class="math notranslate nohighlight">
-\[\epsilon=Blv\]</div>
-<p>où est <span class="math notranslate nohighlight">\(\epsilon\)</span> la tension à effet Hall aux bornes d’un conducteur de largeur <span class="math notranslate nohighlight">\(l\)</span> à travers lequel les charges se déplacent à une vitesse <span class="math notranslate nohighlight">\(v\)</span>.</p>
+\[\varepsilon=Blv\]</div>
+<p>où est <span class="math notranslate nohighlight">\(\varepsilon\)</span> la tension à effet Hall aux bornes d’un conducteur de largeur <span class="math notranslate nohighlight">\(l\)</span> à travers lequel les charges se déplacent à une vitesse <span class="math notranslate nohighlight">\(v\)</span>.</p>
 <p><strong>Figure 22.27 La force électromotrice de Hall produit une force électrique qui équilibre la force magnétique sur les charges en mouvement. La force magnétique produit une séparation de charge, qui s’accumule jusqu’à ce qu’elle soit équilibrée par la force électrique, un équilibre qui est rapidement atteint.</strong></p>
-<p>L’une des utilisations les plus courantes de l’effet Hall est la mesure de l’intensité du champ magnétique. De tels dispositifs, appelés sondes à effet Hall, peuvent être très petits, ce qui permet une cartographie fine de la position. Les sondes à effet Hall peuvent également être rendues très précises, généralement grâce à un étalonnage minutieux. Une autre application de l’effet Hall est de mesurer l’écoulement d’un fluide dans n’importe quel fluide qui a des charges libres (la plupart le font). (Voir Graphique 22.28.) Un champ magnétique appliqué perpendiculairement à la direction d’écoulement produit une force électromotrice de Hall <span class="math notranslate nohighlight">\(\epsilon\)</span> comme indiqué. Notez que le signe de <span class="math notranslate nohighlight">\(\epsilon\)</span> ne dépend pas du signe des charges, mais uniquement des directions de <span class="math notranslate nohighlight">\(B\)</span> et <span class="math notranslate nohighlight">\(v\)</span>. L’amplitude de la force électromotrice de Hall est <span class="math notranslate nohighlight">\(\epsilon=Blv\)</span>, où <span class="math notranslate nohighlight">\(l\)</span> est le diamètre du tuyau, de sorte que la vitesse moyenne <span class="math notranslate nohighlight">\(v\)</span> peut être déterminée à condition que les autres facteurs soient connus.</p>
-<p><strong>Figure 22.28 L’effet Hall peut être utilisé pour mesurer l’écoulement d’un fluide dans n’importe quel fluide ayant des charges libres, comme le sang. La force électromotrice de Hall <span class="math notranslate nohighlight">\(\epsilon\)</span> est mesurée à travers le tube perpendiculairement au champ magnétique appliqué et est proportionnelle à la vitesse moyenne <span class="math notranslate nohighlight">\(v\)</span>.</strong></p>
+<p>L’une des utilisations les plus courantes de l’effet Hall est la mesure de l’intensité du champ magnétique. De tels dispositifs, appelés sondes à effet Hall, peuvent être très petits, ce qui permet une cartographie fine de la position. Les sondes à effet Hall peuvent également être rendues très précises, généralement grâce à un étalonnage minutieux. Une autre application de l’effet Hall est de mesurer l’écoulement d’un fluide dans n’importe quel fluide qui a des charges libres (la plupart le font). (Voir Graphique 22.28.) Un champ magnétique appliqué perpendiculairement à la direction d’écoulement produit une force électromotrice de Hall <span class="math notranslate nohighlight">\(\varepsilon\)</span> comme indiqué. Notez que le signe de <span class="math notranslate nohighlight">\(\varepsilon\)</span> ne dépend pas du signe des charges, mais uniquement des directions de <span class="math notranslate nohighlight">\(B\)</span> et <span class="math notranslate nohighlight">\(v\)</span>. L’amplitude de la force électromotrice de Hall est <span class="math notranslate nohighlight">\(\varepsilon=Blv\)</span>, où <span class="math notranslate nohighlight">\(l\)</span> est le diamètre du tuyau, de sorte que la vitesse moyenne <span class="math notranslate nohighlight">\(v\)</span> peut être déterminée à condition que les autres facteurs soient connus.</p>
+<p><strong>Figure 22.28 L’effet Hall peut être utilisé pour mesurer l’écoulement d’un fluide dans n’importe quel fluide ayant des charges libres, comme le sang. La force électromotrice de Hall <span class="math notranslate nohighlight">\(\varepsilon\)</span> est mesurée à travers le tube perpendiculairement au champ magnétique appliqué et est proportionnelle à la vitesse moyenne <span class="math notranslate nohighlight">\(v\)</span>.</strong></p>
 <div class="exores admonition">
 <p class="admonition-title">Exemple : Calcul de la force électromotrice de Hall</p>
-<p>Calcul de la force électromotrice de Hall : effet Hall pour le flux sanguin.\
-Une sonde de débit à effet Hall est placée sur une artère, en appliquant un champ magnétique de <span class="math notranslate nohighlight">\(0.100\,T\)</span> à travers celle-ci, dans une configuration similaire à celle de la figure 22.28. Qu’est-ce que la force électromotrice de Hall, étant donné que le diamètre intérieur du vaisseau est de <span class="math notranslate nohighlight">\(4.00\,mm\)</span> et que la vitesse moyenne du sang est de <span class="math notranslate nohighlight">\(20.0\,cm/s\)</span> ?</p>
+<p>Calcul de la force électromotrice de Hall : effet Hall pour le flux sanguin.</p>
+<p>Une sonde de débit à effet Hall est placée sur une artère, en appliquant un champ magnétique de <span class="math notranslate nohighlight">\(0.100\,\text{T}\)</span> à travers celle-ci, dans une configuration similaire à celle de la figure 22.28. Qu’est-ce que la force électromotrice de Hall, étant donné que le diamètre intérieur du vaisseau est de <span class="math notranslate nohighlight">\(4.00\,\text{mm}\)</span> et que la vitesse moyenne du sang est de <span class="math notranslate nohighlight">\(20.0\,\text{cm/s}\)</span> ?</p>
 <div class="dropdown strategie admonition">
 <p class="admonition-title"><em>stratégie</em></p>
-<p>Comme <span class="math notranslate nohighlight">\(B\)</span>, <span class="math notranslate nohighlight">\(l\)</span> et <span class="math notranslate nohighlight">\(v\)</span> sont mutuellement perpendiculaires, l’équation <span class="math notranslate nohighlight">\(\epsilon=Blv\)</span> peut être utilisée pour trouver <span class="math notranslate nohighlight">\(\epsilon\)</span>.</p>
+<p>Comme <span class="math notranslate nohighlight">\(B\)</span>, <span class="math notranslate nohighlight">\(l\)</span> et <span class="math notranslate nohighlight">\(v\)</span> sont mutuellement perpendiculaires, l’équation <span class="math notranslate nohighlight">\(\varepsilon=Blv\)</span> peut être utilisée pour trouver <span class="math notranslate nohighlight">\(\varepsilon\)</span>.</p>
 </div>
 <div class="dropdown solution admonition">
 <p class="admonition-title"><em>solution</em></p>
 <p>La saisie des valeurs données pour <span class="math notranslate nohighlight">\(B\)</span>, <span class="math notranslate nohighlight">\(l\)</span> et <span class="math notranslate nohighlight">\(v\)</span> donne :</p>
 <div class="math notranslate nohighlight">
-\[\epsilon=Blv=(0.1\,T)\cdot (4.00\cdot 10^{-3}\,m)\cdot (0.200\,m/s)=80.0\cdot 10^{-6}\,V=80\,\mu V\]</div>
+\[\varepsilon=Blv=(0.1\,\text{T})\cdot (4.00\cdot 10^{-3}\,\text{m})\cdot (0.200\,\text{m/s})=80.0\cdot 10^{-6}\,\text{V}=80\,\mu\text{V}\]</div>
 </div>
 <div class="dropdown discussion admonition">
 <p class="admonition-title"><em>discussion</em></p>
-<p>Il s’agit de la tension de sortie moyenne. La tension instantanée varie en fonction du flux sanguin pulsé. La tension est faible dans ce type de mesure. <span class="math notranslate nohighlight">\(\epsilon\)</span> est particulièrement difficile à mesurer, car il existe des tensions associées à l’action cardiaque (tensions ECG) de l’ordre du millivolt. Dans la pratique, cette difficulté est surmontée par l’application d’un champ magnétique alternatif, de sorte que la force électromotrice de Hall soit AC avec la même fréquence. Un amplificateur peut être très sélectif en ne choisissant que la fréquence appropriée, éliminant ainsi les signaux et le bruit à d’autres fréquences.ε</p>
+<p>Il s’agit de la tension de sortie moyenne. La tension instantanée varie en fonction du flux sanguin pulsé. La tension est faible dans ce type de mesure. <span class="math notranslate nohighlight">\(\varepsilon\)</span> est particulièrement difficile à mesurer, car il existe des tensions associées à l’action cardiaque (tensions ECG) de l’ordre du millivolt. Dans la pratique, cette difficulté est surmontée par l’application d’un champ magnétique alternatif, de sorte que la force électromotrice de Hall soit AC avec la même fréquence. Un amplificateur peut être très sélectif en ne choisissant que la fréquence appropriée, éliminant ainsi les signaux et le bruit à d’autres fréquences.ε</p>
 </div>
 </div>
 </section>
@@ -584,11 +579,11 @@ Une sonde de débit à effet Hall est placée sur une artère, en appliquant un 
       </div>
     </a>
     <a class="right-next"
-       href="../../Annexes/annexe.html"
+       href="13-7-Laplace.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">12. </span>Annexes</p>
+        <p class="prev-next-title"><span class="section-number">11.7. </span>Force magnétique sur un conducteur porteur de courant</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

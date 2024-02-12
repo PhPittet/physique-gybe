@@ -1,3 +1,4 @@
+(chap:Effet_Hall)=
 # L'effet Hall
 Nous avons vu les effets d'un champ magnétique sur les charges en mouvement libre. Le champ magnétique affecte également les charges se déplaçant dans un conducteur. L'un des résultats est l'effet Hall, qui a des implications et des applications importantes.
 
@@ -10,9 +11,9 @@ Une utilisation très importante de l'effet Hall est de déterminer si des charg
 L'effet Hall a d'autres utilisations qui vont de la détermination du débit sanguin à la mesure précise de l'intensité du champ magnétique. Pour les examiner quantitativement, nous avons besoin d'une expression pour la force électromotrice de Hall, , aux bornes d'un conducteur. Considérons l'équilibre des forces sur une charge en mouvement dans une situation où $B$, $v$ et $l$ sont mutuellement perpendiculaires, comme le montre la Figure 22.27. Bien que la force magnétique déplace les charges négatives d'un côté, elles ne peuvent pas s'accumuler sans limite. Le champ électrique causé par leur séparation s'oppose à la force magnétique, $F=qvB$, et la force électrique, $F_{e}=qE$, finit par croître pour s'égaler. Ce qui donne :
 :::{math}
 qE=qvB\\
-E=VB
+E=vB
 :::
-Notez que le champ électrique $E$ est uniforme à travers le conducteur car le champ magnétique est uniforme, tout comme le conducteur. Pour un champ électrique uniforme, la relation entre le champ électrique et la tension est $E=\frac{\varepsilon}{l}$, où $l$ est la largeur du conducteur et $\varepsilon$ est la force électromotrice de Hall. En entrant ceci dans la dernière expression, on obtient :
+Notez que le champ électrique $E$ est uniforme à travers le conducteur car le champ magnétique est uniforme, tout comme le conducteur. Pour un champ électrique uniforme, la relation entre le champ électrique et la tension est $U=E\cdot d$. On écrit donc $E=\frac{\varepsilon}{l}$, où $l$ est la largeur du conducteur et $\varepsilon$ est la force électromotrice de Hall. En entrant ceci dans la dernière expression, on obtient :
 :::{math}
 \dfrac{\varepsilon}{l}=vB
 :::
@@ -30,8 +31,9 @@ L'une des utilisations les plus courantes de l'effet Hall est la mesure de l'int
 
 :::::{admonition} Exemple : Calcul de la force électromotrice de Hall
 :class: exores
-Calcul de la force électromotrice de Hall : effet Hall pour le flux sanguin.\\
-Une sonde de débit à effet Hall est placée sur une artère, en appliquant un champ magnétique de $0.100\,T$ à travers celle-ci, dans une configuration similaire à celle de la figure 22.28. Qu'est-ce que la force électromotrice de Hall, étant donné que le diamètre intérieur du vaisseau est de $4.00\,mm$ et que la vitesse moyenne du sang est de $20.0\,cm/s$ ?
+Calcul de la force électromotrice de Hall : effet Hall pour le flux sanguin.
+
+Une sonde de débit à effet Hall est placée sur une artère, en appliquant un champ magnétique de $0.100\,\text{T}$ à travers celle-ci, dans une configuration similaire à celle de la figure 22.28. Qu'est-ce que la force électromotrice de Hall, étant donné que le diamètre intérieur du vaisseau est de $4.00\,\text{mm}$ et que la vitesse moyenne du sang est de $20.0\,\text{cm/s}$ ?
 ::::{admonition} *stratégie*
 :class: dropdown strategie
 Comme $B$, $l$ et $v$ sont mutuellement perpendiculaires, l'équation $\varepsilon=Blv$ peut être utilisée pour trouver $\varepsilon$.
@@ -40,7 +42,7 @@ Comme $B$, $l$ et $v$ sont mutuellement perpendiculaires, l'équation $\varepsil
 :class: dropdown solution
 La saisie des valeurs données pour $B$, $l$ et $v$ donne :
 :::{math}
-\varepsilon=Blv=(0.1\,T)\cdot (4.00\cdot 10^{-3}\,m)\cdot (0.200\,m/s)=80.0\cdot 10^{-6}\,V=80\,\mu V
+\varepsilon=Blv=(0.1\,\text{T})\cdot (4.00\cdot 10^{-3}\,\text{m})\cdot (0.200\,\text{m/s})=80.0\cdot 10^{-6}\,\text{V}=80\,\mu\text{V}
 :::
 ::::
 ::::{admonition} *discussion*

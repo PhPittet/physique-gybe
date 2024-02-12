@@ -1,3 +1,4 @@
+(chap:Laplace)=
 # Force magnétique sur un conducteur porteur de courant
 
 ## Objectifs d'apprentissage
@@ -27,7 +28,7 @@ est l'équation de *la force magnétique sur une longueur* $l$ *de fil transport
 
 Figure 22.30 La force exercée sur un fil porteur de courant dans un champ magnétique est $F =IB \sin \theta$. Sa direction est donnée par RHR-1.
 
-# Exemple 22.4
+### Exemple 22.4
 :::::{admonition} Exemple_résolution
 :class: exores
 Calculer la force exercée sur le fil représenté dans la [Figure 22.29], étant donné $B = 1.5\,T$, $l = 5.00 cm$ et $I =20\,A$.

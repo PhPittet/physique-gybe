@@ -1,3 +1,4 @@
+(chap:aimants)=
 # Les aimants
 
 :::{figure} figures/Aimants.jpg

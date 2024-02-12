@@ -296,14 +296,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="13-4-champs_magn.html">11.4. Champs magnétiques et lignes de champ magnétique</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">11.5. Force sur une charge en mouvement dans un champ magnétique</a></li>
 <li class="toctree-l2"><a class="reference internal" href="13-6-Effet_Hall.html">11.6. L’effet Hall</a></li>
-</ul>
-</li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Annexes</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../Annexes/annexe.html">12. Annexes</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-13"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Annexes/MyST_Cheat.html">12.1. MyST Cheat sheet</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Annexes/GitHub_Pages.html">12.2. GitHub Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13-7-Laplace.html">11.7. Force magnétique sur un conducteur porteur de courant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13-resume.html">11.8. Résumé de la section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13-glossaire.html">11.9. Glossaire</a></li>
 </ul>
 </li>
 </ul>
@@ -516,7 +511,7 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="force-sur-une-charge-en-mouvement-dans-un-champ-magnetique">
-<h1><span class="section-number">11.5. </span>Force sur une charge en mouvement dans un champ magnétique<a class="headerlink" href="#force-sur-une-charge-en-mouvement-dans-un-champ-magnetique" title="Permalink to this heading">#</a></h1>
+<span id="chap-lorentz"></span><h1><span class="section-number">11.5. </span>Force sur une charge en mouvement dans un champ magnétique<a class="headerlink" href="#force-sur-une-charge-en-mouvement-dans-un-champ-magnetique" title="Permalink to this heading">#</a></h1>
 <p>Quel est le mécanisme par lequel un aimant exerce une force sur un autre ? La réponse est liée au fait que tout magnétisme est causé par le courant, le flux de charge. Les champs magnétiques exercent des forces sur les charges en mouvement, et donc ils exercent des forces sur d’autres aimants, qui ont tous des charges en mouvement.</p>
 <section id="force-de-lorentz">
 <h2>Force de Lorentz<a class="headerlink" href="#force-de-lorentz" title="Permalink to this heading">#</a></h2>
@@ -529,20 +524,21 @@ document.write(`
 <p>où <span class="math notranslate nohighlight">\(\theta\)</span> est l’angle entre les directions de <span class="math notranslate nohighlight">\(v\)</span> et <span class="math notranslate nohighlight">\(B\)</span></p>
 </div>
 <p>Cette force est souvent appelée <code class="docutils literal notranslate"><span class="pre">force</span> <span class="pre">de</span> <span class="pre">Lorentz</span></code>. En fait, c’est ainsi que nous définissons l’intensité du champ magnétique, c’est-à-dire la force exercée sur une particule chargée se déplaçant dans un champ magnétique.</p>
-<p>L’unité SI pour l’intensité du champ magnétique est appelée <strong>Tesla</strong> (<span class="math notranslate nohighlight">\([T]\)</span>) d’après l’excentrique mais brillant inventeur <a class="reference external" href="https://fr.wikipedia.org/wiki/Nikola_Tesla">Nikola Tesla</a> (1856-1943). Pour déterminer comment le Tesla se rapporte aux autres unités SI, nous résolvons l’équation <a class="reference internal" href="#equation-lorentz">(11.1)</a> <span class="math notranslate nohighlight">\(F=qvB\sin\theta\)</span> pour <span class="math notranslate nohighlight">\(B\)</span> :</p>
+<p>L’unité SI pour l’intensité du champ magnétique est appelée <strong>Tesla</strong> (<span class="math notranslate nohighlight">\([\text{T}]\)</span>) d’après l’excentrique mais brillant inventeur <a class="reference external" href="https://fr.wikipedia.org/wiki/Nikola_Tesla">Nikola Tesla</a> (1856-1943). Pour déterminer comment le Tesla se rapporte aux autres unités SI, nous résolvons l’équation <a class="reference internal" href="#equation-lorentz">(11.1)</a> <span class="math notranslate nohighlight">\(F=qvB\sin\theta\)</span> pour <span class="math notranslate nohighlight">\(B\)</span> :</p>
 <div class="math notranslate nohighlight">
 \[B=\dfrac{F}{qv\sin\theta}\]</div>
 <p>Puisque <span class="math notranslate nohighlight">\(\sin\theta\)</span> est sans unité, l’unité <em>Tesla</em> est définie par :</p>
 <div class="math notranslate nohighlight">
-\[1\,T=\dfrac{1\,N}{1\,C\cdot 1\,m/s}=\dfrac{1\,N}{1\,A\cdot 1\,m}=1\,\dfrac{N}{A\cdot C}\]</div>
+\[1\,\text{T}=\dfrac{1\,\text{N}}{1\,\text{C}\cdot 1\,\text{m/s}}=\dfrac{1\,\text{N}}{1\,\text{A}\cdot 1\,\text{m}}=1\,\dfrac{\text{N}}{\text{A}\cdot \text{C}}\]</div>
 </section>
 <section id="regle-de-la-main-droite">
 <h2>Règle de la main droite<a class="headerlink" href="#regle-de-la-main-droite" title="Permalink to this heading">#</a></h2>
-<p>La direction de la force magnétique est toujours perpendiculaire au plan formé par <span class="math notranslate nohighlight">\(v\)</span> et <span class="math notranslate nohighlight">\(b\)</span>. <code class="docutils literal notranslate"><span class="pre">La</span> <span class="pre">règle</span> <span class="pre">de</span> <span class="pre">la</span> <span class="pre">main</span> <span class="pre">droite</span></code>, qui est illustrée à la <a class="reference internal" href="#reglemaindroite1"><span class="std std-numref">Fig. 11.14</span></a> permet de <em>déterminer la direction de la force magnétique, de la vitesse ou du champ magnétique</em>. La règle de la main droite stipule que, pour déterminer la direction de la force magnétique sur une charge mobile positive, vous pointez le pouce de la main droite dans la direction de <span class="math notranslate nohighlight">\(v\)</span>, les doigts dans la direction de <span class="math notranslate nohighlight">\(B\)</span>, et la direction perpendiculaire à la paume pointera dans la direction de <span class="math notranslate nohighlight">\(F\)</span>. Une façon de s’en souvenir est qu’il n’y a que <em>une</em> vitesse, et donc le pouce la représente. Il y a <em>beaucoup</em> de lignes de champ, et donc les doigts les représentent. La force est dans la direction dans laquelle vous pousseriez avec votre paume. <strong>La force exercée sur une charge négative est exactement dans la direction opposée à celle exercée sur une charge positive.</strong></p>
+<p>La direction de la force magnétique est toujours perpendiculaire au plan formé par <span class="math notranslate nohighlight">\(v\)</span> et <span class="math notranslate nohighlight">\(b\)</span>. <code class="docutils literal notranslate"><span class="pre">La</span> <span class="pre">règle</span> <span class="pre">de</span> <span class="pre">la</span> <span class="pre">main</span> <span class="pre">droite</span></code>, qui est illustrée à la <a class="reference internal" href="#reglemaindroite1"><span class="std std-numref">Fig. 11.14</span></a> permet de <em>déterminer la direction de la force magnétique, de la vitesse ou du champ magnétique</em>. La règle de la main droite stipule que, pour déterminer la direction de la force magnétique sur une charge mobile positive, vous pointez le pouce de la main droite dans la direction de <span class="math notranslate nohighlight">\(v\)</span>, les doigts dans la direction de <span class="math notranslate nohighlight">\(B\)</span>, et la direction perpendiculaire à la paume pointera dans la direction de <span class="math notranslate nohighlight">\(F\)</span>. Une façon de s’en souvenir est qu’il n’y a que <em>une</em> vitesse, et donc le pouce la représente. Il y a <em>beaucoup</em> de lignes de champ, et donc les doigts les représentent. La force est dans la direction dans laquelle vous pousseriez avec votre paume.<br />
+Si la charge <span class="math notranslate nohighlight">\(q\)</span> est négative, alors le force sera aussi négative. Elle pointera dans l’autre direction. <strong>La force exercée sur une charge négative est exactement dans la direction opposée à celle exercée sur une charge positive.</strong></p>
 <figure class="align-center" id="reglemaindroite1">
 <a class="reference internal image-reference" href="../../_images/RegleMainDroite1.jpg"><img alt="../../_images/RegleMainDroite1.jpg" src="../../_images/RegleMainDroite1.jpg" style="width: 40%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 11.14 </span><span class="caption-text">*Les champs magnétiques exercent des forces sur les charges en mouvement. Cette force est l’une des plus fondamentales connues. La direction de la force magnétique sur une charge en mouvement est perpendiculaire au plan formé par <span class="math notranslate nohighlight">\(v\)</span> et <span class="math notranslate nohighlight">\(B\)</span> et suit la règle de la main droite comme indiqué. L’amplitude de la force est proportionnelle à <span class="math notranslate nohighlight">\(q\)</span>, <span class="math notranslate nohighlight">\(v\)</span>, <span class="math notranslate nohighlight">\(B\)</span> et au sinus de l’angle entre <span class="math notranslate nohighlight">\(v\)</span> et <span class="math notranslate nohighlight">\(B\)</span>.</span><a class="headerlink" href="#reglemaindroite1" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 11.14 </span><span class="caption-text"><em>Les champs magnétiques exercent des forces sur les charges en mouvement. Cette force est l’une des plus fondamentales connues. La direction de la force magnétique sur une charge en mouvement est perpendiculaire au plan formé par <span class="math notranslate nohighlight">\(v\)</span> et <span class="math notranslate nohighlight">\(B\)</span> et suit la règle de la main droite comme indiqué. L’amplitude de la force est proportionnelle à <span class="math notranslate nohighlight">\(q\)</span>, <span class="math notranslate nohighlight">\(v\)</span>, <span class="math notranslate nohighlight">\(B\)</span> et au sinus de l’angle entre <span class="math notranslate nohighlight">\(v\)</span> et <span class="math notranslate nohighlight">\(B\)</span>.</em></span><a class="headerlink" href="#reglemaindroite1" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="astuce admonition">
@@ -553,7 +549,7 @@ document.write(`
 <p class="admonition-title">Exemple : Calcul de la force magnétique</p>
 <p>Calcul de la force magnétique : champ magnétique terrestre sur une tige de verre chargée
 À l’exception des boussoles, vous voyez ou ressentez rarement les forces dues au petit champ magnétique de la Terre. Pour illustrer cela, supposons que dans un laboratoire de physique, vous frottiez une tige de verre avec de la soie, en plaçant une charge positive de <span class="math notranslate nohighlight">\(20\,nC\)</span> dessus. Calculez la force exercée sur la tige par le champ magnétique terrestre, si vous la lancez avec une vitesse horizontale de <span class="math notranslate nohighlight">\(10\,m/s\)</span> plein ouest à un endroit où le champ terrestre est plein nord parallèlement au sol.<br />
-<em>(La direction de la force est déterminée par la règle de la main droite comme indiqué dans la <a class="reference internal" href="#exemplelorentz"><span class="std std-numref">Fig. 11.15</span></a> et la valeur du champs magnétique terrestre est de <span class="math notranslate nohighlight">\(B_{Terre}=5\cdot 10^{-5}\,T\)</span>.)</em></p>
+<em>(La direction de la force est déterminée par la règle de la main droite comme indiqué dans la <a class="reference internal" href="#exemplelorentz"><span class="std std-numref">Fig. 11.15</span></a> et la valeur du champs magnétique terrestre est de <span class="math notranslate nohighlight">\(B_{Terre}=5\cdot 10^{-5}\,\text{T}\)</span>.)</em></p>
 <figure class="align-center" id="exemplelorentz">
 <a class="reference internal image-reference" href="../../_images/ExempleLorentz.jpg"><img alt="../../_images/ExempleLorentz.jpg" src="../../_images/ExempleLorentz.jpg" style="width: 50%;" /></a>
 <figcaption>
@@ -568,7 +564,7 @@ document.write(`
 <p class="admonition-title"><em>solution</em></p>
 <p>Puisque l’angle <span class="math notranslate nohighlight">\(\theta\)</span> entre la vitesse et la direction du champ est de <span class="math notranslate nohighlight">\(90°\)</span>, <span class="math notranslate nohighlight">\(\sin\theta=1\)</span>. La saisie des autres quantités données donne :</p>
 <div class="math notranslate nohighlight">
-\[F=(20\cdot 10^{-9}\,C)\cdot (10\,m/s)\cdot (5\cdot 10^{-5}\,T)= 1\cdot 10^{-11}\,N\]</div>
+\[F=(20\cdot 10^{-9}\,\text{C})\cdot (10\,m/s)\cdot (5\cdot 10^{-5}\,\text{T})= 1\cdot 10^{-11}\,\text{N}\]</div>
 </div>
 <div class="dropdown discussion admonition">
 <p class="admonition-title"><em>discussion</em></p>
