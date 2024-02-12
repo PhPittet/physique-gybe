@@ -1,4 +1,4 @@
-![Fig:ForceIntro](figures/SpeedRiding.jpg)
+![Fig:ForceIntro](figures/SpeedRiding2.jpg)
 # Mouvement à 2 Dimensions
 
 :::{admonition} Objectifs d'apprentissage

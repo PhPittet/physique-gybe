@@ -1,4 +1,4 @@
-![Fig:MRUA](figures/MRUA.jpeg)
+![Fig:MRUA](figures/MRUA2.jpg)
 (chap:MRUA)=
 # Mouvement Rectiligne Uniformément Accéléré (M.R.U.A.)
 

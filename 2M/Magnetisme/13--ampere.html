@@ -1,0 +1,769 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>22.9 Champs magnétiques produits par les courants : la loi d’Ampère &#8212; Physique 1M</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/exercise.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/myadmonition.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/myexercices-Gaming76.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/myexercices.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/myfont.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/myadmonition-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/myexercices-checkpoint-Gaming76.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/myexercices-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/myfont-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '2M/Magnetisme/13--ampere';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/LogoPhysique1M.png" class="logo__image only-light" alt="Physique 1M - Home"/>
+    <script>document.write(`<img src="../../_static/LogoPhysique1M.png" class="logo__image only-dark" alt="Physique 1M - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../index.html">
+                    Bienvenue
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../1M/Rappel_Math/lecon0.html">Rappels Mathématiques</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Rappel_Math/0-0-puissance.html">Les puissances de 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Rappel_Math/0-1-equations.html">Manipulation des équations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Rappel_Math/0-2-vecteurs.html">Vecteurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Rappel_Math/0-3-incertitudes.html">Erreurs &amp; incertitudes</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Physique 1M</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../1M/Notation_Sci/lecon1.html">1. Notation Scientifique</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Notation_Sci/1-1-notation-scientifique.html">1.1. Écriture scientifique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Notation_Sci/1-2-chiffre-significatif.html">1.2. Chiffres significatifs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Notation_Sci/1-3-unite-mesure.html">1.3. Unités de mesure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Notation_Sci/1-4-precision.html">1.4. Exactitude, précision et incertitude d’une mesure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Notation_Sci/1-questions.html">1.5. Questions conceptuelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Notation_Sci/1-QCM.html">1.6. Questions à choix multiples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Notation_Sci/1-exercices.html">1.7. Exercices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Notation_Sci/1-glossaire.html">1.8. Glossaire</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../1M/Vecteurs/lecon2.html">2. Vecteurs et Scalaires</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Vecteurs/2-1-vecteurs.html">2.1. Vecteurs et scalaires</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Vecteurs/2-2-coordonees.html">2.2. Systèmes de coordonnées</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Vecteurs/2-questions.html">2.3. Questions conceptuelles</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../1M/Position_Vitesse/lecon3.html">3. Déplacement et Vitesse</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Position_Vitesse/3-1-position.html">3.1. Position et Déplacement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Position_Vitesse/3-2-vitesse.html">3.2. Vitesse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Position_Vitesse/3-questions.html">3.3. Questions conceptuelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Position_Vitesse/3-exercices.html">3.4. Exercices</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../1M/Acceleration/lecon4.html">4. Accélération</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Acceleration/4-1-acceleration.html">4.1. Qu’est-ce que l’accélération?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Acceleration/4-questions.html">4.2. Questions conceptuelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Acceleration/4-exercices.html">4.3. Exercices</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../1M/GraphXV/lecon5.html">5. Analyses Graphiques</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/GraphXV/5-1-GraphX.html">5.1. Graphique de la position x(t)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/GraphXV/5-2-GraphV.html">5.2. Graphique de la vitesse v(t)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/GraphXV/5-questions.html">5.3. Questions conceptuelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/GraphXV/5-exercices.html">5.4. Exercices</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../1M/MRUA/lecon6.html">6. Mouvement Rectiligne Uniformément Accéléré (M.R.U.A.)</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/MRUA/6-1-MRUA.html">6.1. Équations du mouvement pour un M.R.U.A.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/MRUA/6-2-equations.html">6.2. Équations de la cinématique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/MRUA/6-3-demoequations.html">6.3. Démonstration des équations de la cinématique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/MRUA/6-4-resolution.html">6.4. Bases de la résolution de problèmes pour la cinématique à une dimension</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/MRUA/6-questions.html">6.5. Questions conceptuelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/MRUA/6-exercices.html">6.6. Exercices</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../1M/Chute_Libre/lecon7.html">7. Chute Libre</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Chute_Libre/7-1-chutelibre.html">7.1. Gravité et chute libre</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Chute_Libre/7-questions.html">7.2. Questions conceptuelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Chute_Libre/7-exercices.html">7.3. Exercices</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../1M/Mvt_2D/lecon8.html">8. Mouvement à 2 Dimensions</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Mvt_2D/8-1-mvt2D.html">8.1. Mouvement Rectiligne à 2 Dimensions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Mvt_2D/8-questions.html">8.2. Questions conceptuelles</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../1M/Lois_Newton/lecon9.html">9. Les 3 Lois de Newton</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-10"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Lois_Newton/9-1-LoiNewton1.html">9.1. La 1<sup>ère</sup> loi de Newton</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Lois_Newton/9-1-questions.html">9.2. Questions conceptuelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Lois_Newton/9-2-LoiNewton2.html">9.3. La 2<sup>ème</sup> loi de Newton</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Lois_Newton/9-2-questions.html">9.5. Questions conceptuelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Lois_Newton/9-3-LoiNewton3.html">9.6. La 3<sup>ème</sup> loi de Newton</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Lois_Newton/9-3-questions.html">9.7. Questions conceptuelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Lois_Newton/9-4-AutreForces.html">9.8. Les autres forces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Lois_Newton/9-4-questions.html">9.9. Questions conceptuelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Lois_Newton/9-resume.html">9.10. Résumé</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../1M/Strategie_Res/lecon10.html">10. Stratégie et Applications des Forces</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-11"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Strategie_Res/10-1-StrategieRes.html">10.1. Stratégie de résolution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Strategie_Res/10-2-Applications.html">10.2. Applications des lois de Newton</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1M/Strategie_Res/10-resume.html">10.3. Résumé</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Physique 2M</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="lecon13.html">11. Magnétisme</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-12"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="13-1-intro.html">11.1. Introduction au magnétisme</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13-2-aimants.html">11.2. Les aimants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13-3-electroaimants.html">11.3. Ferroaimants et électroaimants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13-4-champs_magn.html">11.4. Champs magnétiques et lignes de champ magnétique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13-5-Lorentz.html">11.5. Force sur une charge en mouvement dans un champ magnétique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13-6-Effet_Hall.html">11.6. L’effet Hall</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F2M/Magnetisme/13--ampere.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/2M/Magnetisme/13--ampere.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>22.9 Champs magnétiques produits par les courants : la loi d’Ampère</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectifs-d-apprentissage">Objectifs d’apprentissage</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#champ-magnetique-cree-par-un-long-fil-droit-porteur-de-courant-regle-de-la-main-droite-2">Champ magnétique créé par un long fil droit porteur de courant : règle de la main droite 2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple-22-6-example-22-6-titre3gris">Exemple 22.6 {#example-22.6 . Titre3Gris}</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calcul-du-courant-qui-produit-un-champ-magnetique-calculating-courant-qui-produit-un-champ-magnetique-titre4gris">Calcul du courant qui produit un champ magnétique {#calculating-courant-qui-produit-un-champ-magnétique . Titre4Gris}</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strategie-strategy-titre4gris">Stratégie {#strategy . Titre4Gris}</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#solution-solution-titre4gris">Solution {#solution . Titre4Gris}</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-discussion-titre4gris">Discussion {#discussion . Titre4Gris}</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#la-loi-d-ampere-et-autres">La loi d’Ampère et autres</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#etablir-des-connexions-relativite-making-connexions-relativite-titre3gris">Établir des connexions : Relativité {#making-connexions-relativité . Titre3Gris}</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#champ-magnetique-produit-par-une-boucle-circulaire-porteuse-de-courant">Champ magnétique produit par une boucle circulaire porteuse de courant</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#champ-magnetique-produit-par-un-solenoide-porteur-de-courant">Champ magnétique produit par un solénoïde porteur de courant</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple-22-7-example-22-7-titre3gris">Exemple 22.7 {#example-22.7 . Titre3Gris}</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calcul-de-l-intensite-du-champ-a-l-interieur-d-un-solenoide-calculating-intensite-de-champ-a-l-interieur-d-un-solenoide-titre4gris">Calcul de l’intensité du champ à l’intérieur d’un solénoïde {#calculating-intensité-de-champ-à-l’intérieur d’un-solénoïde . Titre4Gris}</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strategie-strategy-1-titre4gris">Stratégie {#strategy-1 . Titre4Gris}</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#solution-solution-1-titre4gris">Solution {#solution-1 . Titre4Gris}</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-discussion-1-titre4gris">Discussion {#discussion-1 . Titre4Gris}</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#phet-explorations-phet-explorations-titre3gris">PhET Explorations {#phet-explorations . Titre3Gris}</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generateur-generator-titre4gris">Générateur {#generator . Titre4Gris}</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="champs-magnetiques-produits-par-les-courants-la-loi-d-ampere">
+<h1>22.9 Champs magnétiques produits par les courants : la loi d’Ampère<a class="headerlink" href="#champs-magnetiques-produits-par-les-courants-la-loi-d-ampere" title="Permalink to this heading">#</a></h1>
+<section id="objectifs-d-apprentissage">
+<h2>Objectifs d’apprentissage<a class="headerlink" href="#objectifs-d-apprentissage" title="Permalink to this heading">#</a></h2>
+<p>À la fin de cette section, vous serez en mesure de :</p>
+<ul class="simple">
+<li><p>Calculer le courant qui produit un champ magnétique.</p></li>
+<li><p>Utilisez la règle 2 de la main droite pour déterminer la direction du courant ou la direction des boucles de champ magnétique.</p></li>
+</ul>
+<p>Quelle quantité de courant est nécessaire pour produire un champ magnétique important, peut-être aussi fort que le champ terrestre ? Les géomètres vous diront que les lignes électriques aériennes créent des champs magnétiques qui interfèrent avec la lecture de leur boussole. En effet, lorsqu’Oersted découvrit en 1820 qu’un courant dans un fil affectait l’aiguille d’une boussole, il n’avait pas affaire à des courants extrêmement importants. Comment la forme des fils transportant le courant affecte-t-elle la forme du champ magnétique créé ? Nous avons noté précédemment qu’une boucle de courant créait un champ magnétique similaire à celui d’un barreau magnétique, mais qu’en est-il d’un fil droit ou d’un toroïde (beignet) ? Comment la direction d’un champ créé par un courant est-elle liée à la direction du courant ? Les réponses à ces questions sont explorées dans cette section, ainsi qu’une brève discussion de la loi régissant les domaines créés par les courants.</p>
+</section>
+<section id="champ-magnetique-cree-par-un-long-fil-droit-porteur-de-courant-regle-de-la-main-droite-2">
+<h2>Champ magnétique créé par un long fil droit porteur de courant : règle de la main droite 2<a class="headerlink" href="#champ-magnetique-cree-par-un-long-fil-droit-porteur-de-courant-regle-de-la-main-droite-2" title="Permalink to this heading">#</a></h2>
+<p>Les champs magnétiques ont à la fois une direction et une amplitude. Comme indiqué précédemment, une façon d’explorer la direction d’un champ magnétique est d’utiliser des boussoles, comme le montre un long fil droit porteur de courant dans [Figure 22.37]. Les sondes à effet Hall peuvent déterminer l’amplitude du champ. Le champ autour d’un long fil droit se trouve être en boucles circulaires. La règle 2 de la main droite (RHR-2) émerge de cette exploration et est valable pour n’importe quel segment de courant —<em>pointez le pouce dans la direction du courant, et les doigts s’enroulent dans la direction des boucles de champ magnétique</em> créées par celui-ci.</p>
+<p>! [][1]</p>
+<p>Figure 22.37 (a) Des boussoles placées près d’un long fil droit porteur de courant indiquent que les lignes de champ forment des boucles circulaires centrées sur le fil. b) La règle 2 de la main droite stipule que, si le pouce de la main droite pointe dans la direction du courant, les doigts s’enroulent dans la direction du champ. Cette règle est cohérente avec le champ mappé pour le long fil droit et est valable pour n’importe quel segment courant.</p>
+<p>L’intensité du champ magnétique (magnitude) produite par un long fil droit porteur de courant est trouvée par l’expérience comme étant</p>
+<p><span class="math notranslate nohighlight">\(B = \frac{\mu_{0}I}{2\pi r}\ (\text{fil droit long}),\)</span></p>
+<p>22.24</p>
+<p>où <span class="math notranslate nohighlight">\(I\)</span> est le courant, <span class="math notranslate nohighlight">\(r\)</span> est la distance la plus courte au fil, et la constante <span class="math notranslate nohighlight">\(\mu_{0} = 4\pi\, \times \,\text{10}^{- 7}\ T \cdot \text{m/A}\)</span> est la perméabilité de l’espace libre. <span class="math notranslate nohighlight">\((\mu_{0}\)</span> est l’une des constantes de base de la nature. Nous verrons plus loin que <span class="math notranslate nohighlight">\(\mu_{0}\)</span> est lié à la vitesse de la lumière.) Comme le fil est très long, l’amplitude du champ ne dépend que de la distance par rapport au fil <span class="math notranslate nohighlight">\(r\)</span>, et non de la position le long du fil.</p>
+</section>
+<section id="exemple-22-6-example-22-6-titre3gris">
+<h2>Exemple 22.6 {#example-22.6 . Titre3Gris}<a class="headerlink" href="#exemple-22-6-example-22-6-titre3gris" title="Permalink to this heading">#</a></h2>
+<section id="calcul-du-courant-qui-produit-un-champ-magnetique-calculating-courant-qui-produit-un-champ-magnetique-titre4gris">
+<h3>Calcul du courant qui produit un champ magnétique {#calculating-courant-qui-produit-un-champ-magnétique . Titre4Gris}<a class="headerlink" href="#calcul-du-courant-qui-produit-un-champ-magnetique-calculating-courant-qui-produit-un-champ-magnetique-titre4gris" title="Permalink to this heading">#</a></h3>
+<p>Trouvez le courant dans un long fil droit qui produirait un champ magnétique deux fois plus fort que celui de la Terre à une distance de 5,0 cm du fil.</p>
+</section>
+<section id="strategie-strategy-titre4gris">
+<h3>Stratégie {#strategy . Titre4Gris}<a class="headerlink" href="#strategie-strategy-titre4gris" title="Permalink to this heading">#</a></h3>
+<p>Le champ de la Terre est d’environ <span class="math notranslate nohighlight">\(5\text{.} 0 \times \text{10}^{- 5}\ T\)</span>, et donc ici <span class="math notranslate nohighlight">\(B\)</span> dû au fil est considéré comme <span class="math notranslate nohighlight">\(1\text{.} 0 \times \text{10}^{- 4}\ T\)</span>. L’équation <span class="math notranslate nohighlight">\(B = \frac{\mu_{0}I}{2\pi r}\)</span> peut être utilisée pour trouver <span class="math notranslate nohighlight">\(I\)</span>, puisque toutes les autres grandeurs sont connues.</p>
+</section>
+<section id="solution-solution-titre4gris">
+<h3>Solution {#solution . Titre4Gris}<a class="headerlink" href="#solution-solution-titre4gris" title="Permalink to this heading">#</a></h3>
+<p>En résolvant <span class="math notranslate nohighlight">\(I\)</span> et en entrant des valeurs connues, on obtient</p>
+<p>! [équation multiligne, ligne 1, majuscule I, égale à deux fois pi rB, divisé par mu, indice nul, égal à deux fois pi, parenthèse gauche, 5,0 fois 10, super négatif, deux fois m, parenthèse droite multipliée par parenthèse gauche, 1,0 fois 10, super négatif, quatre fois capuchon, T, parenthèse droite divisée par quatre fois pi fois 10, super négatif sept fois cap, point postfixe T, m barre oblique, majuscule A, ligne 2, blanc égal à 25, majuscule A, point]</p>
+<p>22.25</p>
+</section>
+<section id="discussion-discussion-titre4gris">
+<h3>Discussion {#discussion . Titre4Gris}<a class="headerlink" href="#discussion-discussion-titre4gris" title="Permalink to this heading">#</a></h3>
+<p>Ainsi, un courant modérément important produit un champ magnétique important à une distance de 5,0 cm d’un long fil droit. Notez que la réponse n’est indiquée qu’à deux chiffres, puisque le champ de la Terre n’est spécifié qu’à deux chiffres dans cet exemple.</p>
+</section>
+</section>
+<section id="la-loi-d-ampere-et-autres">
+<h2>La loi d’Ampère et autres<a class="headerlink" href="#la-loi-d-ampere-et-autres" title="Permalink to this heading">#</a></h2>
+<p>Le champ magnétique d’un long fil droit a plus d’implications que vous ne le pensez à première vue. <em>Chaque segment de courant produit un champ magnétique semblable à celui d’un long fil droit, et le champ total de n’importe quel courant de forme est la somme vectorielle des champs dus à chaque segment.</em> L’énoncé formel de la direction et de l’amplitude du champ dû à chaque segment est appelé la loi de Biot-Savart. Le calcul intégral est nécessaire pour additionner le champ d’un courant de forme arbitraire. Il en résulte une loi plus complète, appelée loi d’Ampère, qui relie le champ magnétique et le courant de manière générale. La loi d’Ampère, à son tour, fait partie des équations de Maxwell, qui donnent une théorie complète de tous les phénomènes électromagnétiques. Les considérations sur la façon dont les équations de Maxwell apparaissent à différents observateurs ont conduit à la théorie moderne de la relativité et à la prise de conscience que les champs électriques et magnétiques sont des manifestations différentes de la même chose. La plupart de ces éléments dépassent le cadre de ce texte, à la fois au niveau mathématique, qui nécessite du calcul, et dans la quantité d’espace qui peut lui être consacré. Mais pour l’étudiant intéressé, et en particulier pour ceux qui poursuivent dans la physique, l’ingénierie ou des activités similaires, approfondir ces questions révélera des descriptions de la nature à la fois élégantes et profondes. Dans ce texte, nous garderons à l’esprit les caractéristiques générales, telles que RHR-2 et les règles pour les lignes de champ magnétique énumérées dans [Champs magnétiques et lignes de champ magnétique], tout en nous concentrant sur les champs créés dans certaines situations importantes.</p>
+</section>
+<section id="etablir-des-connexions-relativite-making-connexions-relativite-titre3gris">
+<h2>Établir des connexions : Relativité {#making-connexions-relativité . Titre3Gris}<a class="headerlink" href="#etablir-des-connexions-relativite-making-connexions-relativite-titre3gris" title="Permalink to this heading">#</a></h2>
+<p>En entendant tout ce que nous savons d’Einstein, nous avons parfois l’impression qu’il a inventé la relativité à partir de rien. Au contraire, l’une des motivations d’Einstein était de résoudre les difficultés à savoir comment les différents observateurs perçoivent les champs magnétiques et électriques.</p>
+</section>
+<section id="champ-magnetique-produit-par-une-boucle-circulaire-porteuse-de-courant">
+<h2>Champ magnétique produit par une boucle circulaire porteuse de courant<a class="headerlink" href="#champ-magnetique-produit-par-une-boucle-circulaire-porteuse-de-courant" title="Permalink to this heading">#</a></h2>
+<p>Le champ magnétique près d’une boucle de fil porteuse de courant est représenté dans [Figure 22.38]. La direction et l’amplitude du champ magnétique produit par une boucle porteuse de courant sont complexes. RHR-2 peut être utilisé pour donner la direction du champ près de la boucle, mais la cartographie avec des boussoles et les règles sur les lignes de champ données dans [Champs magnétiques et lignes de champ magnétique] sont nécessaires pour plus de détails. Il existe une formule simple pour l’intensité du champ magnétique au centre d’une boucle circulaire. C’est vrai</p>
+<p><span class="math notranslate nohighlight">\(B = \frac{\mu_{0}I}{2R}\ (\text{au centre de la boucle})\text{,}\)</span></p>
+<p>22.26</p>
+<p>où <span class="math notranslate nohighlight">\(R\)</span> est le rayon de la boucle. Cette équation est très similaire à celle d’un fil droit, mais elle n’est valable *qu’au centre d’une boucle circulaire de fil. La similitude des équations indique que l’intensité du champ peut être obtenue au centre d’une boucle. Une façon d’obtenir un champ plus grand est d’avoir des boucles de <span class="math notranslate nohighlight">\(N\)</span> ; alors, le champ est <span class="math notranslate nohighlight">\(B = {N\mu}_{0}I/(2R)\)</span>. Notez que plus la boucle est grande, plus le champ en son centre est petit, car le courant est plus éloigné.</p>
+<p>! [][2]</p>
+<p>Figure 22.38 (a) RHR-2 donne la direction du champ magnétique à l’intérieur et à l’extérieur d’une boucle porteuse de courant. (b) Une cartographie plus détaillée à l’aide d’une boussole ou d’une sonde à effet Hall complète le tableau. Le champ est similaire à celui d’un barreau magnétique.</p>
+</section>
+<section id="champ-magnetique-produit-par-un-solenoide-porteur-de-courant">
+<h2>Champ magnétique produit par un solénoïde porteur de courant<a class="headerlink" href="#champ-magnetique-produit-par-un-solenoide-porteur-de-courant" title="Permalink to this heading">#</a></h2>
+<p>Un solénoïde est une longue bobine de fil (avec de nombreux tours ou boucles, par opposition à une boucle plate). En raison de sa forme, le champ à l’intérieur d’un solénoïde peut être très uniforme et aussi très fort. Le champ juste à l’extérieur des bobines est presque nul. [Figure 22.39] montre à quoi ressemble le champ et comment sa direction est donnée par RHR-2.</p>
+<p>! [][3]</p>
+<p>Figure 22.39 (a) En raison de sa forme, le champ à l’intérieur d’un solénoïde de longueur <span class="math notranslate nohighlight">\(l\)</span> est remarquablement uniforme en amplitude et en direction, comme l’indiquent les lignes de champ droites et uniformément espacées. Le champ à l’extérieur des bobines est presque nul. (b) Cette coupe montre le champ magnétique généré par le courant dans le solénoïde.</p>
+<p>Le champ magnétique à l’intérieur d’un solénoïde porteur de courant est très uniforme en direction et en amplitude. Ce n’est que vers les extrémités qu’il commence à s’affaiblir et à changer de direction. Le champ extérieur a des complexités similaires à celles des boucles plates et des barres magnétiques, mais l’intensité du champ magnétique à l’intérieur d’un solénoïde est simplement</p>
+<p><span class="math notranslate nohighlight">\(B = \mu_{0}\text{nI}\ \ (\text{à l'intérieur d'un solénoïde}),\)</span></p>
+<p>22.27</p>
+<p>où <span class="math notranslate nohighlight">\(n\)</span> est le nombre de boucles par unité de longueur du solénoïde <span class="math notranslate nohighlight">\((n = N/l\)</span>, <span class="math notranslate nohighlight">\(N\)</span> étant le nombre de boucles et <span class="math notranslate nohighlight">\(l\)</span> la longueur). Notez que <span class="math notranslate nohighlight">\(B\)</span> est l’intensité du champ n’importe où dans la région uniforme de l’intérieur et pas seulement au centre. De grands champs uniformes répartis sur un grand volume sont possibles avec des solénoïdes, comme [Exemple 22.7] l’implique.</p>
+</section>
+<section id="exemple-22-7-example-22-7-titre3gris">
+<h2>Exemple 22.7 {#example-22.7 . Titre3Gris}<a class="headerlink" href="#exemple-22-7-example-22-7-titre3gris" title="Permalink to this heading">#</a></h2>
+<section id="calcul-de-l-intensite-du-champ-a-l-interieur-d-un-solenoide-calculating-intensite-de-champ-a-l-interieur-d-un-solenoide-titre4gris">
+<h3>Calcul de l’intensité du champ à l’intérieur d’un solénoïde {#calculating-intensité-de-champ-à-l’intérieur d’un-solénoïde . Titre4Gris}<a class="headerlink" href="#calcul-de-l-intensite-du-champ-a-l-interieur-d-un-solenoide-calculating-intensite-de-champ-a-l-interieur-d-un-solenoide-titre4gris" title="Permalink to this heading">#</a></h3>
+<p>Quel est le champ à l’intérieur d’un solénoïde de 2,00 m de long qui a 2000 boucles et transporte un courant de 1600 A ?</p>
+</section>
+<section id="strategie-strategy-1-titre4gris">
+<h3>Stratégie {#strategy-1 . Titre4Gris}<a class="headerlink" href="#strategie-strategy-1-titre4gris" title="Permalink to this heading">#</a></h3>
+<p>Pour trouver l’intensité du champ à l’intérieur d’un solénoïde, nous utilisons <span class="math notranslate nohighlight">\(B = \mu_{0}\text{nI}\)</span>. Tout d’abord, nous notons que le nombre de boucles par unité de longueur est</p>
+<p><span class="math notranslate nohighlight">\(n = \frac{N}{l} = \frac{\text{2000}}{2.00\ m} = \text{1000}\ \text{m}^{- 1} = \text{10}\ \text{cm}^{- 1}\text{.} \)</span></p>
+<p>22.28</p>
+</section>
+<section id="solution-solution-1-titre4gris">
+<h3>Solution {#solution-1 . Titre4Gris}<a class="headerlink" href="#solution-solution-1-titre4gris" title="Permalink to this heading">#</a></h3>
+<p>La substitution de valeurs connues donne</p>
+<p>! [équation multiligne, ligne 1, majuscule B, égale mu sous-zéro fois nI, égale parenthèse gauche, quatre pi fois 10, super négative, sept fois cap, T, point postfixe, m barre oblique, majuscule A, parenthèse droite multipliée par la parenthèse gauche, 1000 m, super négative, une parenthèse droite fois parenthèse gauche 1600, capuchon A, parenthèse droite, ligne 2, blanc, égal à deux 0,01, majuscule, point T]</p>
+<p>22.29</p>
+</section>
+<section id="discussion-discussion-1-titre4gris">
+<h3>Discussion {#discussion-1 . Titre4Gris}<a class="headerlink" href="#discussion-discussion-1-titre4gris" title="Permalink to this heading">#</a></h3>
+<p>Il s’agit d’une grande intensité de champ qui pourrait être établie sur un solénoïde de grand diamètre, comme dans les utilisations médicales de l’imagerie par résonance magnétique (IRM). Le très grand courant est cependant une indication que les champs de cette intensité ne sont pas faciles à atteindre. Un courant aussi important à travers 1000 boucles comprimées dans une longueur d’un mètre produirait un chauffage important. Des courants plus élevés peuvent être obtenus en utilisant des fils supraconducteurs, bien que cela soit coûteux. Il y a une limite supérieure au courant, car l’état supraconducteur est perturbé par de très grands champs magnétiques.</p>
+<p>Il existe des variantes intéressantes de la bobine plate et du solénoïde. Par exemple, la bobine toroïdale utilisée pour confiner les particules réactives dans les tokamaks ressemble beaucoup à un solénoïde plié en cercle. Le champ à l’intérieur d’un tore est très fort mais circulaire. Les particules chargées se déplacent en cercles, suivant les lignes de champ, et entrent en collision les unes avec les autres, induisant peut-être une fusion. Mais les particules chargées ne traversent pas les lignes de champ et ne s’échappent pas du toroïde. Toute une gamme de formes de bobines est utilisée pour produire toutes sortes de formes de champ magnétique. L’ajout de matériaux ferromagnétiques produit des intensités de champ plus importantes et peut avoir un effet significatif sur la forme du champ. Les matériaux ferromagnétiques ont tendance à piéger les champs magnétiques (les lignes de champ se courbent dans le matériau ferromagnétique, laissant des champs plus faibles à l’extérieur) et sont utilisés comme boucliers pour les appareils qui sont affectés négativement par les champs magnétiques, y compris le champ magnétique terrestre.</p>
+</section>
+</section>
+<section id="phet-explorations-phet-explorations-titre3gris">
+<h2>PhET Explorations {#phet-explorations . Titre3Gris}<a class="headerlink" href="#phet-explorations-phet-explorations-titre3gris" title="Permalink to this heading">#</a></h2>
+<section id="generateur-generator-titre4gris">
+<h3>Générateur {#generator . Titre4Gris}<a class="headerlink" href="#generateur-generator-titre4gris" title="Permalink to this heading">#</a></h3>
+<p>Produisez de l’électricité à l’aide d’une barre magnétique ! Découvrez la physique derrière les phénomènes en explorant les aimants et comment vous pouvez les utiliser pour fabriquer une ampoule.</p>
+<p>[Cliquez pour voir le contenu].</p>
+<p>[Figure 22.37] : #import-auto-id1166991852141
+[1] : media/rId23.jpeg {width=”2.60416666666666665in » height=”4.3736636045494315in”}
+[équation multiligne, ligne 1, majuscule I égale deux fois pi rB divisé par mu, indice nul, égal à deux fois pi fois parenthèse gauche, 5,0 fois 10, super négatif, deux fois m, parenthèse droite multipliée par parenthèse gauche, 1,0 fois 10, super négatif, quatre fois capuchon, T, parenthèse droite divisée par quatre fois pi fois 10, super négatif sept fois cap, T postfix, point, m barre oblique, majuscule A, ligne 2, blanc égal à 25, majuscule A, point] :  media/rId28.png {width=”2.552083333333333335in » height=”0.52083333333333334in”}
+[Champs magnétiques et lignes de champ magnétique] : <a class="reference external" href="http://openstax.org/books/college-physics-2e/pages/22-3-magnetic-fields-and-magnetic-field-lines">http://openstax.org/books/college-physics-2e/pages/22-3-magnetic-fields-and-magnetic-field-lines</a>
+[Figure 22.38] : #import-auto-id1166991829247
+[2] : media/rId43.jpeg {width=”4.6875in » height=”2.6343744531933506in”}
+[Figure 22.39] : #import-auto-id1166991829619
+[3] : media/rId48.jpeg {width=”5.7291666666666667in » height=”2.744270559930009in”}
+[Exemple 22.7] : #fs-id2566108
+[équation multiligne ligne ligne 1 cap B égal mu indice zéro fois nI égal parenthèse gauche quatre pi fois 10 super négatif sept fois cap T postfixe point m barre oblique cap Une parenthèse droite multipliée parenthèse gauche 1000 m super négative une parenthèse droite fois parenthèse gauche 1600 cap A parenthèse droite ligne 2 Blanc égal à deux 0,01 cap T point] :  media/rId53.png {width=”3.802083333333333335in » height=”0.4270833333333333in”}
+[Cliquez pour voir le contenu] : <a class="reference external" href="https://openstax.org/l/28gen">https://openstax.org/l/28gen</a></p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./2M\Magnetisme"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectifs-d-apprentissage">Objectifs d’apprentissage</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#champ-magnetique-cree-par-un-long-fil-droit-porteur-de-courant-regle-de-la-main-droite-2">Champ magnétique créé par un long fil droit porteur de courant : règle de la main droite 2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple-22-6-example-22-6-titre3gris">Exemple 22.6 {#example-22.6 . Titre3Gris}</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calcul-du-courant-qui-produit-un-champ-magnetique-calculating-courant-qui-produit-un-champ-magnetique-titre4gris">Calcul du courant qui produit un champ magnétique {#calculating-courant-qui-produit-un-champ-magnétique . Titre4Gris}</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strategie-strategy-titre4gris">Stratégie {#strategy . Titre4Gris}</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#solution-solution-titre4gris">Solution {#solution . Titre4Gris}</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-discussion-titre4gris">Discussion {#discussion . Titre4Gris}</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#la-loi-d-ampere-et-autres">La loi d’Ampère et autres</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#etablir-des-connexions-relativite-making-connexions-relativite-titre3gris">Établir des connexions : Relativité {#making-connexions-relativité . Titre3Gris}</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#champ-magnetique-produit-par-une-boucle-circulaire-porteuse-de-courant">Champ magnétique produit par une boucle circulaire porteuse de courant</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#champ-magnetique-produit-par-un-solenoide-porteur-de-courant">Champ magnétique produit par un solénoïde porteur de courant</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple-22-7-example-22-7-titre3gris">Exemple 22.7 {#example-22.7 . Titre3Gris}</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calcul-de-l-intensite-du-champ-a-l-interieur-d-un-solenoide-calculating-intensite-de-champ-a-l-interieur-d-un-solenoide-titre4gris">Calcul de l’intensité du champ à l’intérieur d’un solénoïde {#calculating-intensité-de-champ-à-l’intérieur d’un-solénoïde . Titre4Gris}</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strategie-strategy-1-titre4gris">Stratégie {#strategy-1 . Titre4Gris}</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#solution-solution-1-titre4gris">Solution {#solution-1 . Titre4Gris}</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-discussion-1-titre4gris">Discussion {#discussion-1 . Titre4Gris}</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#phet-explorations-phet-explorations-titre3gris">PhET Explorations {#phet-explorations . Titre3Gris}</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generateur-generator-titre4gris">Générateur {#generator . Titre4Gris}</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Philippe Pittet
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

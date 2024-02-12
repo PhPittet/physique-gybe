@@ -18,25 +18,25 @@ Laquelle des affirmations suivantes décrirait une longueur équivalente à $2.0
 ::::
 
 ::::{tab-item} Réponse 1.
-❌ Non !
+❌ Mauvaise réponse !
 
 Le préfixe $kilo$ correspond au facteur $\times 10^{3}$
 ::::
 
 ::::{tab-item} Réponse 2.
-❌ Non !
+❌ Mauvaise réponse !
 
 Le préfixe $méga$ correspond au facteur $\times 10^{6}$
 ::::
 
 ::::{tab-item} Réponse 3.
-✅ Oui, c'est correct !
+✅ Bonne réponse !
 
 Le préfixe $milli$ correspond bien au facteur $\times 10^{-3}$
 ::::
 
 ::::{tab-item} Réponse 4.
-❌ Non !
+❌ Mauvaise réponse !
 
 Le préfixe $micro$ correspond au facteur $\times 10^{-6}$
 ::::
@@ -51,7 +51,7 @@ Pour convertir $2.0\cdot 10^{-3}$ mètre dans différentes unités de mesure, il
 - **Millimètre (mm)** : $1\,mm$ = $10^{-3}$ mètres
 - **Micromètre (µm)** : $1\,\mu m$ = $10^{-6}$ mètres
 
-Donc, $2\cdot 10^{-3}$ mètre équivaut à :
+Donc, $2.0\cdot 10^{-3}$ mètre équivaut à :
 
 1. **$2.0$ kilomètres** : Cela signifierait $2.0 \times 10^3$ mètres, ce qui est incorrect.
 2. **$2.0$ mégamètres** : Cela signifierait $2.0 \times 10^6$ mètres, ce qui est également incorrect.
@@ -82,26 +82,27 @@ Cliquer sur la réponse que vous avez choisie :
 ::::
 
 ::::{tab-item} Réponse 1.
-✅ Oui, c'est correct !
+✅ Bonne réponse !
 
 Le $3\,\%$ de $65\,kg$ donne précisément  $1.95\,kg$
 ::::
 
 ::::{tab-item} Réponse 2.
-❌ Non !
+❌ Mauvaise réponse !
 
 $98\,kg > 65\,kg$ ce qui correspondrait à une incertitude supérieur à $100\,\%$
 ::::
 
 ::::{tab-item} Réponse 3.
-❌ Non !
+❌ Mauvaise réponse !
+
 $5\,kg$ représente environ $8\,\%$ de $65\,kg$
 ::::
 
 ::::{tab-item} Réponse 4.
-❌ Non
+❌ Mauvaise réponse !
 
-$0\,kg$ d'incertitude laisse supposer que votre balance est d'une précision ultime !
+$0\,kg$ d'incertitude laisse supposer que votre balance est d'une excellente précision !
 ::::
 :::::
 ::::::
@@ -118,7 +119,7 @@ L'incertitude de leur masse en kilogrammes est de $1,95\,kg$. L'option la plus p
 
 :::::::{admonition} QCM 3
 :class: qcm
-Laquelle des affirmations suivantes décrit le mieux une variable ?
+Laquelle des affirmations suivantes décrit le mieux **une variable** ?
 1. Une tendance qui montre une relation exponentielle
 2. Quelque chose dont la valeur peut changer au cours de plusieurs mesures
 3. Une mesure de la variation d'une ligne de tracé le long de l'axe des y
@@ -134,28 +135,28 @@ Cliquer sur la réponse que vous avez choisie :
 ::::
 
 ::::{tab-item} Réponse 1.
-❌ Non !
+❌ Mauvaise réponse !
 
 Pourquoi se limiter aux exponentielles ?
 ::::
 
 ::::{tab-item} Réponse 2.
-✅ Oui, c'est correct !
+✅ Bonne réponse !
 
 Une variable est une grandeur qui peut, comme son nom l'indique, prendre différentes valeur au cours d'une mesure.\
-Par exemple, si on mesure la température de l'eau qui chauffe, on peut prendre le temps $t$ ou la température $T£ comme variables. 
+Par exemple, si on mesure la température de l'eau qui chauffe, on peut prendre le temps $t$ ou la température $T$ comme variables. 
 ::::
 
 ::::{tab-item} Réponse 3.
-❌ Non !
+❌ Mauvaise réponse !
 
 Ici, on mesure la fonction $f(x)$ qui indique comment cette variable évolue.
 ::::
 
 ::::{tab-item} Réponse 4.
-❌ Non !
+❌ Mauvaise réponse !
 
-Si ça reste constant, alors ça ne varie pas... alors pourquoi appeler ça une variable ?
+Si ça reste constant, alors ça ne varie pas... Pourquoi donc appeler ça une variable ?
 ::::
 :::::
 ::::::
@@ -184,25 +185,25 @@ Un entraîneur d'athlétisme d'une école secondaire vient d'acheter un nouveau 
 ::::
 
 ::::{tab-item} Réponse 1.
-✅ Oui, c'est correct !
+✅ Bonne réponse !
 
-La différence entre les deux premiers, soit $0.03\,s$ est inférieur à l'incertitude du chronomètre.
+La différence entre les deux premiers, soit $0.03\,s$, est inférieur à l'incertitude du chronomètre.
 ::::
 
 ::::{tab-item} Réponse 2.
-❌ Non !
+❌ Mauvaise réponse !
 
 Une incertitude trop petite est rarement un problème pour une mesure !
 ::::
 
 ::::{tab-item} Réponse 3.
-❌ Non !
+❌ Mauvaise réponse !
 
 Ce chronomètre sera cependant utile pour les entraînements, car il offre une précision raisonnable.
 ::::
 
 ::::{tab-item} Réponse 4.
-❌ Non !
+❌ Mauvaise réponse !
 
 Cependant, c'est ce type de chronomètre avec une petite incertitude, qui serait vraiment utile pour les courses de sprint. Malheureusement l'incertitude de $\pm 0.05\,s$ sera encore trop grande pour différencier les deux premiers sprinteurs.
 ::::
