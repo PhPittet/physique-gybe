@@ -43,7 +43,7 @@ où $\theta$ est l'angle entre les directions de $v$ et $B$.
 
 - La force magnétique peut fournir une force centripète et provoquer le déplacement d'une particule chargée dans une trajectoire circulaire de rayon
 :::{math}
-$r = \frac{mv}{qB}
+r = \frac{mv}{qB}
 :::
 
 où $v$ est la composante de la vitesse perpendiculaire à $B$ pour une particule chargée de masse $m$ et de charge $q$.
@@ -62,7 +62,7 @@ pour un conducteur de largeur $l$ à travers lequel les charges se déplacent à
 
 - La force magnétique sur les conducteurs porteurs de courant est donnée par
 :::{math}
-F = I\cdot l\cdot B\sin\thêta
+F = I\cdot l\cdot B\sin\theta
 :::
 
 où $I$ est le courant, $l$ est la longueur d'un conducteur droit dans un champ magnétique uniforme $B$, et $\theta$ est l'angle entre $I$ et $B$. La force suit la règle de la main droite avec le pouce dans la direction de $I$.
