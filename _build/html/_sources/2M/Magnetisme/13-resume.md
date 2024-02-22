@@ -43,7 +43,7 @@ où $\theta$ est l'angle entre les directions de $v$ et $B$.
 
 - La force magnétique peut fournir une force centripète et provoquer le déplacement d'une particule chargée dans une trajectoire circulaire de rayon
 :::{math}
-$r = \frac{mv}{qB}
+r = \frac{mv}{qB}
 :::
 
 où $v$ est la composante de la vitesse perpendiculaire à $B$ pour une particule chargée de masse $m$ et de charge $q$.
@@ -62,7 +62,7 @@ pour un conducteur de largeur $l$ à travers lequel les charges se déplacent à
 
 - La force magnétique sur les conducteurs porteurs de courant est donnée par
 :::{math}
-F = I\cdot l\cdot B\sin\thêta
+F = I\cdot l\cdot B\sin\theta
 :::
 
 où $I$ est le courant, $l$ est la longueur d'un conducteur droit dans un champ magnétique uniforme $B$, et $\theta$ est l'angle entre $I$ et $B$. La force suit la règle de la main droite avec le pouce dans la direction de $I$.
@@ -71,7 +71,7 @@ où $I$ est le courant, $l$ est la longueur d'un conducteur droit dans un champ 
 
 - L'intensité du champ magnétique créé par le courant dans un long fil droit est donnée par
 :::{math}
-B = \frac{\mu_{0}I}{2\pi r}(\text{fil droit long})
+B = \frac{\mu_{0}I}{2\pi r}\qquad(\text{fil droit long})
 :::
 
 où $I$ est le courant, $r$ est la distance la plus courte au fil, et la constante $\mu_{0} = 4\pi\cdot 10^{-7}\,\text{T}\cdot \text{m/A}$ est la perméabilité de l'espace libre.
