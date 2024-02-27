@@ -4,7 +4,7 @@
 Le vecteur le plus simple est le vecteur qui représente un déplacement - le `vecteur déplacement` - aussi appelé changement (ou variation) de position. Lorsqu'un objet effectue un déplacement d'un point **A** à un point **B**, on dit qu'il subit un déplacement de **A** vers **B**, et on représente ce déplacement par une flèche qui pointe de **A** vers **B**. La flèche représente le vecteur de façon géométrique.
 
 :::{figure} figures/Trajectoire.png
-:name: Trajectoire
+:name: Trajectoire2
 :align: center
 :width: 50%
 *Il existe plusieurs trajectoires possible pouvant relier **A** à **B**. Par contre le vecteur déplacement $\overrightarrow{AB}$ est unique.*
@@ -24,7 +24,7 @@ Le `vecteur vitesse moyenne` est défini de manière similaire à la vitesse moy
 Géométriquement, le vecteur vitesse moyenne entre les points **A** et **B** de la trajectoire de la {numref}`vectv` est
 obtenu :
 1. En dessinant le vecteur déplacement $\overrightarrow{\Delta x}$ de **A** à **B**
-2. En calculant l'intensité de la vitesse moyenne : $\Vert\vec{v}_{moy}\Vert=\dfrac{\Vert\overrightarrow{\Delta x}\Vert}{\Delta t}$
+2. En calculant l'intensité de la vitesse moyenne : $\Vert\vec{v}_{moy}\Vert=\frac{\Vert\overrightarrow{\Delta x}\Vert}{\Delta t}$
 3. En dessinant le vecteur $\vec{v}_{moy}$ d'origine **A**, de sens $A\rightarrow B$ et de longueur $\Vert\vec{v}_{moy}\Vert$.
 
 :::{figure} figures/VectV.png
