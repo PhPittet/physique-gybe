@@ -2,19 +2,26 @@
 ## Remonter vers l'inconnue
 ### Opérations réversibles
 Les équations les plus simples à résoudre sont celles dans lesquelles l'inconnue ne subit que des transformations facilement réversibles. Pour comprendre ce que cela signifie, regardons l'équation suivante :
-$x+5=16$.
+:::{math}
+x+5=16
+:::
 
-En algèbre rhétorique la même équation donnerait ceci : quel nombre donne 16 si on lui ajoute 5 ? Un peu de réflexion, permet de trouver la solution sans trop de problème : $x=11$, en effet, $11+5=16$.
+En algèbre rhétorique la même équation donnerait ceci : quel nombre donne $16$ si on lui ajoute $5$ ? Un peu de réflexion, permet de trouver la solution sans trop de problème : $x=11$, en effet, $11+5=16$.
 
-Si cette équation est simple à résoudre, c'est parce que l'inconnue ne subit qu'une seule opération : une addition. Or l'addition est une opération qui permet de revenir en arrière facilement : il suffit de faire une soustraction. Pour trouver la solution, on a simplement fait $16-5=11$,  car **la soustraction est l'opération inverse de l'addition**.
+Si cette équation est simple à résoudre, c'est parce que l'inconnue ne subit qu'une seule opération : une addition. Or l'addition est une opération qui permet de revenir en arrière facilement : il suffit de faire une soustraction. Pour trouver la solution, on a simplement fait $16-5=11$, car **la soustraction est l'opération inverse de l'addition**.
 
+:::{admonition} Astuce
+:class: astuce
 En fait, les quatre opérations de base sont facilement réversibles :
 - une addition s'inverse avec une soustraction ;
 - une soustraction s'inverse avec une addition ;
 - une multiplication s'inverse avec une division ;
 - une division s'inverse avec une multiplication.
+:::
 
-Par conséquent, si dans une équation, l'inconnue ne subit que ces quatre opérations de base, alors la solution est facile à trouver. Regardons par exemple l'équation suivante :
+Par conséquent, si dans une équation, l'inconnue ne subit que ces quatre opérations de base, alors la solution est facile à trouver.
+
+Regardons par exemple l'équation suivante :
 :::{math}
 ((x+2)\cdot 3-4)\div 2=10
 :::
@@ -32,7 +39,6 @@ Pour résoudre cette équation, il suffit alors de refaire le chemin à l'envers
 :align: center
 :width: 50%
 :::
-
 
 Et voilà le travail ! L'équation est résolue : la solution est $x=6$. Si vous n'y croyez pas, remplacez le $x$ par $6$ dans l'équation de départ et vous verrez que ça marche :
 :::{math}
@@ -107,7 +113,10 @@ Ce genre d'équation est beaucoup plus subtile et demande l'utilisation de techn
 ### La règle fondamentale de manipulation des équations
 La règle fondamentale de manipulation des équations est la suivante :
 
-> On ne change pas les solutions d'une équation en appliquant la même transformation réversible à ses deux termes.
+:::{admonition} Astuce
+:class: astuce
+**On ne change pas les solutions d'une équation en appliquant la même transformation réversible à ses deux termes.**
+:::
 
 Prenons encore une fois l'exemple des quatre opérations de base, dont nous avons déjà vu qu'elles étaient réversibles. Alors, si on a une équation, on peut lui ajouter, lui soustraire, la multiplier ou la diviser par un nombre quelconque.
 :::{figure} figures/ArbreMachin.png
@@ -126,7 +135,7 @@ Pour illustrer l'utilité de cette règle, reprenons l'exemple de la première �
 x+5=16
 :::
 
-Alors, il est possible de faire l'opération −5 de chaque côté de l'équation, on obtient alors :
+Alors, il est possible de faire l'opération $-5$ de chaque côté de l'équation, on obtient alors :
 :::{math}
 x+5-5=16-5
 :::
@@ -170,7 +179,7 @@ La même chose est vraie pour la multiplication et la division.
 
 :::{admonition} Astuce
 :class: astuce
-Dans ce cas là, il faut toutefois vérifier avant de faire la transformation que truc n'est pas égal à 0 car la division par 0 est impossible.
+Dans ce cas là, il faut toutefois vérifier avant de faire la transformation que truc n'est pas égal à $0$ car la division par $0$ est impossible.
 :::
 
 :::{admonition} Pour plus d'informations
@@ -195,7 +204,13 @@ Quelques liens de vidéo utiles sur le même sujet :
  <iframe width="600" height="400" src="https://www.youtube.com/embed/YMorUg5B2d4" allowfullscreen></iframe>
 </div>
 
-3. **Comment manipuler une formule de physique avec division?**
+3. **Comment transformer une formule en physique - méthode en 5 minutes**
+%%HTML [--isolated]
+<div align="center">
+ <iframe width="600" height="400" src="https://www.youtube.com/embed/w8NmXWGWp2Q" allowfullscreen></iframe>
+</div>
+
+4. **Comment manipuler une formule de physique avec division ?**
 %%HTML [--isolated]
 <div align="center">
  <iframe width="600" height="400" src="https://www.youtube.com/embed/zi1bq7XQKI0" allowfullscreen></iframe>

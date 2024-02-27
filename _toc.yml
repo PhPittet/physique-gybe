@@ -24,6 +24,7 @@ parts:
       - file: 1M/Notation_Sci/1-questions
       - file: 1M/Notation_Sci/1-QCM
       - file: 1M/Notation_Sci/1-exercices
+      - file: 1M/Notation_Sci/1-resume
       - file: 1M/Notation_Sci/1-glossaire
   - caption:
     numbered: True
