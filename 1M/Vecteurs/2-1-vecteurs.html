@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>2.1. Vecteurs et scalaires &#8212; Physique 1M</title>
+    <title>2.1. Vecteurs en cinématiques &#8212; Physique 1M</title>
   
   
   
@@ -184,8 +184,8 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Rappel_Math/lecon0.html">Rappels Mathématiques</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../Rappel_Math/0-0-puissance.html">Les puissances de 10</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Rappel_Math/0-1-equations.html">Manipulation des équations</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Rappel_Math/0-2-vecteurs.html">Vecteurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Rappel_Math/0-1-equations.html">Manipuler les équations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Rappel_Math/0-2-vecteurs.html">Vecteurs et scalaires</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Rappel_Math/0-3-incertitudes.html">Erreurs &amp; incertitudes</a></li>
 </ul>
 </li>
@@ -200,13 +200,14 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-questions.html">1.5. Questions conceptuelles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-QCM.html">1.6. Questions à choix multiples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-exercices.html">1.7. Exercices</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-glossaire.html">1.8. Glossaire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-resume.html">1.8. Résumé du chapitre</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-glossaire.html">1.9. Glossaire</a></li>
 </ul>
 </li>
 </ul>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="lecon2.html">2. Vecteurs et Scalaires</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">2.1. Vecteurs et scalaires</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">2.1. Vecteurs en cinématiques</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2-2-coordonees.html">2.2. Systèmes de coordonnées</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2-questions.html">2.3. Questions conceptuelles</a></li>
 </ul>
@@ -486,7 +487,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Vecteurs et scalaires</h1>
+    <h1>Vecteurs en cinématiques</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -496,8 +497,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vecteurs">2.1.1. Vecteurs</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scalaires">2.1.2. Scalaires</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#le-vecteur-deplacement">2.1.1. Le vecteur déplacement</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#le-vecteur-vitesse">2.1.2. Le vecteur vitesse</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#le-vecteur-acceleration">2.1.3. Le vecteur accélération</a></li>
 </ul>
             </nav>
         </div>
@@ -509,16 +511,62 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="vecteurs-et-scalaires">
-<h1><span class="section-number">2.1. </span>Vecteurs et scalaires<a class="headerlink" href="#vecteurs-et-scalaires" title="Permalink to this heading">#</a></h1>
-<section id="vecteurs">
-<h2><span class="section-number">2.1.1. </span>Vecteurs<a class="headerlink" href="#vecteurs" title="Permalink to this heading">#</a></h2>
-<p>Quelle est la différence entre une distance de <span class="math notranslate nohighlight">\(20\,km\)</span> et un déplacement de <span class="math notranslate nohighlight">\(20\,km\)</span> vers le Nord ? Alors que la distance n’est définie que par l’amplitude (<span class="math notranslate nohighlight">\(20\,km\)</span>), le déplacement est défini à la fois par l’amplitude et <strong>la direction</strong> (le Nord). Le déplacement est un exemple de quantité <em>vectorielle</em>. La distance est un exemple de grandeur <em>scalaire</em>. <strong>Un vecteur est une quantité avec à la fois une amplitude et une direction</strong>. Il existe d’autres grandeurs physique qui sont également des vecteurs comme la vitesse (par exemple <span class="math notranslate nohighlight">\(90\,km/h\)</span> à l’est) ou une force (<span class="math notranslate nohighlight">\(500\,N\)</span> vers le bas).</p>
-<p>La direction d’un vecteur à une dimension (unidimensionnel) est donnée par un signe plus (<span class="math notranslate nohighlight">\(+\)</span>) ou moins (<span class="math notranslate nohighlight">\(-\)</span>), par rapport à la direction d’un axe de référence. Les vecteurs sont représentés graphiquement par des flèches. Une flèche utilisée pour représenter un vecteur a une longueur proportionnelle à l’amplitude (<em>valeur</em>) du vecteur (par exemple, plus l’amplitude est grande, plus la longueur du vecteur est importante) et pointe dans la même direction que le vecteur. On écrira les vecteurs avec une lettre surmontée d’une flèche. Par exemple le vecteur déplacement s’écrira <span class="math notranslate nohighlight">\(\overrightarrow{x}\,\)</span>. Les vecteurs ayant surtout un sens pour des mouvements à plusieurs dimension, on peut omettre la flèche sur le <span class="math notranslate nohighlight">\(x\)</span> pour des mouvements à une dimension.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="vecteurs-en-cinematiques">
+<h1><span class="section-number">2.1. </span>Vecteurs en cinématiques<a class="headerlink" href="#vecteurs-en-cinematiques" title="Permalink to this heading">#</a></h1>
+<section id="le-vecteur-deplacement">
+<h2><span class="section-number">2.1.1. </span>Le vecteur déplacement<a class="headerlink" href="#le-vecteur-deplacement" title="Permalink to this heading">#</a></h2>
+<p>Le vecteur le plus simple est le vecteur qui représente un déplacement - le <code class="docutils literal notranslate"><span class="pre">vecteur</span> <span class="pre">déplacement</span></code> - aussi appelé changement (ou variation) de position. Lorsqu’un objet effectue un déplacement d’un point <strong>A</strong> à un point <strong>B</strong>, on dit qu’il subit un déplacement de <strong>A</strong> vers <strong>B</strong>, et on représente ce déplacement par une flèche qui pointe de <strong>A</strong> vers <strong>B</strong>. La flèche représente le vecteur de façon géométrique.</p>
+<figure class="align-center" id="trajectoire2">
+<a class="reference internal image-reference" href="../../_images/Trajectoire1.png"><img alt="../../_images/Trajectoire1.png" src="../../_images/Trajectoire1.png" style="width: 50%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 2.1 </span><span class="caption-text"><em>Il existe plusieurs trajectoires possible pouvant relier <strong>A</strong> à <strong>B</strong>. Par contre le vecteur déplacement <span class="math notranslate nohighlight">\(\overrightarrow{AB}\)</span> est unique.</em></span><a class="headerlink" href="#trajectoire2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>On appelle <strong>trajectoire</strong>, le parcours réel suivit par un objet. Le vecteur déplacement qui relie deux points <em>A</em> et <em>B</em> est unique, alors que ces deux points peuvent être reliés par différentes trajectoires.</p>
+<p>Le vecteur déplacement représente seulement l’effet global du mouvement et non le mouvement lui-même.</p>
 </section>
-<section id="scalaires">
-<h2><span class="section-number">2.1.2. </span>Scalaires<a class="headerlink" href="#scalaires" title="Permalink to this heading">#</a></h2>
-<p>Certaines grandeurs physiques, comme la masse, n’ont aucune direction. <strong>Un scalaire est une quantité qui a une grandeur, mais aucune direction</strong>. Par exemple, la température (<span class="math notranslate nohighlight">\(21.0°C\)</span>), les kilocalories  d’énergie d’une barre chocolatée (<span class="math notranslate nohighlight">\(250\,kcal\)</span>), la taille d’une personne (<span class="math notranslate nohighlight">\(1.80\,m\)</span>) et la distance d’un marathon (<span class="math notranslate nohighlight">\(42.195\,km\)</span>) sont tous des scalaires - des quantités sans direction spécifiée. Notez, cependant, qu’un scalaire peut être négatif, comme une température de <span class="math notranslate nohighlight">\(-5.0°C\)</span>. Dans ce cas, le signe moins indique un point sur une échelle plutôt qu’une direction. Les scalaires ne sont jamais représentés par des flèches.</p>
+<section id="le-vecteur-vitesse">
+<h2><span class="section-number">2.1.2. </span>Le vecteur vitesse<a class="headerlink" href="#le-vecteur-vitesse" title="Permalink to this heading">#</a></h2>
+<p>Le <code class="docutils literal notranslate"><span class="pre">vecteur</span> <span class="pre">vitesse</span> <span class="pre">moyenne</span></code> est défini de manière similaire à la vitesse moyenne scalaire :</p>
+<div class="math notranslate nohighlight">
+\[\vec{v}_{moy}=\dfrac{\overrightarrow{\Delta x}}{\Delta t}\]</div>
+<p>Géométriquement, le vecteur vitesse moyenne entre les points <strong>A</strong> et <strong>B</strong> de la trajectoire de la <a class="reference internal" href="#vectv"><span class="std std-numref">Fig. 2.2</span></a> est
+obtenu :</p>
+<ol class="arabic simple">
+<li><p>En dessinant le vecteur déplacement <span class="math notranslate nohighlight">\(\overrightarrow{\Delta x}\)</span> de <strong>A</strong> à <strong>B</strong></p></li>
+<li><p>En calculant l’intensité de la vitesse moyenne : <span class="math notranslate nohighlight">\(\Vert\vec{v}_{moy}\Vert=\dfrac{\Vert\overrightarrow{\Delta x}\Vert}{\Delta t}\)</span></p></li>
+<li><p>En dessinant le vecteur <span class="math notranslate nohighlight">\(\vec{v}_{moy}\)</span> d’origine <strong>A</strong>, de sens <span class="math notranslate nohighlight">\(A\rightarrow B\)</span> et de longueur <span class="math notranslate nohighlight">\(\Vert\vec{v}_{moy}\Vert\)</span>.</p></li>
+</ol>
+<figure class="align-center" id="vectv">
+<a class="reference internal image-reference" href="../../_images/VectV.png"><img alt="../../_images/VectV.png" src="../../_images/VectV.png" style="width: 50%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 2.2 </span><span class="caption-text"><em>Les vecteurs déplacement <span class="math notranslate nohighlight">\(\vec{\Delta x}\)</span>, vitesse moyenne <span class="math notranslate nohighlight">\(\vec{v}_{moy}\)</span> et vitesses instantanées <span class="math notranslate nohighlight">\(\vec{v_{A}}\)</span> et <span class="math notranslate nohighlight">\(\vec{v_{B}}\)</span></em></span><a class="headerlink" href="#vectv" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>En prenant un intervalle de mesure <span class="math notranslate nohighlight">\(\Delta t\)</span> de plus en plus court, le point <strong>B</strong> se rapproche du point <strong>A</strong>; la <strong>vitesse instantanée</strong> est obtenue lorsque <span class="math notranslate nohighlight">\(\Delta t\)</span> tend vers <span class="math notranslate nohighlight">\(0\)</span>, les points <strong>A</strong> et <strong>B</strong> sont confondus et le <code class="docutils literal notranslate"><span class="pre">vecteur</span> <span class="pre">vitesse</span> <span class="pre">instantanée</span></code> devient <strong>tangent</strong> à la trajectoire.</p>
+</section>
+<section id="le-vecteur-acceleration">
+<h2><span class="section-number">2.1.3. </span>Le vecteur accélération<a class="headerlink" href="#le-vecteur-acceleration" title="Permalink to this heading">#</a></h2>
+<p>Le vecteur accélération <span class="math notranslate nohighlight">\(\vec{a}\)</span> exprime la variation de vitesse pendant une seconde en tenant compte du changement possible de
+direction du vecteur vitesse.</p>
+<p>Pour déterminer le vecteur <span class="math notranslate nohighlight">\(\vec{a}\)</span>, il faut d’abord construire le vecteur variation (ou différence) de vitesse <span class="math notranslate nohighlight">\(\overrightarrow{\Delta v}=\overrightarrow{v_{2}}-\overrightarrow{v_{1}}\)</span> en reliant l’extrémité du vecteur <span class="math notranslate nohighlight">\(\overrightarrow{v_{1}}\)</span> à l’extrémité du vecteur <span class="math notranslate nohighlight">\(\overrightarrow{v_{2}}\)</span>.</p>
+<p>Le vecteur accélération moyenne <span class="math notranslate nohighlight">\(\vec{a}\)</span> est le vecteur variation de vitesse <span class="math notranslate nohighlight">\(\overrightarrow{\Delta v}\)</span> divisé par la variation de temps <span class="math notranslate nohighlight">\(\Delta t\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[\vec{a}=\dfrac{\overrightarrow{\Delta v}}{\Delta t}\]</div>
+<p>Pratiquement, on translatera le vecteur <span class="math notranslate nohighlight">\(-\overrightarrow{v_{1}}\)</span> à l’extrémité de  <span class="math notranslate nohighlight">\(\overrightarrow{v_{2}}\)</span>. <span class="math notranslate nohighlight">\(\overrightarrow{\Delta v}\)</span> est le vecteur qui relie l’origine de <span class="math notranslate nohighlight">\(\overrightarrow{v_{2}}\)</span> à l’extrémité de <span class="math notranslate nohighlight">\(-\overrightarrow{v_{1}}\)</span>. Le vecteur <span class="math notranslate nohighlight">\(\vec{a}\)</span> a la même orientation que le vecteur <span class="math notranslate nohighlight">\(\overrightarrow{\Delta v}\)</span>.</p>
+<figure class="align-center" id="vectacc">
+<a class="reference internal image-reference" href="../../_images/VectAcc.png"><img alt="../../_images/VectAcc.png" src="../../_images/VectAcc.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 2.3 </span><span class="caption-text"><em>Méthode pour tracer géométriquement le vecteur <span class="math notranslate nohighlight">\(\vec{a}\)</span> à partir de deux vecteurs vitesses successifs <span class="math notranslate nohighlight">\(\vec{v}_{n}\)</span> et <span class="math notranslate nohighlight">\(\vec{v}_{n+1}\)</span>.</em></span><a class="headerlink" href="#vectacc" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>D’un point de vue vectorielle, la variation de vitesse peut prendre différents aspects :</p>
+<ol class="arabic simple">
+<li><p>La vitesse peut augmenter ou diminuer tout en gardant la même direction. C’est le cas d’une voiture qui accélère (ou qui freine) sur une route rectiligne.</p></li>
+<li><p>La vitesse peut changer de direction tout en gardant la même intensité. C’est le cas d’une voiture qui effectue un virage à vitesse constante. La vitesse indiquée par le compteur ne change pas, mais il y a une accélération dirigée vers l’intérieur du virage.</p></li>
+<li><p>La vitesse peut changer en direction et en intensité (une voiture qui accélère dans un virage par exemple).</p></li>
+</ol>
+<p>Lorsqu’un objet suit une trajectoire circulaire ou en arc de cercle à vitesse (scalaire) constante, le vecteur accélération instantanée est toujours perpendiculaire au vecteur vitesse et toujours dirigé vers le centre du cercle, on parle d’accélération centripète.</p>
 </section>
 </section>
 
@@ -586,8 +634,9 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vecteurs">2.1.1. Vecteurs</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scalaires">2.1.2. Scalaires</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#le-vecteur-deplacement">2.1.1. Le vecteur déplacement</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#le-vecteur-vitesse">2.1.2. Le vecteur vitesse</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#le-vecteur-acceleration">2.1.3. Le vecteur accélération</a></li>
 </ul>
   </nav></div>
 

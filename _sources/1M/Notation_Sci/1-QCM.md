@@ -3,10 +3,10 @@
 ::::::::::{admonition} QCM 1
 :class: qcm
 Laquelle des affirmations suivantes décrirait une longueur équivalente à $2.0\cdot 10^{-3}$ mètre ?
-1. $2.0$ kilomètres
-2. $2.0$ mégamètres
-3. $2.0$ millimètres
-4. $2.0$ micromètres
+1. Une longueur de $2.0$ kilomètres
+2. Une longueur de $2.0$ mégamètres
+3. Une longueur de $2.0$ millimètres
+4. Une longueur de $2.0$ micromètres
 :::::::::{admonition} *réponse*
 :class: dropdown qcmreponse
 
@@ -67,10 +67,10 @@ Donc, l'affirmation correcte est la **3. $2.0$ millimètres**.
 Supposons qu'une balance de salle de bain affiche la masse d'une personne comme étant de $65\,kg$ avec une incertitude de $3\,\%$.
 
 Quelle est l'incertitude de leur masse en kilogrammes ?
-1. $2\,kg$
-2. $98\,kg$
-3. $5\,kg$
-4. $0\,kg$
+1. $\Delta m=2\,kg$
+2. $\Delta m=98\,kg$
+3. $\Delta m=5\,kg$
+4. $\Delta m=0\,kg$
 
 ::::::{admonition} *réponse*
 :class: dropdown qcmreponse
@@ -137,7 +137,7 @@ Cliquer sur la réponse que vous avez choisie :
 ::::{tab-item} Réponse 1.
 ❌ Mauvaise réponse !
 
-Pourquoi se limiter aux exponentielles ?
+Pourquoi se limiter aux fonctions exponentielles ?
 ::::
 
 ::::{tab-item} Réponse 2.

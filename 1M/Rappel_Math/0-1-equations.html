@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Manipulation des équations &#8212; Physique 1M</title>
+    <title>Manipuler les équations &#8212; Physique 1M</title>
   
   
   
@@ -71,10 +71,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '1M/Rappel_Math/0-1-equations';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Vecteurs" href="0-2-vecteurs.html" />
+    <link rel="next" title="Vecteurs et scalaires" href="0-2-vecteurs.html" />
     <link rel="prev" title="Les puissances de 10" href="0-0-puissance.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -182,8 +184,8 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="lecon0.html">Rappels Mathématiques</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="0-0-puissance.html">Les puissances de 10</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Manipulation des équations</a></li>
-<li class="toctree-l2"><a class="reference internal" href="0-2-vecteurs.html">Vecteurs</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Manipuler les équations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="0-2-vecteurs.html">Vecteurs et scalaires</a></li>
 <li class="toctree-l2"><a class="reference internal" href="0-3-incertitudes.html">Erreurs &amp; incertitudes</a></li>
 </ul>
 </li>
@@ -198,13 +200,14 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-questions.html">1.5. Questions conceptuelles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-QCM.html">1.6. Questions à choix multiples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-exercices.html">1.7. Exercices</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-glossaire.html">1.8. Glossaire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-resume.html">1.8. Résumé du chapitre</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-glossaire.html">1.9. Glossaire</a></li>
 </ul>
 </li>
 </ul>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Vecteurs/lecon2.html">2. Vecteurs et Scalaires</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Vecteurs/2-1-vecteurs.html">2.1. Vecteurs et scalaires</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vecteurs/2-1-vecteurs.html">2.1. Vecteurs en cinématiques</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Vecteurs/2-2-coordonees.html">2.2. Systèmes de coordonnées</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Vecteurs/2-questions.html">2.3. Questions conceptuelles</a></li>
 </ul>
@@ -471,7 +474,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -482,11 +487,37 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Manipulation des équations</h1>
+    <h1>Manipuler les équations</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#remonter-vers-l-inconnue">Remonter vers l’inconnue</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#operations-reversibles">Opérations réversibles</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#complications">Complications</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#les-puissances">Les puissances</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#comment-faire-alors-pour-revenir-a-x-en-connaissant-x-2">Comment faire alors pour revenir à <span class="math notranslate nohighlight">\(x\)</span> en connaissant <span class="math notranslate nohighlight">\(x^2\)</span> ?</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#quand-les-x-sont-plusieurs">Quand les <span class="math notranslate nohighlight">\(x\)</span> sont plusieurs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#transformons-les-equations">Transformons les équations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-regle-fondamentale-de-manipulation-des-equations">La règle fondamentale de manipulation des équations</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#quand-les-termes-changent-de-cote">Quand les termes changent de côté</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -496,9 +527,182 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="manipulation-des-equations">
-<h1>Manipulation des équations<a class="headerlink" href="#manipulation-des-equations" title="Permalink to this heading">#</a></h1>
-<p>blibli…</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="manipuler-les-equations">
+<h1>Manipuler les équations<a class="headerlink" href="#manipuler-les-equations" title="Permalink to this heading">#</a></h1>
+<section id="remonter-vers-l-inconnue">
+<h2>Remonter vers l’inconnue<a class="headerlink" href="#remonter-vers-l-inconnue" title="Permalink to this heading">#</a></h2>
+<section id="operations-reversibles">
+<h3>Opérations réversibles<a class="headerlink" href="#operations-reversibles" title="Permalink to this heading">#</a></h3>
+<p>Les équations les plus simples à résoudre sont celles dans lesquelles l’inconnue ne subit que des transformations facilement réversibles. Pour comprendre ce que cela signifie, regardons l’équation suivante :</p>
+<div class="math notranslate nohighlight">
+\[x+5=16\]</div>
+<p>En algèbre rhétorique la même équation donnerait ceci : quel nombre donne <span class="math notranslate nohighlight">\(16\)</span> si on lui ajoute <span class="math notranslate nohighlight">\(5\)</span> ? Un peu de réflexion, permet de trouver la solution sans trop de problème : <span class="math notranslate nohighlight">\(x=11\)</span>, en effet, <span class="math notranslate nohighlight">\(11+5=16\)</span>.</p>
+<p>Si cette équation est simple à résoudre, c’est parce que l’inconnue ne subit qu’une seule opération : une addition. Or l’addition est une opération qui permet de revenir en arrière facilement : il suffit de faire une soustraction. Pour trouver la solution, on a simplement fait <span class="math notranslate nohighlight">\(16-5=11\)</span>, car <strong>la soustraction est l’opération inverse de l’addition</strong>.</p>
+<div class="astuce admonition">
+<p class="admonition-title">Astuce</p>
+<p>En fait, les quatre opérations de base sont facilement réversibles :</p>
+<ul class="simple">
+<li><p>une addition s’inverse avec une soustraction ;</p></li>
+<li><p>une soustraction s’inverse avec une addition ;</p></li>
+<li><p>une multiplication s’inverse avec une division ;</p></li>
+<li><p>une division s’inverse avec une multiplication.</p></li>
+</ul>
+</div>
+<p>Par conséquent, si dans une équation, l’inconnue ne subit que ces quatre opérations de base, alors la solution est facile à trouver.</p>
+<p>Regardons par exemple l’équation suivante :</p>
+<div class="math notranslate nohighlight">
+\[((x+2)\cdot 3-4)\div 2=10\]</div>
+<p>L’inconnue <span class="math notranslate nohighlight">\(x\)</span> subit successivement chacune des quatre opérations pour aboutir à <span class="math notranslate nohighlight">\(10\)</span>. Cette équation peut se représenter par le schéma suivant :</p>
+<figure class="align-center" id="equation1">
+<a class="reference internal image-reference" href="../../_images/equation1.png"><img alt="../../_images/equation1.png" src="../../_images/equation1.png" style="width: 50%;" /></a>
+</figure>
+<p>Pour résoudre cette équation, il suffit alors de refaire le chemin à l’envers en partant du 10 et en inversant chacune des opérations.</p>
+<figure class="align-center" id="equation1sol">
+<a class="reference internal image-reference" href="../../_images/equation1sol.png"><img alt="../../_images/equation1sol.png" src="../../_images/equation1sol.png" style="width: 50%;" /></a>
+</figure>
+<p>Et voilà le travail ! L’équation est résolue : la solution est <span class="math notranslate nohighlight">\(x=6\)</span>. Si vous n’y croyez pas, remplacez le <span class="math notranslate nohighlight">\(x\)</span> par <span class="math notranslate nohighlight">\(6\)</span> dans l’équation de départ et vous verrez que ça marche :</p>
+<div class="math notranslate nohighlight">
+\[((6+2)\cdot 3-4)\div 2=10\]</div>
+</section>
+<section id="complications">
+<h3>Complications<a class="headerlink" href="#complications" title="Permalink to this heading">#</a></h3>
+<section id="les-puissances">
+<h4>Les puissances<a class="headerlink" href="#les-puissances" title="Permalink to this heading">#</a></h4>
+<p>Tant que l’on a que les quatre opérations de base dans notre équation, tout se passe donc plutôt bien. Les choses commencent à se compliquer dès que les puissances apparaissent. Le problème avec les puissance c’est qu’elles ne sont pas réversibles de façon unique. Regardons par exemple l’équation suivante :</p>
+<div class="math notranslate nohighlight">
+\[x^2=9\]</div>
+<p>Cette équation peut se représenter de la façon suivante :</p>
+<figure class="align-center" id="equation2">
+<a class="reference internal image-reference" href="../../_images/equation2.png"><img alt="../../_images/equation2.png" src="../../_images/equation2.png" style="width: 20%;" /></a>
+</figure>
+<section id="comment-faire-alors-pour-revenir-a-x-en-connaissant-x-2">
+<h5>Comment faire alors pour revenir à <span class="math notranslate nohighlight">\(x\)</span> en connaissant <span class="math notranslate nohighlight">\(x^2\)</span> ?<a class="headerlink" href="#comment-faire-alors-pour-revenir-a-x-en-connaissant-x-2" title="Permalink to this heading">#</a></h5>
+<p>Spontanément, on a envie de répondre que la réponse se trouve grâce à la racine carrée. En effet, <span class="math notranslate nohighlight">\(\sqrt{9}=3\)</span> est bien solution à notre équation : si on remplace <span class="math notranslate nohighlight">\(x\)</span> par 3, on a bien <span class="math notranslate nohighlight">\(3^{2}=9\)</span>.</p>
+<p>Seulement voilà, en faisant ça, on a oublié une solution : <span class="math notranslate nohighlight">\(-3\)</span>. En effet, on a également <span class="math notranslate nohighlight">\((-3)^{2}=9\)</span>. Un nombre strictement positif possède toujours deux racines carrées et le symbole <span class="math notranslate nohighlight">\(\sqrt{}\)</span> sert à désigner celle des deux qui est positive.</p>
+<p>Le carré nous permet donc de découvrir une nouvelle facette des équations : une équation peut avoir plusieurs solutions. En l’occurrence, l’équation <span class="math notranslate nohighlight">\(x^2=9\)</span> possède deux solutions, <span class="math notranslate nohighlight">\(-3\)</span> et <span class="math notranslate nohighlight">\(3\)</span>. Cela peut se représenter de la façon suivante :</p>
+<figure class="align-center" id="equation2sol">
+<a class="reference internal image-reference" href="../../_images/equation2sol.png"><img alt="../../_images/equation2sol.png" src="../../_images/equation2sol.png" style="width: 20%;" /></a>
+</figure>
+<p>Une fois que l’on a compris cela, on peut trouver des équations avec de multiples solutions en ajoutant des carrés. Regardons par exemple l’équation suivante :</p>
+<div class="math notranslate nohighlight">
+\[(x^{2}-10)^{2}=36\]</div>
+<p>On peut la représenter comme ceci :</p>
+<figure class="align-center" id="equation3">
+<a class="reference internal image-reference" href="../../_images/equation3.png"><img alt="../../_images/equation3.png" src="../../_images/equation3.png" style="width: 50%;" /></a>
+</figure>
+<p>Puis, le schéma suivant permet de trouver ses solutions :</p>
+<figure class="align-center" id="equation3sol">
+<a class="reference internal image-reference" href="../../_images/equation3sol.png"><img alt="../../_images/equation3sol.png" src="../../_images/equation3sol.png" style="width: 50%;" /></a>
+</figure>
+<p>Il y a deux carrés dans l’équation, les solutions se dédoublent donc deux fois. Ainsi, l’équation possède quatre solutions : <span class="math notranslate nohighlight">\(-4\)</span>, <span class="math notranslate nohighlight">\(-2\)</span>, <span class="math notranslate nohighlight">\(2\)</span> et <span class="math notranslate nohighlight">\(4\)</span>.</p>
+<p>En multipliant le nombre de carrés dans l’équation, on multiplie à chaque fois le nombre de solutions. Avec ce procédé, vous pouvez donc imaginer des équations ayant autant de solutions que vous voulez.</p>
+</section>
+<section id="quand-les-x-sont-plusieurs">
+<h5>Quand les <span class="math notranslate nohighlight">\(x\)</span> sont plusieurs<a class="headerlink" href="#quand-les-x-sont-plusieurs" title="Permalink to this heading">#</a></h5>
+<p>Là où ça se complique vraiment, c’est quand les <span class="math notranslate nohighlight">\(x\)</span> commencent à être plusieurs dans l’équation. Prenons par exemple l’équation suivante :</p>
+<div class="math notranslate nohighlight">
+\[x^{2}+x=2\]</div>
+<p>Cette fois, <em>la méthode précédente ne marche pas</em>. En effet, l’inconnue <span class="math notranslate nohighlight">\(x\)</span> apparaît deux fois, ce qui rend impossible la remontée vers l’inconnue en appliquant simplement des opérations inverses.</p>
+<div class="astuce admonition">
+<p class="admonition-title">Astuce</p>
+<p>Si vous vous creusez un peu la tête peut-être arriverez vous à trouver les solutions de l’équation ci-dessus. Il y en a deux : 1 et -2. Cependant, ce qui nous importe, ce n’est pas d’avoir les solutions de cette équation en particulier mais plutôt des méthodes pour pouvoir résoudre de façon systématique les équations de ce type. Ici, les solutions sont des nombres entiers donc on peut les deviner en cherchant un peu mais s’il s’agissait de nombres plus compliqués il deviendrait impossible de les débusquer uniquement en observant l’équation.</p>
+</div>
+<p>Ce genre d’équation est beaucoup plus subtile et demande l’utilisation de techniques plus avancées. Mais même ces techniques ne marchent pas à tous les coups : il existe certaines équations pour lesquelles même les mathématiciens d’aujourd’hui ne connaissent pas de méthode générale pour calculer les solutions !</p>
+</section>
+</section>
+</section>
+</section>
+<section id="transformons-les-equations">
+<h2>Transformons les équations<a class="headerlink" href="#transformons-les-equations" title="Permalink to this heading">#</a></h2>
+<section id="la-regle-fondamentale-de-manipulation-des-equations">
+<h3>La règle fondamentale de manipulation des équations<a class="headerlink" href="#la-regle-fondamentale-de-manipulation-des-equations" title="Permalink to this heading">#</a></h3>
+<p>La règle fondamentale de manipulation des équations est la suivante :</p>
+<div class="astuce admonition">
+<p class="admonition-title">Astuce</p>
+<p><strong>On ne change pas les solutions d’une équation en appliquant la même transformation réversible à ses deux termes.</strong></p>
+</div>
+<p>Prenons encore une fois l’exemple des quatre opérations de base, dont nous avons déjà vu qu’elles étaient réversibles. Alors, si on a une équation, on peut lui ajouter, lui soustraire, la multiplier ou la diviser par un nombre quelconque.</p>
+<figure class="align-center" id="arbremachin">
+<a class="reference internal image-reference" href="../../_images/ArbreMachin.png"><img alt="../../_images/ArbreMachin.png" src="../../_images/ArbreMachin.png" style="width: 65%;" /></a>
+</figure>
+<div class="astuce admonition">
+<p class="admonition-title">Astuce</p>
+<p>Attention à une petite exception, vous savez qu’il est impossible de diviser par zéro. Par conséquent, il n’est pas possible de diviser une équation par <span class="math notranslate nohighlight">\(0\)</span> et cela entraîne également que la multiplication par <span class="math notranslate nohighlight">\(0\)</span> n’est pas réversible.</p>
+</div>
+<p>Pour illustrer l’utilité de cette règle, reprenons l’exemple de la première équation que nous avons vue au début de ce chapitre :</p>
+<div class="math notranslate nohighlight">
+\[x+5=16\]</div>
+<p>Alors, il est possible de faire l’opération <span class="math notranslate nohighlight">\(-5\)</span> de chaque côté de l’équation, on obtient alors :</p>
+<div class="math notranslate nohighlight">
+\[x+5-5=16-5\]</div>
+<p>Les <span class="math notranslate nohighlight">\(+5-5\)</span> s’annulent à gauche, ce qui donne au final :</p>
+<div class="math notranslate nohighlight">
+\[x=11\]</div>
+<p>Cette manipulation nous a permis d’isoler le <span class="math notranslate nohighlight">\(x\)</span> et donc de résoudre l’équation. Bon, dans ce cas, ce n’est pas révolutionnaire comme méthode vu que la solution est vraiment simple à trouver et que nous la connaissions déjà, mais nous allons voir par la suite que sur des équations plus compliquées, cela permet de simplifier beaucoup de choses.</p>
+<section id="quand-les-termes-changent-de-cote">
+<h4>Quand les termes changent de côté<a class="headerlink" href="#quand-les-termes-changent-de-cote" title="Permalink to this heading">#</a></h4>
+<p>Ce genre de transformation permet de faire changer de côté certains termes des équations. Imaginons que l’on a une équation de la forme suivante :</p>
+<div class="math notranslate nohighlight">
+\[\text{machin}+\text{truc}=\text{bidule}\]</div>
+<p>Et supposons que pour résoudre l’équation, il soit préférable que <em>truc</em> se trouve de l’autre côté de l’égalité. Alors il est possible de le soustraire des deux côtés et on obtient ceci :</p>
+<div class="math notranslate nohighlight">
+\[\text{machin}+\text{truc}-\text{truc}=\text{bidule}-\text{truc}\]</div>
+<p>On voit alors que les trucs s’annulent dans le terme de gauche, on obtient donc ceci :</p>
+<div class="math notranslate nohighlight">
+\[\text{machin}=\text{bidule}-\text{truc}\]</div>
+<p>Remarquez cette chose amusante : en passant de l’autre côté, le signe du truc a changé, c’était un <span class="math notranslate nohighlight">\(+\)</span> et c’est devenu un <span class="math notranslate nohighlight">\(-\)</span>.</p>
+<p>La règle, est donc la suivante : <strong>quand un terme est additionné ou soustrait d’un côté d’une équation, on peut le faire passer de l’autre côté en changeant son signe</strong>. Autrement dit, en passant de l’autre côté du signe =, les additions se transforment en soustraction et inversement.</p>
+<div class="math notranslate nohighlight">
+\[\text{machin}+\text{truc}=\text{bidule} \Leftrightarrow \text{machin}=\text{bidule}-\text{truc}\]</div>
+<blockquote>
+<div><p>Notez l’utilisation du symbole <span class="math notranslate nohighlight">\(\Leftrightarrow\)</span> dans la résolution ci-dessus. Il s’agit du symbole d’équivalence qui signifie ici que les deux équations peuvent se déduire l’une de l’autre.</p>
+</div></blockquote>
+<p>La même chose est vraie pour la multiplication et la division.</p>
+<div class="math notranslate nohighlight">
+\[\text{machin}\times\text{truc}=\text{bidule} \Leftrightarrow \text{machin}=\text{bidule}\div\text{truc}\]</div>
+<div class="astuce admonition">
+<p class="admonition-title">Astuce</p>
+<p>Dans ce cas là, il faut toutefois vérifier avant de faire la transformation que truc n’est pas égal à <span class="math notranslate nohighlight">\(0\)</span> car la division par <span class="math notranslate nohighlight">\(0\)</span> est impossible.</p>
+</div>
+<div class="dropdown weblink admonition">
+<p class="admonition-title">Pour plus d’informations</p>
+<p>Quelques liens utiles sur le même sujet :</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://zestedesavoir.com/tutoriels/735/les-equations/976_presentation-des-equations/4039_premieres-manipulations-dequations/#1-12229_remonter-vers-linconnue">Manipulations d’équations</a></p></li>
+<li><p><em>2<sup>e</sup> LIENS A METTRE!!!</em></p></li>
+</ul>
+</div>
+<div class="dropdown admonition-youtube admonition">
+<p class="admonition-title">YouTube</p>
+<p>Quelques liens de vidéo utiles sur le même sujet :</p>
+<ol class="arabic simple">
+<li><p><strong>Manipulation de formule littérale -  niveau 1 | Physique - chimie | Collège - Lycée</strong></p></li>
+</ol>
+<div align="center">
+ <iframe width="600" height="400" src="https://www.youtube.com/embed/WmxSplrcM7M" allowfullscreen></iframe>
+</div>
+<ol class="arabic simple" start="2">
+<li><p><strong>Manipulation de formule littérale - niveau 2 | Physique - Chimie | Collège - Lycée</strong></p></li>
+</ol>
+<div align="center">
+ <iframe width="600" height="400" src="https://www.youtube.com/embed/YMorUg5B2d4" allowfullscreen></iframe>
+</div>
+<ol class="arabic simple" start="3">
+<li><p><strong>Comment transformer une formule en physique - méthode en 5 minutes</strong></p></li>
+</ol>
+<div align="center">
+ <iframe width="600" height="400" src="https://www.youtube.com/embed/w8NmXWGWp2Q" allowfullscreen></iframe>
+</div>
+<ol class="arabic simple" start="4">
+<li><p><strong>Comment manipuler une formule de physique avec division ?</strong></p></li>
+</ol>
+<div align="center">
+ <iframe width="600" height="400" src="https://www.youtube.com/embed/zi1bq7XQKI0" allowfullscreen></iframe>
+</div>
+</div>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -545,7 +749,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Vecteurs</p>
+        <p class="prev-next-title">Vecteurs et scalaires</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -556,7 +760,38 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#remonter-vers-l-inconnue">Remonter vers l’inconnue</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#operations-reversibles">Opérations réversibles</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#complications">Complications</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#les-puissances">Les puissances</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#comment-faire-alors-pour-revenir-a-x-en-connaissant-x-2">Comment faire alors pour revenir à <span class="math notranslate nohighlight">\(x\)</span> en connaissant <span class="math notranslate nohighlight">\(x^2\)</span> ?</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#quand-les-x-sont-plusieurs">Quand les <span class="math notranslate nohighlight">\(x\)</span> sont plusieurs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#transformons-les-equations">Transformons les équations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-regle-fondamentale-de-manipulation-des-equations">La règle fondamentale de manipulation des équations</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#quand-les-termes-changent-de-cote">Quand les termes changent de côté</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

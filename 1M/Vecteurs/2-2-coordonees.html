@@ -77,7 +77,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="2.3. Questions conceptuelles" href="2-questions.html" />
-    <link rel="prev" title="2.1. Vecteurs et scalaires" href="2-1-vecteurs.html" />
+    <link rel="prev" title="2.1. Vecteurs en cinématiques" href="2-1-vecteurs.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -184,8 +184,8 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Rappel_Math/lecon0.html">Rappels Mathématiques</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../Rappel_Math/0-0-puissance.html">Les puissances de 10</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Rappel_Math/0-1-equations.html">Manipulation des équations</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Rappel_Math/0-2-vecteurs.html">Vecteurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Rappel_Math/0-1-equations.html">Manipuler les équations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Rappel_Math/0-2-vecteurs.html">Vecteurs et scalaires</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Rappel_Math/0-3-incertitudes.html">Erreurs &amp; incertitudes</a></li>
 </ul>
 </li>
@@ -200,13 +200,14 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-questions.html">1.5. Questions conceptuelles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-QCM.html">1.6. Questions à choix multiples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-exercices.html">1.7. Exercices</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-glossaire.html">1.8. Glossaire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-resume.html">1.8. Résumé du chapitre</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-glossaire.html">1.9. Glossaire</a></li>
 </ul>
 </li>
 </ul>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="lecon2.html">2. Vecteurs et Scalaires</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="2-1-vecteurs.html">2.1. Vecteurs et scalaires</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2-1-vecteurs.html">2.1. Vecteurs en cinématiques</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">2.2. Systèmes de coordonnées</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2-questions.html">2.3. Questions conceptuelles</a></li>
 </ul>
@@ -524,7 +525,7 @@ Cela n’a pas d’importance tant que les axes sont clairs et cohérents. Une f
 <figure class="align-center" id="syst-coordonee">
 <a class="reference internal image-reference" href="../../_images/Syst-coordonee.jpg"><img alt="../../_images/Syst-coordonee.jpg" src="../../_images/Syst-coordonee.jpg" style="width: 30%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2.1 </span><span class="caption-text">On considére souvent les directions vers le haut ou vers la droite comme positives (<span class="math notranslate nohighlight">\(+\)</span>) et les directions vers le bas ou vers la gauche comme négatives (<span class="math notranslate nohighlight">\(-\)</span>).</span><a class="headerlink" href="#syst-coordonee" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2.4 </span><span class="caption-text">On considére souvent les directions vers le haut ou vers la droite comme positives (<span class="math notranslate nohighlight">\(+\)</span>) et les directions vers le bas ou vers la gauche comme négatives (<span class="math notranslate nohighlight">\(-\)</span>).</span><a class="headerlink" href="#syst-coordonee" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -534,12 +535,12 @@ Cela n’a pas d’importance tant que les axes sont clairs et cohérents. Une f
 <p>Ce n’est pourtant pas le cas pour deux raisons:</p>
 <ol class="arabic simple">
 <li><p>Une courbe peut toujours être découpée et approximée en petit segment rectiligne. Plus le découpage sera fin, plus l’approximation de la courbe sera précise.<br />
-Sur la <a class="reference internal" href="#approxtraj"><span class="std std-numref">Fig. 2.2</span></a>, la trajectoire réelle d’un objet (en traitillé) peut être approximée par un (ou plusieurs) mouvement rectiligne. Plus le découpage de la trajectoire est important plus la succession des petits mouvements rectilignes se rapprochera de la trajectoire réelle. En bleu, il n’y a aucun découpage, l’approximation est grossière. En rose, le mouvement a été découpé en deux parties rectiligne. On gagne de l’information sur la trajectoire réelle. En Violet, le mouvement est découpé en quarte parties rectiligne. On se rapproche de la courbe de la trajectoire. Finalement, en vert, le mouvement est découpé en huit parties rectilignes qui sont une bonne approximation de la courbe réelle.</p></li>
+Sur la <a class="reference internal" href="#approxtraj"><span class="std std-numref">Fig. 2.5</span></a>, la trajectoire réelle d’un objet (en traitillé) peut être approximée par un (ou plusieurs) mouvement rectiligne. Plus le découpage de la trajectoire est important plus la succession des petits mouvements rectilignes se rapprochera de la trajectoire réelle. En bleu, il n’y a aucun découpage, l’approximation est grossière. En rose, le mouvement a été découpé en deux parties rectiligne. On gagne de l’information sur la trajectoire réelle. En Violet, le mouvement est découpé en quarte parties rectiligne. On se rapproche de la courbe de la trajectoire. Finalement, en vert, le mouvement est découpé en huit parties rectilignes qui sont une bonne approximation de la courbe réelle.</p></li>
 </ol>
 <figure class="align-center" id="approxtraj">
 <a class="reference internal image-reference" href="../../_images/ApproxTraj.png"><img alt="../../_images/ApproxTraj.png" src="../../_images/ApproxTraj.png" style="width: 60%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2.2 </span><span class="caption-text">En <em>bleu</em>: Le mouvement rectiligne est assez éloigné de la trajectoire réelle. En <em>rose</em> et <em>violet</em>: deux autre découpage plus ou moins précis. En <em>vert</em>: La suite des mouvements rectilignes se rapproche de la trajectoire réelle.</span><a class="headerlink" href="#approxtraj" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2.5 </span><span class="caption-text">En <em>bleu</em>: Le mouvement rectiligne est assez éloigné de la trajectoire réelle. En <em>rose</em> et <em>violet</em>: deux autre découpage plus ou moins précis. En <em>vert</em>: La suite des mouvements rectilignes se rapproche de la trajectoire réelle.</span><a class="headerlink" href="#approxtraj" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ol class="arabic simple" start="2">
@@ -555,13 +556,13 @@ Pour résoudre un problème à plusieurs dimensions, il suffira donc de décompo
 <figure class="align-center" id="mvt2d-0">
 <a class="reference internal image-reference" href="../../_images/Mvt2D1.png"><img alt="../../_images/Mvt2D1.png" src="../../_images/Mvt2D1.png" style="width: 60%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2.3 </span><span class="caption-text">Un piéton parcourt un chemin bidimensionnel entre deux points d’une ville. Dans cette ville, tous les blocs sont carrés et ont la même taille.</span><a class="headerlink" href="#mvt2d-0" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2.6 </span><span class="caption-text">Un piéton parcourt un chemin bidimensionnel entre deux points d’une ville. Dans cette ville, tous les blocs sont carrés et ont la même taille.</span><a class="headerlink" href="#mvt2d-0" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Pour analyser le mouvement du piéton, on considère uniquement le point de départ et le point d’arrivée. Dans cet exemple, le piéton ne peut pas prendre le chemin en ligne droite, car il est bloqué par les maison. Il se déplace soit selon l’axe Est/Ouest, soit selon l’axe Nord/Sud.</p>
 <p>Si on veut décrire le mouvement du piéton, dans le repère Nord/Sud-Est/Ouest, on dira qu’il s’est déplacé de 9 blocs à l’est, suivi de 5 blocs au nord. Il marche vers l’est puis vers le nord (deux directions perpendiculaires). La distance parcourue vers l’est est affectée uniquement par son mouvement vers l’est. De même, la distance parcourue vers le nord n’est affectée que par son mouvement vers le nord.</p>
 <p>En décrivant le déplacement de cette façon, on va décomposer le problème initial (à deux dimensions) en deux problèmes à une dimension. Un problème qui analyse uniquement le déplacement sur l’axe Est/Ouest et un autre problème uniquement le déplacement sur l’axe Nord/Sud.</p>
-<p>Pour décomposer un vecteur (et donc le problème), il suffira de connaître les composantes de ce vecteur dans le système d’axe proposé. Pour cela le théorème de Pythagore et des notions de trigonométrie de base seront nécessaire. Dans la <a class="reference internal" href="#decompvect"><span class="std std-numref">Fig. 2.4</span></a>, les composantes du vecteur <span class="math notranslate nohighlight">\(\vec{r}\)</span> sont :</p>
+<p>Pour décomposer un vecteur (et donc le problème), il suffira de connaître les composantes de ce vecteur dans le système d’axe proposé. Pour cela le théorème de Pythagore et des notions de trigonométrie de base seront nécessaire. Dans la <a class="reference internal" href="#decompvect"><span class="std std-numref">Fig. 2.7</span></a>, les composantes du vecteur <span class="math notranslate nohighlight">\(\vec{r}\)</span> sont :</p>
 <div class="math notranslate nohighlight" id="equation-decomp">
 <span class="eqno">(2.1)<a class="headerlink" href="#equation-decomp" title="Permalink to this equation">#</a></span>\[\begin{split}\overrightarrow{r}=
     \begin{pmatrix} 
@@ -575,7 +576,7 @@ Pour résoudre un problème à plusieurs dimensions, il suffira donc de décompo
 <figure class="align-center" id="decompvect">
 <a class="reference internal image-reference" href="../../_images/DecompVect.png"><img alt="../../_images/DecompVect.png" src="../../_images/DecompVect.png" style="width: 40%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2.4 </span><span class="caption-text">Le vecteur <span class="math notranslate nohighlight">\(\vec{r}\)</span> est décomposé en <span class="math notranslate nohighlight">\(r_{x}\)</span> et <span class="math notranslate nohighlight">\(r_{y}\)</span> par trigonométrie.</span><a class="headerlink" href="#decompvect" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2.7 </span><span class="caption-text">Le vecteur <span class="math notranslate nohighlight">\(\vec{r}\)</span> est décomposé en <span class="math notranslate nohighlight">\(r_{x}\)</span> et <span class="math notranslate nohighlight">\(r_{y}\)</span> par trigonométrie.</span><a class="headerlink" href="#decompvect" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
@@ -618,7 +619,7 @@ Pour résoudre un problème à plusieurs dimensions, il suffira donc de décompo
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">2.1. </span>Vecteurs et scalaires</p>
+        <p class="prev-next-title"><span class="section-number">2.1. </span>Vecteurs en cinématiques</p>
       </div>
     </a>
     <a class="right-next"

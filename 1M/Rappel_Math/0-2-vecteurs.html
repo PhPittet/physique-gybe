@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Vecteurs &#8212; Physique 1M</title>
+    <title>Vecteurs et scalaires &#8212; Physique 1M</title>
   
   
   
@@ -71,11 +71,13 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '1M/Rappel_Math/0-2-vecteurs';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Erreurs &amp; incertitudes" href="0-3-incertitudes.html" />
-    <link rel="prev" title="Manipulation des équations" href="0-1-equations.html" />
+    <link rel="prev" title="Manipuler les équations" href="0-1-equations.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -182,8 +184,8 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="lecon0.html">Rappels Mathématiques</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="0-0-puissance.html">Les puissances de 10</a></li>
-<li class="toctree-l2"><a class="reference internal" href="0-1-equations.html">Manipulation des équations</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Vecteurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="0-1-equations.html">Manipuler les équations</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Vecteurs et scalaires</a></li>
 <li class="toctree-l2"><a class="reference internal" href="0-3-incertitudes.html">Erreurs &amp; incertitudes</a></li>
 </ul>
 </li>
@@ -198,13 +200,14 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-questions.html">1.5. Questions conceptuelles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-QCM.html">1.6. Questions à choix multiples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-exercices.html">1.7. Exercices</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-glossaire.html">1.8. Glossaire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-resume.html">1.8. Résumé du chapitre</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Notation_Sci/1-glossaire.html">1.9. Glossaire</a></li>
 </ul>
 </li>
 </ul>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Vecteurs/lecon2.html">2. Vecteurs et Scalaires</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Vecteurs/2-1-vecteurs.html">2.1. Vecteurs et scalaires</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vecteurs/2-1-vecteurs.html">2.1. Vecteurs en cinématiques</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Vecteurs/2-2-coordonees.html">2.2. Systèmes de coordonnées</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Vecteurs/2-questions.html">2.3. Questions conceptuelles</a></li>
 </ul>
@@ -471,7 +474,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -482,11 +487,31 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Vecteurs</h1>
+    <h1>Vecteurs et scalaires</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vecteurs">Vecteurs</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scalaires">Scalaires</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multiplication-d-un-vecteur-par-un-scalaire">Multiplication d’un vecteur par un scalaire</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#addition-de-vecteurs">Addition de vecteurs</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#addition-geometrique">Addition géométrique</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#addition-algebrique">Addition algébrique</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#decomposition-d-un-vecteur">Décomposition d’un vecteur</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -496,9 +521,153 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="vecteurs">
-<h1>Vecteurs<a class="headerlink" href="#vecteurs" title="Permalink to this heading">#</a></h1>
-<p>blibli…</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="vecteurs-et-scalaires">
+<h1>Vecteurs et scalaires<a class="headerlink" href="#vecteurs-et-scalaires" title="Permalink to this heading">#</a></h1>
+<p>Il existe deux types de grandeurs physiques: les <code class="docutils literal notranslate"><span class="pre">scalaires</span></code> et les <code class="docutils literal notranslate"><span class="pre">vecteurs</span></code>.</p>
+<section id="vecteurs">
+<h2>Vecteurs<a class="headerlink" href="#vecteurs" title="Permalink to this heading">#</a></h2>
+<p>Quelle est la différence entre une distance de <span class="math notranslate nohighlight">\(20\,km\)</span> et un déplacement de <span class="math notranslate nohighlight">\(20\,km\)</span> vers le Nord ? Alors que la distance n’est définie que par l’amplitude (<span class="math notranslate nohighlight">\(20\,km\)</span>), le déplacement est défini à la fois par l’amplitude et <strong>la direction</strong> (le Nord). Le déplacement est un exemple de quantité <em>vectorielle</em>. La distance est un exemple de grandeur <em>scalaire</em>. <strong>Un vecteur est une quantité avec à la fois une amplitude et une direction</strong>. Il existe d’autres grandeurs physique qui sont également des vecteurs comme la vitesse (par exemple <span class="math notranslate nohighlight">\(90\,km/h\)</span> à l’est) ou une force (<span class="math notranslate nohighlight">\(500\,N\)</span> vers le bas).</p>
+<p>La direction d’un vecteur à une dimension (unidimensionnel) est donnée par un signe plus (<span class="math notranslate nohighlight">\(+\)</span>) ou moins (<span class="math notranslate nohighlight">\(-\)</span>), par rapport à la direction d’un axe de référence. Les vecteurs sont représentés graphiquement par des flèches. Une flèche utilisée pour représenter un vecteur a une longueur proportionnelle à l’amplitude (<em>valeur</em>) du vecteur (par exemple, plus l’amplitude est grande, plus la longueur du vecteur est importante) et pointe dans la même direction que le vecteur. On écrira les vecteurs avec une lettre surmontée d’une flèche. Par exemple le vecteur déplacement s’écrira <span class="math notranslate nohighlight">\(\vec{x}\)</span>.</p>
+<p>Les vecteurs ayant surtout un sens pour des mouvements à plusieurs dimension, on peut omettre la flèche sur le <span class="math notranslate nohighlight">\(x\)</span> pour des mouvements à une dimension.</p>
+<p>En mécanique, quatre vecteurs seront régulièrement utilisé:</p>
+<ol class="arabic simple">
+<li><p>Le déplacement <span class="math notranslate nohighlight">\(\vec{d}\)</span></p></li>
+<li><p>Le vecteur vitesse <span class="math notranslate nohighlight">\(\vec{v}\)</span></p></li>
+<li><p>Le vecteur accélération <span class="math notranslate nohighlight">\(\vec{a}\)</span></p></li>
+<li><p>Le vecteur force <span class="math notranslate nohighlight">\(\vec{F}\)</span></p></li>
+</ol>
+<p>On dessine <em>géométriquement</em> les vecteurs par des flèches; la droite qui supporte la flèche indique la direction, la pointe de la flèche indique le sens et la longueur de flèche indique la valeur.</p>
+<figure class="align-center" id="vecta">
+<a class="reference internal image-reference" href="../../_images/VectA.png"><img alt="../../_images/VectA.png" src="../../_images/VectA.png" style="width: 20%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text"><em>On dessine géométriquement les vecteurs par des flèches; la droite qui supporte la flèche indique la direction, la pointe de la flèche indique le sens et la longueur de flèche indique la valeur.</em></span><a class="headerlink" href="#vecta" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="scalaires">
+<h2>Scalaires<a class="headerlink" href="#scalaires" title="Permalink to this heading">#</a></h2>
+<p>Certaines grandeurs physiques, comme la masse, n’ont aucune direction. <strong>Un scalaire est une quantité qui a une grandeur, mais aucune direction</strong>. Par exemple, la température (<span class="math notranslate nohighlight">\(21.0°C\)</span>), les kilocalories  d’énergie d’une barre chocolatée (<span class="math notranslate nohighlight">\(250\,kcal\)</span>), la taille d’une personne (<span class="math notranslate nohighlight">\(1.80\,m\)</span>) et la distance d’un marathon (<span class="math notranslate nohighlight">\(42.195\,km\)</span>) sont tous des scalaires - des quantités sans direction spécifiée. Notez, cependant, qu’un scalaire peut être négatif, comme une température de <span class="math notranslate nohighlight">\(-5.0°C\)</span> ou positif. Dans ce cas, le signe moins indique un point sur une échelle plutôt qu’une direction. Les scalaires ne sont jamais représentés par des flèches.</p>
+<p>Quelques autres grandeurs physique scalaires que nous utiliserons régulièrement:</p>
+<ol class="arabic simple">
+<li><p>Le temps et la durée sont des grandeurs scalaires: <span class="math notranslate nohighlight">\(t = 11\,h\,45\)</span> et <span class="math notranslate nohighlight">\(\Delta t = 0,034\,s\)</span> sont des indications suffisantes.</p></li>
+<li><p>La masse est une grandeur scalaire: <span class="math notranslate nohighlight">\(m = 48\,kg\)</span>.</p></li>
+<li><p>Le volume et la surface sont des scalaires: <span class="math notranslate nohighlight">\(V = 12\,m^{3}\)</span> ;
+<span class="math notranslate nohighlight">\(S = 23\,cm^{2}\)</span>.</p></li>
+</ol>
+<section id="multiplication-d-un-vecteur-par-un-scalaire">
+<h3>Multiplication d’un vecteur par un scalaire<a class="headerlink" href="#multiplication-d-un-vecteur-par-un-scalaire" title="Permalink to this heading">#</a></h3>
+<p>Multiplier, ou diviser un vecteur par un scalaire consiste à modifier la norme de ce vecteur sans changer sa direction. Géométriquement, il s’agit d’une homothétie (<em>un zoom</em>).</p>
+<p>Le vecteur <span class="math notranslate nohighlight">\(\vec{a}\)</span> peut être multiplié par un scalaire <span class="math notranslate nohighlight">\(m\)</span>, pour donner un nouveau vecteur
+<span class="math notranslate nohighlight">\(\vec{b}=m\cdot \vec{a}\)</span>.</p>
+<p>Si <span class="math notranslate nohighlight">\(m\)</span> est négatif, le sens de <span class="math notranslate nohighlight">\(\vec{b}\)</span> sera opposé à celui de <span class="math notranslate nohighlight">\(\vec{a}\)</span>.</p>
+<p>La <a class="reference internal" href="#multivectscal"><span class="std std-numref">Fig. 2</span></a> illustre la multiplication du vecteur
+<span class="math notranslate nohighlight">\(\vec{a}\)</span> par 0,5 et par -2.</p>
+<figure class="align-center" id="multivectscal">
+<a class="reference internal image-reference" href="../../_images/MultiVectScal.png"><img alt="../../_images/MultiVectScal.png" src="../../_images/MultiVectScal.png" style="width: 45%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text"><em>Multiplication d’un vecteur par un scalaire</em></span><a class="headerlink" href="#multivectscal" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="addition-de-vecteurs">
+<h3>Addition de vecteurs<a class="headerlink" href="#addition-de-vecteurs" title="Permalink to this heading">#</a></h3>
+<p>Supposons qu’un objet se déplace du point <strong>A</strong> vers <strong>B</strong>, puis de <strong>B</strong> vers <strong>C</strong>. On peut représenter le déplacement total par deux vecteurs déplacements successifs, les vecteurs <span class="math notranslate nohighlight">\(\overrightarrow{AB}\)</span> et <span class="math notranslate nohighlight">\(\overrightarrow{BC}\)</span>. Le déplacement résultant de ces deux déplacements est un seul déplacement, soit celui allant de <strong>A</strong> vers <strong>C</strong>. On appelle <span class="math notranslate nohighlight">\(\overrightarrow{AC}\)</span> la somme vectorielle (ou résultante) des vecteurs <span class="math notranslate nohighlight">\(\overrightarrow{AB}\)</span> et <span class="math notranslate nohighlight">\(\overrightarrow{BC}\)</span>.</p>
+<figure class="align-center" id="vectsomme">
+<a class="reference internal image-reference" href="../../_images/vectsomme.png"><img alt="../../_images/vectsomme.png" src="../../_images/vectsomme.png" style="width: 50%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text"><em><span class="math notranslate nohighlight">\(\overrightarrow{AC}=\vec{s}\)</span> est la somme vectorielle des vecteurs <span class="math notranslate nohighlight">\(\overrightarrow{AB}=\vec{a}\)</span>
+et <span class="math notranslate nohighlight">\(\overrightarrow{BC}=\vec{b}\)</span></em></span><a class="headerlink" href="#vectsomme" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Cette somme vectorielle <strong>n’est pas</strong> une somme algébrique ordinaire car elle prend en compte non seulement la valeur du vecteur mais surtout sa direction.</p>
+<div class="astuce admonition">
+<p class="admonition-title">Astuce</p>
+<p>Afin d’alléger la notation, on représentera le vecteur déplacement, de <strong>A</strong> à <strong>B</strong>, <span class="math notranslate nohighlight">\(\overrightarrow{AB}\)</span> par une seule lettre. On écrira par exemple <span class="math notranslate nohighlight">\(\overrightarrow{AB}=\vec{a}\)</span>.</p>
+<p>Le déplacement opposé de <strong>B</strong> à <strong>A</strong> sera noté <span class="math notranslate nohighlight">\(\overrightarrow{BA}\)</span> avec la propriété suivante :</p>
+<div class="math notranslate nohighlight">
+\[\overrightarrow{BA}=-\overrightarrow{AB}=-\vec{a}\]</div>
+</div>
+<p>Avec cette notation, on peut représenter la relation entre les trois vecteurs de la <a class="reference internal" href="#vectsomme"><span class="std std-numref">Fig. 3</span></a> par l’équation vectorielle suivante :</p>
+<div class="math notranslate nohighlight">
+\[\vec{s}=\vec{a}+\vec{b}\]</div>
+<p>L’addition vectorielle présente une propriété similaire à l’addition scalaire; l’ordre des vecteurs à additionner n’a pas d’importance. Ainsi additionner <span class="math notranslate nohighlight">\(\vec{a}\)</span> à <span class="math notranslate nohighlight">\(\vec{b}\)</span> donne le même résultat qu’additionner <span class="math notranslate nohighlight">\(\vec{b}\)</span> à <span class="math notranslate nohighlight">\(\vec{a}\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[\vec{a}+\vec{b}=\vec{b}+\vec{a}\]</div>
+<section id="addition-geometrique">
+<h4>Addition géométrique<a class="headerlink" href="#addition-geometrique" title="Permalink to this heading">#</a></h4>
+<p>La somme de deux vecteurs s’obtient graphiquement par la méthode des parallélogrammes comme illustré ci-dessous.</p>
+<figure class="align-center" id="vectsommegraph">
+<a class="reference internal image-reference" href="../../_images/vectsommegraph.png"><img alt="../../_images/vectsommegraph.png" src="../../_images/vectsommegraph.png" style="width: 50%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text"><em>Addition géométrique de deux vecteurs. 1) On cherche à additionner <span class="math notranslate nohighlight">\(\vec{a}\)</span> et <span class="math notranslate nohighlight">\(\vec{b}\)</span>. 2) On fait une translation de <span class="math notranslate nohighlight">\(\vec{b}\)</span> jusqu’à l’extrémité de <span class="math notranslate nohighlight">\(\vec{a}\)</span>. 3) On relie l’origine de <span class="math notranslate nohighlight">\(\vec{a}\)</span> à l’extrémité de <span class="math notranslate nohighlight">\(\vec{b}\)</span></em></span><a class="headerlink" href="#vectsommegraph" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>La construction géométrique <span class="math notranslate nohighlight">\(\vec{a}+\vec{b}\)</span>, illustrée à la <a class="reference internal" href="#vectsommegraph"><span class="std std-numref">Fig. 4</span></a>, consiste à faire glisser le vecteur <span class="math notranslate nohighlight">\(\vec{b}\)</span>, sans en modifier ni l’intensité, ni le sens, et de faire coïncider son origine avec l’extrémité du vecteur <span class="math notranslate nohighlight">\(\vec{a}\)</span>. Le vecteur résultant <span class="math notranslate nohighlight">\(\vec{s}=\vec{a}+\vec{b}\)</span> a pour origine celle du vecteur <span class="math notranslate nohighlight">\(\vec{a}\)</span> et pour extrémité celle du vecteur <span class="math notranslate nohighlight">\(\vec{b}\)</span>.</p>
+</section>
+<section id="addition-algebrique">
+<h4>Addition algébrique<a class="headerlink" href="#addition-algebrique" title="Permalink to this heading">#</a></h4>
+<p>L’addition algébrique de deux vecteurs s’obtient en additionnant les coordonnées de chaque vecteurs. Pour cela, il faut d’abord décomposer les vecteurs selon un système d’axes.</p>
+<div class="formule admonition">
+<p class="admonition-title">Notations</p>
+<p>On prendra l’habitude d’écrire un vecteur avec ses coordonnées notées en ligne ou en colonne :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\vec{a}=(a_{x};a_{y})=\begin{pmatrix} a_{x} \\ a_{y} \end{pmatrix}\end{split}\]</div>
+</div>
+<section id="decomposition-d-un-vecteur">
+<h5>Décomposition d’un vecteur<a class="headerlink" href="#decomposition-d-un-vecteur" title="Permalink to this heading">#</a></h5>
+<p>Pour pouvoir additionner algébriquement deux vecteurs <span class="math notranslate nohighlight">\(\vec{a}\)</span> et <span class="math notranslate nohighlight">\(\vec{b}\)</span>, il faut <strong>impérativement</strong> placer un référentielle à 2 ou 3 dimensions (un vecteur à une dimension
+est un scalaire!). Dans le cadre de ce cours, on se limitera à un système d’axes à 2 dimensions.<br />
+Une fois le système d’axes <span class="math notranslate nohighlight">\(0xy\)</span> placé, le vecteur oblique <span class="math notranslate nohighlight">\(\vec{a}\)</span> ou <span class="math notranslate nohighlight">\(\vec{b}\)</span> peut <strong>se décomposer</strong> en deux vecteurs qui sont les <strong>composantes horizontale</strong> et <strong>verticale</strong>
+du vecteur.</p>
+<p>Le vecteur oblique <span class="math notranslate nohighlight">\(\vec{a}\)</span> se décompose ainsi en un vecteur
+<span class="math notranslate nohighlight">\(\vec{a_{x}}\)</span> et un vecteur <span class="math notranslate nohighlight">\(\vec{a_{y}}\)</span>.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\vec{a}=\vec{a_{x}}+\vec{a_{y}}=\begin{pmatrix} a_{x} \\ 0 \end{pmatrix}+\begin{pmatrix} 0 \\ a_{y} \end{pmatrix}=\begin{pmatrix} a_{x} \\ a_{y} \end{pmatrix}\end{split}\]</div>
+<p>La <strong>décomposition d’un vecteur</strong> consiste à trouver les coordonnées de ce vecteur dans le système d’axes proposé.</p>
+<figure class="align-center" id="decompvecta">
+<a class="reference internal image-reference" href="../../_images/DecompVectA.png"><img alt="../../_images/DecompVectA.png" src="../../_images/DecompVectA.png" style="width: 50%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text"><em>Décomposition du vecteur <span class="math notranslate nohighlight">\(\vec{a}\)</span> selon ses composantes horizontale <span class="math notranslate nohighlight">\(\vec{a_{x}}\)</span> et verticale <span class="math notranslate nohighlight">\(\vec{a_{y}}\)</span></em></span><a class="headerlink" href="#decompvecta" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>La <strong>norme</strong>, notée <span class="math notranslate nohighlight">\(\Vert\vec{a}\Vert\)</span> (ou simplement <span class="math notranslate nohighlight">\(a\)</span>), de <span class="math notranslate nohighlight">\(\vec{a}\)</span> se calcul grâce au théorème de <strong>Pythagore</strong> :</p>
+<div class="math notranslate nohighlight">
+\[\Vert \vec{a}\Vert=a=\sqrt{a_{x}^{2}+a_{y}^{2}}\]</div>
+<p>Les <strong>coordonnées</strong> <span class="math notranslate nohighlight">\(a_{x}\)</span> et <span class="math notranslate nohighlight">\(a_{y}\)</span> de <span class="math notranslate nohighlight">\(\vec{a}\)</span> de la <a class="reference internal" href="#decompvecta"><span class="std std-numref">Fig. 5</span></a> peuvent être trouvées grâce à la <strong>trigonométrie</strong> :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{align*}
+\overrightarrow{a_{x}}=\begin{pmatrix} a_{x} \\ 0 \end{pmatrix} &amp; =\begin{pmatrix} a\cdot\cos\alpha \\ 0 \end{pmatrix}\\
+\\
+\overrightarrow{a_{y}}=\begin{pmatrix} 0 \\ a_{y} \end{pmatrix} &amp; =\begin{pmatrix} 0 \\ a\cdot\sin\alpha \end{pmatrix}
+\end{align*}\end{split}\]</div>
+<p>L’addition de deux vecteurs <span class="math notranslate nohighlight">\(\vec{a}\)</span> et <span class="math notranslate nohighlight">\(\vec{b}\)</span>, s’obtient en additionnant chacune des coordonnées
+horizontale et verticale de <span class="math notranslate nohighlight">\(\vec{a}\)</span> et <span class="math notranslate nohighlight">\(\vec{b}\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\vec{a}+\vec{b}=\begin{pmatrix} a_{x} \\ a_{y} \end{pmatrix}+\begin{pmatrix} b_{x} \\ b_{y} \end{pmatrix}=\begin{pmatrix} a_{x}+b_{x} \\ a_{y}+b_{y} \end{pmatrix}=\begin{pmatrix} s_{x} \\ s_{y} \end{pmatrix}=\vec{s}\end{split}\]</div>
+<figure class="align-center" id="vectsommecomp">
+<a class="reference internal image-reference" href="../../_images/vectsommecomp.png"><img alt="../../_images/vectsommecomp.png" src="../../_images/vectsommecomp.png" style="width: 50%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text"><em>Les composantes du vecteur <span class="math notranslate nohighlight">\(\vec{s}\)</span> résultant correspondent à la somme des composantes des vecteurs <span class="math notranslate nohighlight">\(\vec{a}\)</span> et <span class="math notranslate nohighlight">\(\vec{b}\)</span>; soit <span class="math notranslate nohighlight">\(\vec{s_{x}}=\vec{a_{x}}+\vec{b_{x}}\)</span> et <span class="math notranslate nohighlight">\(\vec{s_{y}}=\vec{a_{y}}+\vec{b_{y}}\)</span></em></span><a class="headerlink" href="#vectsommecomp" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<div class="exores admonition">
+<p class="admonition-title">Exemple</p>
+<p>Sur la <a class="reference internal" href="#decompvecta"><span class="std std-numref">Fig. 5</span></a> :</p>
+<ol class="arabic simple">
+<li><p>Quelles sont les composantes <span class="math notranslate nohighlight">\(\vec{a_{x}}\)</span> et <span class="math notranslate nohighlight">\(\vec{a_{y}}\)</span> du vecteur <span class="math notranslate nohighlight">\(\vec{a}\)</span> ?</p></li>
+<li><p>Calculer la norme <span class="math notranslate nohighlight">\(\Vert\vec{a}\Vert\)</span> et l’angle <span class="math notranslate nohighlight">\(\alpha\)</span> du vecteur <span class="math notranslate nohighlight">\(\vec{a}\)</span> ?</p></li>
+</ol>
+<div class="dropdown solution admonition">
+<p class="admonition-title"><em>solution</em></p>
+<p>Selon la <a class="reference internal" href="#decompvecta"><span class="std std-numref">Fig. 5</span></a>, on peut écrire <span class="math notranslate nohighlight">\(\vec{a_{x}}=\begin{pmatrix} 4 \\ 0 \end{pmatrix}\)</span> et <span class="math notranslate nohighlight">\(\vec{a_{y}}=\begin{pmatrix} 0 \\ 3 \end{pmatrix}\)</span></p>
+<p>Le vecteur <span class="math notranslate nohighlight">\(\vec{a}\)</span> vaut donc : <span class="math notranslate nohighlight">\(\vec{a}=\vec{a_{x}}+\vec{a_{y}}=\begin{pmatrix} 4 \\ 0 \end{pmatrix}+\begin{pmatrix} 0 \\ 3 \end{pmatrix}=\begin{pmatrix} 4 \\ 3 \end{pmatrix}\)</span>.</p>
+<p>La norme de <span class="math notranslate nohighlight">\(\vec{a}\)</span> se calcul par Pythagore : <span class="math notranslate nohighlight">\(\Vert\vec{a}\Vert=a=\sqrt{4^{2}+3^{2}}=5\)</span></p>
+<p>L’angle <span class="math notranslate nohighlight">\(\alpha\)</span>, qui est donné par <span class="math notranslate nohighlight">\(\tan\alpha=\frac{a_{y}}{a_{x}}\)</span>, mesure <span class="math notranslate nohighlight">\(36,87°\)</span>. Ce qui nous donne bien :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}a_{x}=a\cdot \cos\alpha=5\cdot\cos 36,87°=4\\
+a_{y}=a\cdot \sin\alpha=5\cdot\sin 36,87°=3\end{split}\]</div>
+</div>
+</div>
 <div class="dropdown simulation admonition">
 <p class="admonition-title">P<em>h</em>ET simulation</p>
 <p><strong>Addition de vecteurs</strong></p>
@@ -506,6 +675,10 @@ document.write(`
 <iframe src="https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_all.html" width="600" height="450" scrolling="no" allowfullscreen></iframe>
 </div>
 </div>
+</section>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -544,7 +717,7 @@ document.write(`
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Manipulation des équations</p>
+        <p class="prev-next-title">Manipuler les équations</p>
       </div>
     </a>
     <a class="right-next"
@@ -563,7 +736,32 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vecteurs">Vecteurs</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scalaires">Scalaires</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multiplication-d-un-vecteur-par-un-scalaire">Multiplication d’un vecteur par un scalaire</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#addition-de-vecteurs">Addition de vecteurs</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#addition-geometrique">Addition géométrique</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#addition-algebrique">Addition algébrique</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#decomposition-d-un-vecteur">Décomposition d’un vecteur</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

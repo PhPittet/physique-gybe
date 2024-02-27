@@ -138,9 +138,9 @@ Combien de battements a-t-elle :
 :::{admonition} *solution*
 :class: dropdown exohomesol
 En $2$ ans, il y a $2\cdot 365\cdot 24\cdot 60=1.0512\cdot 10^{6}\,min$. ce qui donne : $70\cdot 1.1.0512\cdot 10^{6}=7.3584\cdot 10^{7}$ battements. En tenant compte des chiffres significatifs on trouve alors :
-1. $7.4\cdot 10^{7}$ battements en $2.0$ ans
-2. $7.36\cdot 10^{7}$ battements en $2.00$ ans
-3. $7.358\cdot 10^{7}$ battements en $2.000$ ans
+1. En $2.0$ ans : $7.4\cdot 10^{7}$ battements
+2. En $2.00$ ans : $7.36\cdot 10^{7}$ battements
+3. En $2.000$ ans : $7.358\cdot 10^{7}$ battements
 :::
 ::::
 
