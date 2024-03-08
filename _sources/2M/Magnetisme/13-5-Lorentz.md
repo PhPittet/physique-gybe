@@ -18,13 +18,14 @@ où $\theta$ est l'angle entre les directions de $v$ et $B$
 
 Cette force est souvent appelée `force de Lorentz`. En fait, c'est ainsi que nous définissons l'intensité du champ magnétique, c'est-à-dire la force exercée sur une particule chargée se déplaçant dans un champ magnétique.
 
-L'unité SI pour l'intensité du champ magnétique est appelée **Tesla** ($[\text{T}]$) d'après l'excentrique mais brillant inventeur [Nikola Tesla](https://fr.wikipedia.org/wiki/Nikola_Tesla) (1856-1943). Pour déterminer comment le Tesla se rapporte aux autres unités SI, nous résolvons l'équation {eq}`Lorentz` $F=qvB\sin\theta$ pour $B$ :
+L'unité SI pour l'intensité du champ magnétique est appelée **Tesla** ($[\text{T}]$) d'après l'excentrique mais brillant inventeur [Nikola Tesla](https://fr.wikipedia.org/wiki/Nikola_Tesla) (1856-1943). Pour déterminer comment le Tesla se rapporte aux autres unités SI, nous résolvons l'équation {eq}`Lorentz` pour $B$ :
 :::{math}
+F=qvB\sin\theta\\
 B=\dfrac{F}{qv\sin\theta}
 :::
 Puisque $\sin\theta$ est sans unité, l'unité *Tesla* est définie par :
 :::{math}
-1\,\text{T}=\dfrac{1\,\text{N}}{1\,\text{C}\cdot 1\,\text{m/s}}=\dfrac{1\,\text{N}}{1\,\text{A}\cdot 1\,\text{m}}=1\,\dfrac{\text{N}}{\text{A}\cdot \text{C}}
+1\,\text{T}=\dfrac{1\,\text{N}}{1\,\text{C}\cdot 1\,\text{m/s}}=\dfrac{1\,\text{N}}{1\,\text{A}\cdot 1\,\text{m}}=1\,\dfrac{\text{N}}{\text{A}\cdot \text{m}}
 :::
 
 ## Règle de la main droite
