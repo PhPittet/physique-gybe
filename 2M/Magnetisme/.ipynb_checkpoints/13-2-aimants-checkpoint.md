@@ -8,7 +8,7 @@
 *Les aimants se présentent sous différentes formes, tailles et puissances. Tous ont à la fois un pôle nord et un pôle sud. Il n'y a jamais de pôle isolé (un monopôle). (crédit : orpenstax.org)*
 :::
 
-Tous les aimants attirent le fer, comme celui d'une porte de réfrigérateur. Cependant, les aimants peuvent attirer ou repousser d'autres aimants. L'expérimentation montre que tous les aimants ont deux pôles. S'il est librement suspendu, un poteau pointera vers le nord. Les deux pôles sont donc nommés le pôle nord magnétique et le pôle sud magnétique (ou plus exactement, les pôles de recherche du nord et de recherche du sud, pour les attractions dans ces directions).
+Tous les aimants attirent le fer, comme celui contenu dans la porte d'un réfrigérateur. Cependant, les aimants peuvent attirer ou repousser d'autres aimants. L'expérimentation montre que tous les aimants ont deux pôles. S'il est librement suspendu, un aimant pointera vers le nord. Les deux pôles sont donc nommés le pôle nord magnétique et le pôle sud magnétique.
 
 :::{admonition} Alerte aux idées fausses : les pôles magnétiques de la Terre
 :class: Danger
@@ -24,7 +24,7 @@ La Terre agit comme un très grand barreau magnétique avec son pôle sud près 
 
 :::{admonition} Caractéristiques universelles des aimants et des pôles magnétiques
 :class: astuce
-Une caractéristique universelle de tous les aimants : **Les pôles identiques se repoussent et ls pôles opposés s'attirent**.
+Une caractéristique universelle de tous les aimants : **Les pôles identiques se repoussent et les pôles opposés s'attirent**.
 
 *Notez la similitude avec l'électrostatique : les charges différentes s'attirent et les charges similaires se repoussent.*
 
@@ -50,6 +50,13 @@ Le fait que les pôles magnétiques vont toujours par paires Nord/Sud est vrai �
 
 :::{admonition} Établir des liens : Expérience à emporter à la maison - Aimants de réfrigérateur
 :class: astuce
-Nous savons que, comme les pôles magnétiques, se repoussent et s'attirent, contrairement aux pôles. Voyez si vous pouvez montrer cela pour deux aimants de réfrigérateur. Les aimants colleront-ils si vous les retournez ? Pourquoi restent-ils à la porte de toute façon ? Que pouvez-vous dire sur les propriétés magnétiques de la porte à côté de l'aimant ? Les aimants de réfrigérateur collent-ils aux cuillères en métal ou en plastique ? Adhèrent-ils à tous les types de métaux ?
+Nous savons que les pôles magnétiques identiques se repoussent et les pôles magnétiques opposés s'attirent.
+
+Voyez si vous pouvez montrer cela pour des aimants de réfrigérateur :
+- L'aimant collera-t-il à la porte si vous le retournez ?
+- Pourquoi reste-t-il collé à la porte de toute façon ?
+- Que pouvez-vous dire sur les propriétés magnétiques de la porte par rapport à l'aimant ?
+- Les aimants de réfrigérateur collent-ils aux cuillères en métal ou en plastique ?
+- Adhèrent-ils à tous les types de métaux ?
 :::
 

@@ -24,7 +24,7 @@ Le `vecteur vitesse moyenne` est défini de manière similaire à la vitesse moy
 Géométriquement, le vecteur vitesse moyenne entre les points **A** et **B** de la trajectoire de la {numref}`vectv` est
 obtenu :
 1. En dessinant le vecteur déplacement $\overrightarrow{\Delta x}$ de **A** à **B**
-2. En calculant l'intensité de la vitesse moyenne : $\Vert\vec{v}_{moy}\Vert=\dfrac{\Vert\overrightarrow{\Delta x}\Vert}{\Delta t}$
+2. En calculant l'intensité de la vitesse moyenne : $\Vert\vec{v}_{moy}\Vert=\frac{\Vert\overrightarrow{\Delta x}\Vert}{\Delta t}$
 3. En dessinant le vecteur $\vec{v}_{moy}$ d'origine **A**, de sens $A\rightarrow B$ et de longueur $\Vert\vec{v}_{moy}\Vert$.
 
 :::{figure} figures/VectV.png
