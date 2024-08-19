@@ -5,9 +5,9 @@
 :class: question
 1. Expliquez comment vous pouvez utiliser le graphique de la position en fonction du temps de la figure ci-dessous pour décrire le changement de vitesse au fil du temps.
 Puis identifiez :
-3. Le moment ($t_{a}$, $t_{b}$, $t_{c}$, $t_{d}$, ou $t_{e}$) quand la vitesse instantanée est la plus élevée
-4. Le moment quand elle est nulle, et
-5. Le moment quand elle est négative.
+2. Le moment ($t_{a}$, $t_{b}$, $t_{c}$, $t_{d}$, ou $t_{e}$) quand la vitesse instantanée est la plus élevée
+3. Le moment quand elle est nulle, et
+4. Le moment quand elle est négative.
 ```{figure} figures/GraphQC(classe)1.jpg
 :name: GraphQC(classe)1
 :align: center
@@ -15,7 +15,10 @@ Puis identifiez :
 ```
 :::{admonition} *réponse*
 :class: dropdown questionsol
-Réponse
+1. Le changement de vitesse correspond au changement de la pente de la tangente à la courbe $x(t)$
+2. Plus la pente de la tangente est grande, plus la vitesse instantanée est importante. La vitesse instantanée la plus élevée est à $t_{a}$.
+3. La pente de la tangente est nulle à $t_{d}$.
+4. La pente est négative à $t_{c}$. La vitesse est négative à ce moment. L'objet revient en arrière.
 :::
 ::::
 
