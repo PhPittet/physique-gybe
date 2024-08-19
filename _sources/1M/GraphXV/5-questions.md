@@ -27,7 +27,7 @@ Puis identifiez :
 1. Tracez un graphique de la vitesse en fonction du temps correspondant au graphique de la position en fonction du temps donné à la figure ci-dessous.
 2. Identifiez le(s) moment(s) ($t_{a}$, $t_{b}$, $t_{c}$, etc$\ldots$) quand la vitesse instantanée est la plus élevée.
 3. À quel(s) moment(s) est-elle nulle ?
-4. À quel(s) moment(S) est-elle négative ?
+4. À quel(s) moment(s) est-elle négative ?
 ```{figure} figures/GraphQC(classe)2.jpg
 :name: GraphQC(classe)2
 :align: center
@@ -35,7 +35,10 @@ Puis identifiez :
 ```
 :::{admonition} *réponse*
 :class: dropdown questionsol
-Réponse
+1. Graph à mettre
+2. Moment où la vitesse instantanée est la plus élevée : La vitesse est la plus élevée au moment $t_{d}$.
+3. Moments où la vitesse est nulle : La vitesse est nulle au moment $t_{c}$, $t_{e}$ et $t_{g}$
+4. Moments où la vitesse est négative : La vitesse est négative aux moments $t_{a}$, $t_{b}$ et $t_{f}$. Cela correspond aux segments de la courbe de position où l'objet se déplace vers le bas.
 :::
 ::::
 
@@ -51,7 +54,8 @@ Réponse
 ```
 :::{admonition} *réponse*
 :class: dropdown questionsol
-Réponse
+1. L'accélération est définie comme la variation de la vitesse par rapport au temps. Mathématiquement, elle est exprimée comme la dérivée de la vitesse par rapport au temps. En d'autres termes, l'accélération correspond à la pente du graphique de la vitesse en fonction du temps.
+2. L'accélération augmente, car la pente de la tangente au graphique augmente.
 :::
 ::::
 
@@ -60,7 +64,7 @@ Réponse
 1. Tracez un graphique de l'accélération en fonction du temps correspondant au graphique de la vitesse en fonction du temps donné à la figure ci-dessous.
 2. Identifiez le(s) moment(s) ($t_{a}$, $t_{b}$, $t_{c}$, etc$\ldots$) quand l'accélération est la plus élevée.
 3. À quel(s) moment(s) est-elle nulle ?
-4. À quel(s) moment(S) est-elle négative ?
+4. À quel(s) moment(s) est-elle négative ?
 ```{figure} figures/GraphQC(classe)4.jpg
 :name: GraphQC(classe)4
 :align: center

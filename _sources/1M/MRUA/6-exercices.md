@@ -1,21 +1,25 @@
 # Exercices
 
-::::{admonition} Exercice 1
+:::::{admonition} Exercice 1
 :class: exohome
 Un sprinter de classe olympique démarre une course avec une accélération de ($4.50\,m/s^{2}$)
 1. Quelle est sa vitesse $2.40\,s$ plus tard ?
 2. Tracez un graphique de sa position en fonction du temps pour cette période.
-:::{admonition} *solution*
-:class: dropdown exohomesol
-begin{center}
-includegraphics[scale=0.5]{CI-ExercicesAcceleration1.jpg} %---- ou .pdf .png
-end{center}
-1. $\vec{v}=\vec{a}\\cdot t+\vec{v_{0}}=4.50\,m/s^{2}\cdot 2.40,s+0\,m/s=10.8\,m/s$
-2. begin{center}
-includegraphics[scale=0.5]{CI-ExercicesAccelerationSol1.jpg} %---- ou .pdf .png
-end{center}
+:::{figure} figures/ExercicesAcceleration1.jpg
+:name: GraphExoProb(classe)
+:align: center
+:width: 50%
 :::
+::::{admonition} *solution*
+:class: dropdown exohomesol
+1. $\vec{v}=\vec{a}\cdot t+\vec{v_{0}}=4.50\,m/s^{2}\cdot 2.40,s+0\,m/s=10.8\,m/s$
+2. :::{figure} figures/ExercicesAccelerationSol1.jpg
+   :name: GraphExoProb(classe)
+   :align: center
+   :width: 50%
+   :::
 ::::
+:::::
 
 ::::{admonition} Exercice 2
 :class: exohome
@@ -148,13 +152,19 @@ On utilise $\vec{Delta x}=\dfrac{\vec{v}+\vec{v_{0}}}{2}\cdot t$, ce qui donne: 
 Une moto puissante peut accélérer du repos à $26.8\,m/s$ ($100\,km/h$) en seulement $3.90\,s$.
 1. Quelle est son accélération moyenne ?
 2. Quelle est la distance parcourue pendant cette période ?
-begin{solution}begin{center}
-includegraphics[scale=0.5]{CI-ExercicesAcceleration9.jpg} %---- ou .pdf .png
-end{center}
-1. $\vec{a}=\dfrac{\vec{Delta v}}{t}=\dfrac{26.8\,m/s}{3.90,s}=6.8718\,m/s^{2}=6.87\,m/s^{2}$
-2. $\vec{Delta x}=\dfrac{\vec{v}+\vec{v_{0}}}{2}\cdot t=\dfrac{26.8\,m/s+0\,m/s}{2}\cdot 3.90,s=52.3\,m$
-On obtient le même résultat avec $\vec{Delta x}=frac{1}{2}\vec{a}t^{2}+\vec{v_{0}}t=frac{1}{2}\cdot (6.8718\,m/s^{2})\cdot (3.90\,m/s)^{2}=52.3\,m$
-(on fera attention à ne pas prendre une valeur arrondie pour $a$)
+:::{figure} figures/ExercicesAcceleration9.jpg
+:name: GraphExoProb(classe)
+:align: center
+:width: 50%
+:::
+:::{admonition} *solution*
+:class: dropdown exohomesol
+1. $\vec{a}=\dfrac{\vec{\Delta v}}{t}=\dfrac{26.8\,m/s}{3.90,s}=6.8718\,m/s^{2}=6.87\,m/s^{2}$
+2. $\vec{\Delta x}=\dfrac{\vec{v}+\vec{v_{0}}}{2}\cdot t=\dfrac{26.8\,m/s+0\,m/s}{2}\cdot 3.90,s=52.3\,m$
+
+   On obtient le même résultat avec $\vec{\Delta x}=\dfrac{1}{2}\vec{a}t^{2}+\vec{v_{0}}t=\dfrac{1}{2}\cdot (6.8718\,m/s^{2})\cdot (3.90\,m/s)^{2}=52.3\,m$
+   
+   (on fera attention à ne pas prendre une valeur arrondie pour $a$)
 :::
 ::::
 
