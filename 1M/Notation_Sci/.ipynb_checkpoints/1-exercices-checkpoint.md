@@ -75,7 +75,7 @@ Les plaques tectoniques sont de grands segments de la croûte terrestre qui se d
 
    $\dfrac{4\,cm}{1\,an}=\dfrac{4\cdot 10^{-2}\,m}{1\,an}\cdot\dfrac{1\cdot 10^6}{1\cdot 10^6}=\dfrac{4\cdot 10^{4}\,m}{1\cdot 10^{6}\,an}=\dfrac{4\cdot 10^{1}\,km}{1\,\text{million d'année}}$
    
-   Cette plaque parcourt donc $4\,km$ en $1$ million d'année.
+   Cette plaque parcourt donc $40\,km$ en $1$ million d'année.
 :::
 ::::
 
