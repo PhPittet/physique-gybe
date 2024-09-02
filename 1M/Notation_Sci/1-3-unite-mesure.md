@@ -170,7 +170,7 @@ Par exemple :
    :::{math}
    8.2\,km=8.2\,(k)m=8.2\,(\times 10^{3})m=8.2\cdot 10^{3}\,m
    :::
-2. Pour le préfixe $micro$ : $\mu =\times 10{-6}$, donc :
+2. Pour le préfixe $micro$ : $\mu =\times 10^{-6}$, donc :
    :::{math}
    25.3\,\mu m=25.3\,(\mu )m=25.3(\times 10^{-6})m=25.3\cdot 10^{-6}\,m$$
    :::

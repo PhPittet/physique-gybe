@@ -19,7 +19,7 @@ Une voiture roule à une vitesse de $33\,m/s$.
 2. Dépasse-t-elle la limite de vitesse de $90\,km/h$ ?
 :::{admonition} *solution*
 :class: dropdown exohomesol
-1. $33\times 3.6=108\,km/h$
+1. $33\times 3.6=118,8\,km/h\approx 119\,km/h$
 2. Oui, $108\,km/h > 90\,km/h$ !
 :::
 ::::

@@ -88,7 +88,7 @@ En notation scientifique, on obtient :
 :class: surcalculatrice
 La touche `EE` de la calculatrice Ti-30 permet de taper facilement les puissances de $10$.
 
-Pour écrire $8.23\cdot 10^{-7}$ avec la calculatrice, on tape dans l'ordre: `8` $\rightarrow$ `.` $\rightarrow$ `2` $\rightarrow$ `3` $\rightarrow$ `EE` $\rightarrow$ `+/-` $\rightarrow$ `7`. Il s'affiche alors $8.23\,-07$.
+Pour écrire $8.23\cdot 10^{-7}$ avec la calculatrice, on tape dans l'ordre: `8` $\rightarrow$ `.` $\rightarrow$ `2` $\rightarrow$ `3` $\rightarrow$ `EE` $\rightarrow$ `+/-` $\rightarrow$ `7`. Il s'affiche alors $8.23^{-07}$.
 
 La fonction `SCI`, qui s'obtient en tapant `2nd` et `5`, permet de transformer n'importe quel nombre en notation scientifique (*avec une puissance de $10$*).\
 La fonction `ENG`, qui s'obtient en tapant `2nd` et `6`, permet de transformer n'importe quel nombre en notation d'ingénieur.\
@@ -122,8 +122,10 @@ $$\begin{array}{ccl}
 Pour trouver *facilement* l'ordre de grandeur d'un nombre $a\cdot 10^n$, il faut se demander si ce nombre est plus proche de $1\cdot 10^n$ ou de $1\cdot 10^{n+1}$ ?
 
 Exemples :
-a) $4'000=4\cdot 10^3$ est plus proche de $1'000=1\cdot 10^3$ que de $10'000=1\cdot 10^4$. Son ordre de grandeur est donc $10^3$
-b) $6'000=6\cdot 10^3$ est plus proche de $10'000=1\cdot 10^4$ que de $1'000=1\cdot 10^3$. Son ordre de grandeur est donc $10^4$
+
+a) $4'000=4\cdot 10^3$ est plus proche de $1'000$ $(=1\cdot 10^3)$ que de $10'000$ $(=1\cdot 10^4)$. Son ordre de grandeur est donc $10^3$
+
+b) $6'000=6\cdot 10^3$ est plus proche de $10'000$ $(=1\cdot 10^4)$ que de $1'000$ $(=1\cdot 10^3)$. Son ordre de grandeur est donc $10^4$
 
 :::
 
