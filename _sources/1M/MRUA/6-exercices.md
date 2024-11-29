@@ -6,7 +6,7 @@ Un sprinter de classe olympique démarre une course avec une accélération de (
 1. Quelle est sa vitesse $2.40\,s$ plus tard ?
 2. Tracez un graphique de sa position en fonction du temps pour cette période.
 :::{figure} figures/ExercicesAcceleration1.jpg
-:name: GraphExoProb(classe)
+:name: Fig:ExercicesAcceleration1
 :align: center
 :width: 50%
 :::
@@ -14,73 +14,83 @@ Un sprinter de classe olympique démarre une course avec une accélération de (
 :class: dropdown exohomesol
 1. $\vec{v}=\vec{a}\cdot t+\vec{v_{0}}=4.50\,m/s^{2}\cdot 2.40,s+0\,m/s=10.8\,m/s$
 2. :::{figure} figures/ExercicesAccelerationSol1.jpg
-   :name: GraphExoProb(classe)
+   :name: Fig:ExercicesAccelerationSol1
    :align: center
    :width: 50%
    :::
 ::::
 :::::
 
-::::{admonition} Exercice 2
+:::::{admonition} Exercice 2
 :class: exohome
-Une balle bien lancée est attrapée dans un gant bien rembourré. Si la décélération de la balle est de $a=2\cdot 10^{4}\,m/s^{2}$, et que $1.85,ms$ ($1,ms =10^{-3}\,s$) s'écoule entre le moment où la balle touche le gant pour la première fois jusqu'à ce qu'elle s'arrête, quelle était la vitesse initiale de la balle ?
-:::{admonition} *solution*
+Une balle bien lancée est attrapée dans un gant bien rembourré. Si la décélération de la balle est de $a=2\cdot 10^{4}\,m/s^{2}$, et que $1.85\,ms$ ($1\,ms=1\cdot 10^{-3}\,s$) s'écoule entre le moment où la balle touche le gant pour la première fois jusqu'à ce qu'elle s'arrête, quelle était la vitesse initiale de la balle ?
+::::{admonition} *solution*
 :class: dropdown exohomesol
-begin{center}
-includegraphics[scale=0.5]{CI-ExercicesAcceleration2.jpg} %---- ou .pdf .png
-end{center}
-Comme $\vec{v}=\vec{a}\cdot t+\vec{v_{0}}$, alors $\vec{v_{0}}=\vec{v}-\vec{a}\cdot t=0-(-2\cdot 10^{4}\,m/s^{2})\cdot 1.85\cdot 10^{-3},s=37.0\,m/s$. 
+:::{figure} figures/ExercicesAcceleration2.jpg
+:name: Fig:ExercicesAcceleration2
+:align: center
+:width: 50%
 :::
+Comme $\vec{v}=\vec{a}\cdot t+\vec{v_{0}}$, alors $\vec{v_{0}}=\vec{v}-\vec{a}\cdot t=0-(-2\cdot 10^{4}\,m/s^{2})\cdot 1.85\cdot 10^{-3},s=37.0\,m/s$. 
 ::::
+:::::
 
-::::{admonition} Exercice 3
+:::::{admonition} Exercice 3
 :class: exohome
 Une balle dans une arme à feu est accélérée de la chambre de tir à l'extrémité du canon à un taux moyen de $6.20\cdot 10^{5}\,m/s^{2}$ pour $8.10\cdot 10^{-4}\,s$. Quelle est sa vitesse à la sortie du canon (c'est-à-dire sa vitesse finale) ?
-:::{admonition} *solution*
+::::{admonition} *solution*
 :class: dropdown exohomesol
-begin{center}
-includegraphics[scale=0.5]{CI-ExercicesAcceleration3.jpg} %---- ou .pdf .png
-end{center}
-$\vec{v}=\vec{a}\cdot t+\vec{v_{0}}=6.20\cdot 10^{5}\,m/s^{2}\cdot 8.10\cdot 10^{-4},s+0=502\,m/s=1'800\,km/h$
+:::{figure} figures/ExercicesAcceleration3.jpg
+:name: Fig:ExercicesAcceleration3
+:align: center
+:width: 50%
 :::
+$\vec{v}=\vec{a}\cdot t+\vec{v_{0}}=6.20\cdot 10^{5}\,m/s^{2}\cdot 8.10\cdot 10^{-4},s+0=502\,m/s=1'800\,km/h$
 ::::
+:::::
 
-::::{admonition} Exercice 4
+:::::{admonition} Exercice 4
 :class: exohome
 1. Un train régional accélère à une vitesse de $1.35\,m/s^{2}$. Combien de temps faut-il pour atteindre sa vitesse maximale de $80.0\,km/h$, en partant du repos ?
 2. Le même train décélère habituellement à une vitesse de $1.65\,m/s^{2}$. Combien de temps faut-il pour s'arrêter de sa vitesse maximale ?
 3. En cas d'urgence, le train peut décélérer plus rapidement et s'arrêter de $80.0\,km/h$ en $8.30\,s$. Quelle est sa décélération d'urgence en $m/s^{2}$ ?
-:::{admonition} *solution*
+::::{admonition} *solution*
 :class: dropdown exohomesol
-begin{center}
-includegraphics[scale=0.4]{CI-ExercicesAcceleration4.png} %---- ou .pdf .png
-end{center}
+:::{figure} figures/ExercicesAcceleration4.png
+:name: Fig:ExercicesAcceleration4
+:align: center
+:width: 100%
+:::
 1. Premièrement: $v_{2}=80\,km/h\div 3.6=22.2\,m/s$.
 Ensuite, on sait que $\vec{a}=\dfrac{\vec{v}-\vec{v_{0}}}{t}$ et $\vec{v_{0}}=0\,m/s$, alors $t=\dfrac{\vec{v}}{\vec{a}}=\dfrac{22.2\,m/s}{1.35\,m/s^{2}}=16.5\,s$
 2. Maintenant $v_{0}=22.2\,m/s$ et $v=0\,m/s$. Donc $t=\dfrac{\vec{-v_{0}}}{\vec{a}}=\dfrac{-22.2\,m/s}{-1.65\,m/s^{2}}=13.5\,s$
 3. En cas d'urgence $\vec{a}=\dfrac{\vec{v}-\vec{v_{0}}}{t}=\dfrac{0\,m/s-22.2\,m/s}{8.30,s}=-2.68\,m/s^{2}$
-:::
 ::::
+:::::
 
-::::{admonition} Exercice 5
+:::::{admonition} Exercice 5
 :class: exohome
 En entrant dans une autoroute, une voiture accélère depuis le repos à un taux de $2.40\,m/s^{2}$ pendant $12.0\,s$.
 1. Faites un croquis de la situation.
 2. Énumérez les éléments connus de ce problème.
 3. Quelle est la distance parcourue par la voiture dans ces $12.0\,s$ ? Pour résoudre cette partie, identifiez d'abord l'inconnu, puis expliquez comment vous avez choisi l'équation appropriée à résoudre. Après avoir choisi l'équation, montrez vos étapes de résolution de l'inconnu, vérifiez vos unités et discutez si la réponse est raisonnable.
 4. Quelle est la vitesse finale de la voiture ? Résolvez cette inconnue de la même manière que dans la partie 3., en montrant toutes les étapes explicitement.
-:::{admonition} *solution*
+::::{admonition} *solution*
 :class: dropdown exohomesol
-1.begin{center}
-includegraphics[scale=0.5]{CI-ExercicesAcceleration5.jpg} %---- ou .pdf .png
-end{center}
+:::{figure} figures/ExercicesAcceleration5.jpg
+:name: Fig:ExercicesAcceleration5
+:align: center
+:width: 50%
+:::
 2. On connait: $v_{0}=0\,m/s$, $a=2.40\,m/s^{2}$ et $t=12.0\,s$
-3. On cherche $\vec{Delta x}$. On utilise l'équation qui contient les valeurs connues en 2. et l'inconnue; on utilise $\vec{Delta x}=frac{1}{2}\vec{a}\cdot t^{2}+\vec{v_{0}}\cdot t$, ce qui donne:
-begin{align*}
-\vec{Delta x}	&=frac{1}{2}\vec{a}\cdot t^{2}+\vec{v_{0}}\cdot t
-\vec{Delta x}	&=frac{1}{2}2.40\,m/s^{2}\cdot (12.0,s)^{2}+0\,m/s\cdot 12,s
-\vec{Delta x}	&=frac{1}{2}2.4\cdot 144,m=172.8,m
-end{align*}
+3. On cherche $\Delta \vec x$. On utilise l'équation qui contient les valeurs connues en 2. et l'inconnue; on utilise $\Delta \vec x=\frac{1}{2}\vec{a}\cdot t^{2}+\vec{v_{0}}\cdot t$, ce qui donne:
+
+$\Delta \vec x=\frac{1}{2}\vec{a}\cdot t^{2}+\vec{v_{0}}\cdot t$
+
+$\Delta \vec x=\frac{1}{2}2.40\,m/s^{2}\cdot (12.0,s)^{2}+0\,m/s\cdot 12,$
+
+$\Delta \vec x=\frac{1}{2}2.4\cdot 144,m=172.8,m$
+
 L'ordre de grandeur de la réponse semble raisonnable.
 4. On cherche $v$. On utilise l'équation qui contient les valeurs connues en 2. et l'inconnue; on utilise $\vec{v}=\vec{a}\cdot t+\vec{v_{0}}$, ce qui donne:
 begin{align*}
@@ -89,27 +99,29 @@ begin{align*}
 \vec{v}	&=2.4\cdot 12\,m/s=28.8\,m/s=104\,km/h
 end{align*}
 Ici aussi, l'ordre de grandeur de la réponse semble raisonnable.
-:::
 ::::
+:::::
 
-::::{admonition} Exercice 6
+:::::{admonition} Exercice 6
 :class: exohome
 À la fin d'une course de vélo, un coureur décélère à partir d'une vitesse de $9.00\,m/s$ à un taux de $2.00\,m/s^{2}$.
 1. Quelle distance parcourra-t-il dans les 5 prochaines $s$ ?
 2. Quelle est sa vitesse à ce moment là ?
 3. Évaluez le résultat. Est-ce que ça fait du sens ?
-:::{admonition} *solution*
+::::{admonition} *solution*
 :class: dropdown exohomesol
-begin{center}
-includegraphics[scale=0.5]{CI-ExercicesAcceleration6.jpg} %---- ou .pdf .png
-end{center}
+:::{figure} figures/ExercicesAcceleration6.jpg
+:name: Fig:ExercicesAcceleration6
+:align: center
+:width: 50%
+:::
 1. $\vec{Delta x}=frac{1}{2}\vec{a}\cdot t^{2}+\vec{v_{0}}\cdot t=frac{1}{2}(-2.00\,m/s^{2})\cdot (5,s)^{2}+9.00\,m/s\cdot 5,s=20\,m$
 2.  $\vec{v}=\vec{a}\cdot t+\vec{v_{0}}=(-2.00\,m/s^{2})\cdot 5,s+9.00\,m/s=-1\,m/s$ (!!!!!)
 3. Le signe négatif indique que le coureur cycliste recule (!). Cela n'a pas de sens, car une fois arrêter, il ne bouge plus. Le problème vient des $5.0\,s$, car il suffit juste de $t=frac{Delta v}{a}=frac{9.00\,m/s}{2.00\,m/s^{2}}=4.5\,s$ au cycliste pour s'arrêter. De $t=4.5\,s$ à $t=5.0\,s$ le cycliste reste immobile (et n'a donc plus d'accélération). On doit donc reprendre et découper le problème jusqu'à un temps de $t=4.5\,s$. Ce qui nous donne pour 1. $\vec{Delta x}=20.25\,m$ et 2. $\vec{v}=0\,m/s$. On remarque que la déplacement $\vec{Delta x}$ est plus important, ce qui peut semble étrange. Cela vient du fais qu'on mesure $\vec{Delta x}$, le déplacement, et non la distance parcourue. Avec un temps erroné de $5.0\,s$, on a ajouter le moment où le cycliste og reculaitfg{} pendant $0.50\,s$ sur une distance de $0.25\,m$
-:::
 ::::
+:::::
 
-::::{admonition} Exercice 7
+:::::{admonition} Exercice 7
 :class: exohome
 (Application réelle) Le sang est accéléré du repos à $30.0,cm/s$ sur une distance de $1.80,cm$ par le ventricule gauche du cœur.
 1. Faites un croquis de la situation.
@@ -117,11 +129,13 @@ end{center}
 3. Combien de temps dure l'accélération ? Pour résoudre cette partie, identifiez d'abord l'inconnu, puis expliquez comment vous avez choisi l'équation appropriée à résoudre. Après avoir choisi l'équation, montrez vos étapes de résolution de l'inconnu, en vérifiant vos unités.
 4. La réponse est-elle raisonnable par rapport à la durée d'un battement de cœur ?
 newpage
-:::{admonition} *solution*
+::::{admonition} *solution*
 :class: dropdown exohomesol
-1.begin{center}
-includegraphics[scale=0.5]{CI-ExercicesAcceleration7.jpg} %---- ou .pdf .png
-end{center}
+1.:::{figure} figures/ExercicesAcceleration7.jpg
+:name: Fig:ExercicesAcceleration7
+:align: center
+:width: 50%
+:::
 2. On connait: $v_{0}=0\,m/s$, $v=30,cm/s=0.30\,m/s$ et $Delta x=1.80,cm=1.8\cdot 10^{-2}\,m$
 3. On cherche $t$. On utilise l'équation qui contient les valeurs connues en 2. et l'inconnue; on utilise $\vec{Delta x}=\dfrac{\vec{v}+\vec{v_{0}}}{2}\cdot t$, ce qui donne:
 begin{align*}
@@ -132,20 +146,22 @@ t	&=\dfrac{2\cdot 1.8\cdot 10^{-2},m}{(0.30\,m/s+0.0\,m/s)}
 t	&=0.12,s
 end{align*}
 L'ordre de grandeur de la réponse semble raisonnable. En moyenne, l'être humain est à 60 pulsations par minute, soit une pulsation par seconde. Chaque pulsation se compose de 4 phases (remplissage/vidage des ventricules gauche et droite), donc $0.12\,s$ semble raisonnable.
-:::
 ::::
+:::::
 
-::::{admonition} Exercice 8
+:::::{admonition} Exercice 8
 :class: exohome
 Lors d'un tir, un joueur de hockey accélère la rondelle d'une vitesse de $8.00\,m/s$ à $40.0\,m/s$ dans la même direction. Si ce coup prend $3.33\cdot 10^{-2}\,s$, calculez la distance sur laquelle la rondelle accélère.
-:::{admonition} *solution*
+::::{admonition} *solution*
 :class: dropdown exohomesol
-begin{center}
-includegraphics[scale=0.5]{CI-ExercicesAcceleration8.jpg} %---- ou .pdf .png
-end{center}
-On utilise $\vec{Delta x}=\dfrac{\vec{v}+\vec{v_{0}}}{2}\cdot t$, ce qui donne: $\vec{Delta x}=\dfrac{40.0\,m/s+8.00\,m/s}{2}\cdot 3.33\cdot 10^{-2},s=0.799,m=79.9,cm$
+:::{figure} figures/ExercicesAcceleration8.jpg
+:name: Fig:ExercicesAcceleration8
+:align: center
+:width: 50%
 :::
+On utilise $\vec{Delta x}=\dfrac{\vec{v}+\vec{v_{0}}}{2}\cdot t$, ce qui donne: $\vec{Delta x}=\dfrac{40.0\,m/s+8.00\,m/s}{2}\cdot 3.33\cdot 10^{-2},s=0.799,m=79.9,cm$
 ::::
+:::::
 
 ::::{admonition} Exercice 9
 :class: exohome
@@ -153,7 +169,7 @@ Une moto puissante peut accélérer du repos à $26.8\,m/s$ ($100\,km/h$) en seu
 1. Quelle est son accélération moyenne ?
 2. Quelle est la distance parcourue pendant cette période ?
 :::{figure} figures/ExercicesAcceleration9.jpg
-:name: GraphExoProb(classe)
+:name: Fig:ExercicesAcceleration9
 :align: center
 :width: 50%
 :::
@@ -169,21 +185,25 @@ Une moto puissante peut accélérer du repos à $26.8\,m/s$ ($100\,km/h$) en seu
 ::::
 
 
-::::{admonition} Exercice 10
+:::::{admonition} Exercice 10
 :class: exohome
 Les trains de marchandises ne peuvent produire que des accélérations et des décélérations relativement faibles.
-1. Quelle est la vitesse finale d'un train de marchandises qui accélère à un taux de $0.0500\,m/s^{2}$ pendant $8.00,min$, en commençant par une vitesse initiale de $4.00\,m/s$ ?
+1. Quelle est la vitesse finale d'un train de marchandises qui accélère à un taux de $0.0500\,m/s^{2}$ pendant $8.00\,min$, en commençant par une vitesse initiale de $4.00\,m/s$ ?
 2. Si le train peut ralentir avec un taux de $0.550\,m/s^{2}$, combien de temps faudra-t-il pour s'arrêter à cette vitesse ?
 3. Quelle distance parcourra-t-il dans chaque cas ?
-begin{solution}begin{center}
-includegraphics[scale=0.5]{CI-ExercicesAcceleration10.png} %---- ou .pdf .png
-end{center}
+::::{admonition} *solution*
+:class: dropdown exohomesol
+:::{figure} figures/ExercicesAcceleration10.jpg
+:name: Fig:ExercicesAcceleration10
+:align: center
+:width: 50%
+:::
 1. $\vec{v}=\vec{a}t+\vec{v_{0}}=0.0500\,m/s^{2}\cdot (8.00,min\cdot 60,s)+4.00\,m/s=28.0\,m/s$
 2. $t=\dfrac{\vec{v}-\vec{v_{0}}}{\vec{a}}=\dfrac{0\,m/s-28.0\,m/s}{-0.550\,m/s^{2}}=50.909,s=50.9\,s$
 3. pour 1.: $\vec{Delta x}=\dfrac{\vec{v}+\vec{v_{0}}}{2}\cdot t=\dfrac{28\,m/s+4\,m/s}{2}\cdot (8.00,min\cdot 60,s)=7'6808,m=7.68,km$
 pour 2.: $\vec{Delta x}=\dfrac{\vec{v}+\vec{v_{0}}}{2}\cdot t=\dfrac{0\,m/s+28\,m/s}{2}\cdot 50.909,s=713\,m$
-:::
 ::::
+:::::
 
 ::::{admonition} Exercice 11
 :class: exohome
@@ -212,7 +232,7 @@ Un cygne sur un lac s'envole en battant des ailes et en courant au-dessus de l'e
 
 ::::{admonition} Exercice 13
 :class: exohome
-(Application réelle) Le cerveau d'un Pic vert est spécialement protégé contre les grandes décélérations par des attaches en forme de tendon à l'intérieur du crâne. En picorant sur un arbre, la tête du pic s'arrête depuis une vitesse initiale de $25.0\,km/h$ sur une distance de seulement $2.00,mm$.
+(Application réelle) Le cerveau d'un Pic vert est spécialement protégé contre les grandes décélérations par des attaches en forme de tendon à l'intérieur du crâne. En picorant sur un arbre, la tête du pic s'arrête depuis une vitesse initiale de $25.0\,km/h$ sur une distance de seulement $2.00\,mm$.
 1. Trouvez l'accélération en $m/s^{2}$ et en multiples de $g$ ($g=9.81\,m/s^{2}$).
 2. Calculez le temps d'arrêt.
 3. Les tendons berçant le cerveau s'étirent, ce qui rend sa distance d'arrêt de $4.50,mm$ (plus grande que la tête et, par conséquent, moins de décélération du cerveau). Quelle est la décélération du cerveau, exprimée en multiples de $g$ ?
@@ -231,7 +251,7 @@ Le Pic vert est l'être vivant qui peut supporter la plus grand décélération.
 Un footballeur imprudent entre en collision avec un poteau de but rembourré alors qu'il court à une vitesse de $7.50\,m/s$ et s'arrête complètement après avoir comprimé le rembourrage et son corps à $0.350\,m$.
 1. Quelle est sa décélération ?
 2. Combien de temps dure la collision ?
-newpage
+
 :::{admonition} *solution*
 :class: dropdown exohomesol
 1. $\vec{v}^2-\vec{v_{0}}^{2}=2\vec{a}\vec{Delta x}$ $\Rightarrow$ $\vec{a}=\dfrac{\vec{v}^2-\vec{v_{0}}^{2}}{2\vec{Delta x}}=\dfrac{(0\,m/s)^{2}-(7.50\,m/s)^2}{2\cdot 0.350,m}=\dfrac{-56.25}{0.7}\,m/s^{2}=-80.357\,m/s^{2}=-80.4\,m/s^{2}$
@@ -252,7 +272,7 @@ $\vec{a}=\dfrac{\vec{v}^2-\vec{v_{0}}^{2}}{2\vec{Delta x}}=\dfrac{(0\,m/s)^{2}-(
 :class: exohome
 Prenons l'exemple d'un écureuil tombant d'un arbre au sol.
 1. Si nous ignorons la résistance de l'air dans ce cas (uniquement pour le bien de ce problème), déterminez la vitesse d'un écureuil juste avant de toucher le sol, en supposant qu'il est tombé d'une hauteur de $3.0\,m$.
-2. Si l'écureuil s'arrête à une distance de $2.0,cm$ en pliant ses membres, comparez sa décélération avec celle de l'aviateur dans le problème précédent.
+2. Si l'écureuil s'arrête SUR une distance de $2.0\,cm$ en pliant ses pattes, comparez sa décélération avec celle de l'aviateur dans le problème précédent.
 :::{admonition} *solution*
 :class: dropdown exohomesol
 1. $\vec{a}=\vec{g}=9.81\,m/s^{2}$
