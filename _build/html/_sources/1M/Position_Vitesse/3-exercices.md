@@ -79,7 +79,7 @@ $d=v\cdot t=5\cdot 1500=7500\,m=7.5\,km$
 :::
 ::::
 
-::::{admonition} Exercice 7
+::::{admonition} Exercice 8
 :class: exohome
 Un cycliste effectue la montée d'un col de $16.0\,km$.
 1. Il roule à $9.0\,km/h$ de vitesse moyenne à la montée.\
